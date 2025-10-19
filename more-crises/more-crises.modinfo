@@ -41,8 +41,11 @@
 			<Actions>
 				<UpdateDatabase>
 					<Item>data/crisis-stages.xml</Item>
+					<Item>data/traditions-gameeffects.xml</Item>
+					<Item>data/traditions.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
+					<Item>text/en_us/TraditionsText.xml</Item>
                 </UpdateText>
 			</Actions>
 		</ActionGroup>

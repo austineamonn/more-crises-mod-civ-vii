@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_TRADITION_EMPTY_STORAGE_NAME">
+			<Text>Empty Storage</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_EMPTY_STORAGE_DESCRIPTION">
+			<Text>-5 [icon:YIELD_GOLD] on Warehouse Buildings in Towns.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_CITY_SLUM_NAME">
+			<Text>City Slum</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_CITY_SLUM_DESCRIPTION">
+			<Text>-5 [icon:YIELD_GOLD] on Food Buildings in Cities.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_FOOD_INSECURITY_NAME">
+			<Text>Foode Insecurity</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_FOOD_INSECURITY_DESCRIPTION">
+			<Text>-5 [icon:YIELD_FOOD] on Districts.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_CITY_MIGRATION_NAME">
+			<Text>City Migration</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_CITY_MIGRATION_DESCRIPTION">
+			<Text>-50% Growth Rate in Cities.</Text>
+		</Row>
+		<Row Tag="TRADITION_OVERWORKED_FARMERS">
+			<Text>Overworked Farmers</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_OVERWORKED_FARMERS_DESCRIPTION">
+			<Text>-75%[icon:YIELD_PRODUCTION] Production and [icon:YIELD_FOOD] Food in Growing Towns.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_KNOWLEDGE_LOSS_NAME">
+			<Text>Knowledge Loss</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_KNOWLEDGE_LOSS_DESCRIPTION">
+			<Text>-2 [icon:YIELD_SCIENCE] Science from Specialists.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_DEATH_OF_THE_ARTISTS_NAME">
+			<Text>Death of the Artists</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_DEATH_OF_THE_ARTISTS_DESCRIPTION">
+			<Text>-2 [icon:YIELD_CULTURE] Culture from Specialists.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_RESOURCE_SCARCITY_NAME">
+			<Text>Resource Scarcity</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_RESOURCE_SCARCITY_DESCRIPTION">
+			<Text>-1 [icon:YIELD_GOLD] Gold and -2 [icon:YIELD_FOOD] Food on Resources.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_UNDERRESOURCED_COMMUNITIES_NAME">
+			<Text>Underserved Communities</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_UNDERRESOURCED_COMMUNITIES_DESCRIPTION">
+			<Text>-6 [icon:YIELD_FOOD] Food in settlements with unfilled Resource Slots.</Text>
+		</Row>
+	</EnglishText>
+</Database>

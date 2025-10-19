@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<AgeCrisisStages>
-		<Row Stage="1" AgeCrisisEventType="ANTIQUITY_CRISIS_FAMINE" MinDuration="5" AgeProgressTriggerPercent="70" AgeProgressEndPercent="80"/>
+		<!-- TODO: Revert Percents after testing is over -->
+		<!-- Testing Percents -->
+		<Row Stage="1" AgeCrisisEventType="ANTIQUITY_CRISIS_FAMINE" MinDuration="5" AgeProgressTriggerPercent="5" AgeProgressEndPercent="10"/>
+		<Row Stage="2" AgeCrisisEventType="ANTIQUITY_CRISIS_FAMINE" MinDuration="5" AgeProgressTriggerPercent="10" AgeProgressEndPercent="15"/>
+		<Row Stage="3" AgeCrisisEventType="ANTIQUITY_CRISIS_FAMINE" MinDuration="5" AgeProgressTriggerPercent="15" AgeProgressEndPercent="20"/>
+		<Row Stage="4" AgeCrisisEventType="ANTIQUITY_CRISIS_FAMINE" MinDuration="5" AgeProgressTriggerPercent="20" AgeProgressEndPercent="100" FinalStage="true"/>
+		<!--<Row Stage="1" AgeCrisisEventType="ANTIQUITY_CRISIS_FAMINE" MinDuration="5" AgeProgressTriggerPercent="70" AgeProgressEndPercent="80"/>
 		<Row Stage="2" AgeCrisisEventType="ANTIQUITY_CRISIS_FAMINE" MinDuration="5" AgeProgressTriggerPercent="80" AgeProgressEndPercent="90"/>
 		<Row Stage="3" AgeCrisisEventType="ANTIQUITY_CRISIS_FAMINE" MinDuration="5" AgeProgressTriggerPercent="90" AgeProgressEndPercent="100"/>
-		<Row Stage="4" AgeCrisisEventType="ANTIQUITY_CRISIS_FAMINE" MinDuration="5" AgeProgressTriggerPercent="100" AgeProgressEndPercent="100" FinalStage="true"/>
+		<Row Stage="4" AgeCrisisEventType="ANTIQUITY_CRISIS_FAMINE" MinDuration="5" AgeProgressTriggerPercent="100" AgeProgressEndPercent="100" FinalStage="true"/>-->
 	</AgeCrisisStages>
 	<AgeCrisisNarratives>
 		<Row NarrativeStoryType="AFCINTROA" AgeCrisisEventType="ANTIQUITY_CRISIS_FAMINE" Age="AGE_ANTIQUITY"/>
