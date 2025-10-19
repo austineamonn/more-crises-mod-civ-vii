@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <EnglishText>
+        <Row Tag="LOC_ANTIQUITY_FAMINE_CRISIS_NAME">
+            <Text>Antiquity Famine Crisis</Text>
+        </Row>
+        <Row Tag="LOC_ANTIQUITY_FAMINE_CRISIS_DESCRIPTION">
+            <Text>Starving Settlements begin to shrink.</Text>
+        </Row>
+        <Row Tag="LOC_AFC001A_STORYTITLE">
+            <Text>A Drier Summer</Text>
+        </Row>
+        <Row Tag="LOC_AFC001A_COMPLETION">
+            <Text>A farmer looks on at a field of dead crops. The rains were later and lighter this year. Those living in the great cities of the world's civilizations notice nothing, until food prices start to rise and migrants from neighboring nations appear on their doorstep. Where will these people go and how will they find food now?</Text>
+        </Row>
+        <Row Tag="LOC_AFC001B_NAME">
+            <Text>Continue the crisis</Text>
+        </Row>
+        <Row Tag="LOC_AFC001B_DESCRIPTION">
+            <Text>+1 Crisis Policy Slot.</Text>
+        </Row>
+        <Row Tag="LOC_AFC003A_STORYTITLE">
+            <Text>Shrinking Storehouses</Text>
+        </Row>
+        <Row Tag="LOC_AFC003A_COMPLETION">
+            <Text>The hungry masses have begun to leave small towns for massive cities, but no relief can be found. The city warehouses are practically empty and what little food merchants are selling comes with a hefty price. Desperate times lead to desperate people, mothers and fathers stealing bread to feed the starving kids at home.</Text>
+        </Row>
+        <Row Tag="LOC_AFC003B_NAME">
+            <Text>Continue the crisis</Text>
+        </Row>
+        <Row Tag="LOC_AFC003B_DESCRIPTION">
+            <Text>+1 Crisis Policy Slot.</Text>
+        </Row>
+        <Row Tag="LOC_AFC005A_STORYTITLE">
+            <Text>Hungry Masses</Text>
+        </Row>
+        <Row Tag="LOC_AFC005A_COMPLETION">
+            <Text>The cities are exploding with people, every step one almost trips on a starving peasant. The wealthy have retreated to their castles while the poor bang on walls and wait in lines, clamoring for food. "Why have the rain gods forsaken us now?" they pray.</Text>
+        </Row>
+        <Row Tag="LOC_AFC005B_NAME">
+            <Text>Continue the crisis</Text>
+        </Row>
+        <Row Tag="LOC_AFC005B_DESCRIPTION">
+            <Text>+2 Crisis Policy Slots.</Text>
+        </Row>
+        <Row Tag="LOC_AFC007A_STORYTITLE">
+            <Text>Rainfall on the Horizon</Text>
+        </Row>
+        <Row Tag="LOC_AFC007A_COMPLETION">
+            <Text>Never has rain felt so good. Children laugh in the streets, jumping in puddles, while parents smile on. Few survived this ordeal, and those who did look worse for wear. Yet, there is hope on the horizon. Perhaps the rural migrants and city folk can get along after all.</Text>
+        </Row>
+        <Row Tag="LOC_AFC007B_NAME">
+            <Text>The Age of Antiquity is ending.</Text>
+        </Row>
+        <Row Tag="LOC_AFC007B_DESCRIPTION">
+            <Text>Who will carry our legacy?</Text>
+        </Row>
+    </EnglishText>
+</Database>

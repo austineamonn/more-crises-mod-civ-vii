@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <!-- Crises -->
+	<Crises>
+		<Row AgeCrisisEventType="ANTIQUITY_CRISIS_FAMINE" AgeType="AGE_ANTIQUITY" Category="LOC_CRISIS_TITLE_AGE_ANTIQUITY" Name="LOC_ANTIQUITY_FAMINE_CRISIS_NAME" Description="LOC_ANTIQUITY_FAMINE_CRISIS_DESCRIPTION" />
+	</Crises>
+</Database>

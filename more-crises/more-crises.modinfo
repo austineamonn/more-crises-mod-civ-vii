@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="more-crises" version="1.0"
+	xmlns="ModInfo">
+	<Properties>
+		<Name>LOC_MODULE_MORE_CRISES_NAME</Name>
+		<Description>LOC_MODULE_MORE_CRISES_DESCRIPTION</Description>
+		<Authors>Austin Nicolas</Authors>
+		<Package>DLC</Package>
+		<AffectsSavedGames>1</AffectsSavedGames>
+		<Version>1.0</Version>
+	</Properties>
+	<Dependencies>
+		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
+	</Dependencies>
+	<ActionCriteria>
+		<Criteria id="antiquity-age-current">
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+		</Criteria>
+		<Criteria id="exploration-age-current">
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+		</Criteria>
+		<Criteria id="always">
+			<AlwaysMet></AlwaysMet>
+		</Criteria>
+	</ActionCriteria>
+	<ActionGroups>
+		<!-- More Crises -->
+        <ActionGroup id="base-game-main-more-crises" scope="game" criteria="always">
+            <Actions>
+                <UpdateDatabase>
+					<Item>data/narrative-crises-stories-gameeffects.xml</Item>
+                    <Item>data/narrative-crises-stories.xml</Item>
+					<Item>data/narrative-tags.xml</Item>
+                </UpdateDatabase>
+                <UpdateText>
+					<Item>text/en_us/NarrativeCrisesStoriesText.xml</Item>
+                </UpdateText>
+            </Actions>
+        </ActionGroup>
+		<ActionGroup id="age-antiquity-main-more-crises" scope="game" criteria="antiquity-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/crisis-stages.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+                </UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="shell-more-crises" scope="shell" criteria="always">
+			<Actions>
+				<UpdateDatabase>
+					<Item>config/config.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/NarrativeCrisesStoriesText.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+	</ActionGroups>
+	<LocalizedText>
+		<File>text/en_us/ModuleText.xml</File>
+	</LocalizedText>
+</Mod>

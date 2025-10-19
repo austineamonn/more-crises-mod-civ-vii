@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+    <!-- Modifiers -->
+    <Modifier id="AFC001A_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CRISIS_FAMINE</Argument>
+    </Modifier>
+    <Modifier id="AFC001B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_TRADITION_SLOTS" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="Negative">TRUE</Argument>
+    </Modifier>
+    <Modifier id="AFC001B_NARRATIVE_MODIFIER2" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <Argument name="Tradition">TRADITION_INFERIOR_TACTICS</Argument>
+    </Modifier>
+    <Modifier id="AFC001B_NARRATIVE_MODIFIER3" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <Argument name="Tradition">TRADITION_TRIBUTE</Argument>
+    </Modifier>
+    <Modifier id="AFC001B_NARRATIVE_MODIFIER4" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <Argument name="Tradition">TRADITION_BARBARIAN_MERCENARIES</Argument>
+    </Modifier>
+    <Modifier id="AFC003B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <Argument name="Tradition">TRADITION_REBELLIOUS_COMMANDERS</Argument>
+    </Modifier>
+    <Modifier id="AFC003B_NARRATIVE_MODIFIER2" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <Argument name="Tradition">TRADITION_BANDITRY</Argument>
+    </Modifier>
+    <Modifier id="AFC003B_NARRATIVE_MODIFIER3" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <Argument name="Tradition">TRADITION_DECENTRALIZATION</Argument>
+    </Modifier>
+    <Modifier id="AFC003B_NARRATIVE_MODIFIER4" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_TRADITION_SLOTS" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="Negative">TRUE</Argument>
+    </Modifier>
+    <Modifier id="AFC004B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_TRADITION_SLOTS" run-once="false" permanent="true">
+        <Argument name="Amount">2</Argument>
+        <Argument name="Negative">TRUE</Argument>
+    </Modifier>
+    <!-- Requirement Sets -->
+    <RequirementSet id="REQSET_AFC001A_NARRATIVE">
+        <Requirement type="REQUIREMENT_AGE_CRISIS_STAGE_IS_X">
+            <Argument name="Amount">0</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_AFC003A_NARRATIVE">
+        <Requirement type="REQUIREMENT_AGE_CRISIS_STAGE_IS_X">
+            <Argument name="Amount">1</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_AFC004A_NARRATIVE">
+        <Requirement type="REQUIREMENT_AGE_CRISIS_STAGE_IS_X">
+            <Argument name="Amount">2</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_AFC005A_NARRATIVE">
+        <Requirement type="REQUIREMENT_AGE_CRISIS_STAGE_IS_X">
+            <Argument name="Amount">3</Argument>
+        </Requirement>
+    </RequirementSet>
+</GameEffects>

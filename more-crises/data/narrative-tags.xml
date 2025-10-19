@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <Types>
+        <Row Type="NARRATIVE_TAG_CRISIS_FAMINE" Kind="KIND_NARRATIVE_TAG"/>
+    </Types>
+    <NarrativeTags>
+        <Row NarrativeTagType="NARRATIVE_TAG_CRISIS_FAMINE"/>
+    </NarrativeTags>
+</Database>
