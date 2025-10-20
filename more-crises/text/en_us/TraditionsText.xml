@@ -5,7 +5,7 @@
 			<Text>Empty Storage</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_EMPTY_STORAGE_DESCRIPTION">
-			<Text>-5 [icon:YIELD_GOLD] on Warehouse Buildings in Towns.</Text>
+			<Text>-5 [icon:YIELD_GOLD] Gold on Warehouse Buildings in Towns.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_CITY_SLUM_NAME">
 			<Text>City Slum</Text>
@@ -14,10 +14,10 @@
 			<Text>-5 [icon:YIELD_GOLD] on Food Buildings in Cities.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_FOOD_INSECURITY_NAME">
-			<Text>Foode Insecurity</Text>
+			<Text>Food Insecurity</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_FOOD_INSECURITY_DESCRIPTION">
-			<Text>-5 [icon:YIELD_FOOD] on Districts.</Text>
+			<Text>-5 [icon:YIELD_FOOD] Food on Districts.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_CITY_MIGRATION_NAME">
 			<Text>City Migration</Text>
