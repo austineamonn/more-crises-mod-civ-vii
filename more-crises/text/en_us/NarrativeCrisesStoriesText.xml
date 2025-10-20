@@ -29,19 +29,19 @@
             <Text>Shrinking Storehouses</Text>
         </Row>
         <Row Tag="LOC_AFC002A_COMPLETION">
-            <Text>The hungry masses have begun to leave small towns for massive cities, but no relief can be found. The city warehouses are practically empty and what little food merchants are selling comes with a hefty price. Desperate times lead to desperate people, mothers and fathers stealing bread to feed the starving kids at home.</Text>
+            <Text>The hungry masses have begun to leave small towns for massive cities, but no relief can be found. The city warehouses are practically empty and what little food merchants are selling comes with a hefty price. Once bright eyes are now sullen and once full bellies are empty.</Text>
         </Row>
         <Row Tag="LOC_AFC002B_NAME">
             <Text>Continue the crisis</Text>
         </Row>
         <Row Tag="LOC_AFC002B_DESCRIPTION">
-            <Text>+1 Crisis Policy Slot. Gain the Food Aid Diplomatic Action.</Text>
+            <Text>+1 Crisis Policy Slot.</Text>
         </Row>
         <Row Tag="LOC_AFC003A_STORYTITLE">
             <Text>Hungry Masses</Text>
         </Row>
         <Row Tag="LOC_AFC003A_COMPLETION">
-            <Text>The cities are exploding with people, every step one almost trips on a starving peasant. The wealthy have retreated to their castles while the poor bang on walls and wait in lines, clamoring for food. "Why have the rain gods forsaken us now?" they pray.</Text>
+            <Text>A young child looks up at the cloudless sky. "Why have the rain gods forsaken us now?" they cry out. A stark contrast is seen across the land, the cities are exploding with people, while small towns are empty and silent. The wealthy have retreated to their castles while the poor bang on walls and wait in lines, clamoring for food.</Text>
         </Row>
         <Row Tag="LOC_AFC003B_NAME">
             <Text>Continue the crisis</Text>

@@ -25,7 +25,7 @@
 		<Row Tag="LOC_TRADITION_CITY_MIGRATION_DESCRIPTION">
 			<Text>-50% Growth Rate in Cities.</Text>
 		</Row>
-		<Row Tag="TRADITION_OVERWORKED_FARMERS">
+		<Row Tag="LOC_TRADITION_OVERWORKED_FARMERS_NAME">
 			<Text>Overworked Farmers</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_OVERWORKED_FARMERS_DESCRIPTION">

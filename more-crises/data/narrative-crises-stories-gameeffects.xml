@@ -40,12 +40,6 @@
         <Argument name="Amount">1</Argument>
         <Argument name="Negative">TRUE</Argument>
     </Modifier>
-    <!-- TODO: Add Food Aid Diplomatic Action -->
-    <!--<Modifier id="AFC002B_NARRATIVE_MODIFIER5" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_GRANT_DIPLOMATIC_ACTION">
-		<Argument name="ActionType">DIPLOMACY_ACTION_GIFT_GURKHA</Argument>
-		<String context="Description">LOC_MOD_GIFT_GURKHA_DESCRIPTION</String>
-	</Modifier>
-	</Modifier>-->
     <!-- Crisis Stage 3 -->
     <Modifier id="AFC003B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_TRADITION_SLOTS" run-once="false" permanent="true">
         <Argument name="Amount">2</Argument>
