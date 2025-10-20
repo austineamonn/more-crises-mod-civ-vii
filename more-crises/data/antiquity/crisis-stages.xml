@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<AgeCrisisStages>
-		<!-- TODO: Revert Percents after testing is over -->
 		<!-- Testing Percents -->
 		<!--<Row Stage="1" AgeCrisisEventType="ANTIQUITY_CRISIS_FAMINE" MinDuration="5" AgeProgressTriggerPercent="5" AgeProgressEndPercent="10"/>
 		<Row Stage="2" AgeCrisisEventType="ANTIQUITY_CRISIS_FAMINE" MinDuration="5" AgeProgressTriggerPercent="10" AgeProgressEndPercent="15"/>

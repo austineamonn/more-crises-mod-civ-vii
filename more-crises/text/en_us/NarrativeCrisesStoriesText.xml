@@ -67,7 +67,7 @@
             <Text>Exploration Inflation Crisis</Text>
         </Row>
         <Row Tag="LOC_EXPLORATION_INFLATION_CRISIS_DESCRIPTION">
-            <Text>An influx of Treasure Fleet gold leads to ever rising prices.</Text>
+            <Text>An influx of treasure fleet gold leads to ever rising prices.</Text>
         </Row>
         <Row Tag="LOC_EIC001A_STORYTITLE">
             <Text>Rising Prices</Text>

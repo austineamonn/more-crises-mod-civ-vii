@@ -17,7 +17,7 @@
 			<Text>Rent Hike</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_RENT_HIKE_DESCRIPTION">
-			<Text>-5 [icon:YIELD_GOLD] Gold on Districts in Homeland Settlements. Distant Land Settlements generate Treasure Convoys worth 1 Treasure Fleet point each.</Text>
+			<Text>-5 [icon:YIELD_GOLD] Gold on Urban Districts in Homeland Settlements. Distant Land Settlements generate Treasure Convoys worth 1 Treasure Fleet point each.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_WORTHLESS_TREASURE_NAME">
 			<Text>Worthless Treasure</Text>

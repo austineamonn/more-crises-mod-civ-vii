@@ -17,7 +17,7 @@
 			<Text>Food Insecurity</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_FOOD_INSECURITY_DESCRIPTION">
-			<Text>-5 [icon:YIELD_FOOD] Food on Districts.</Text>
+			<Text>-5 [icon:YIELD_FOOD] Food on Urban Districts.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_CITY_MIGRATION_NAME">
 			<Text>City Migration</Text>

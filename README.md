@@ -1,6 +1,6 @@
 # More Crises Civ VII Mod
 
-Version 1.0
+Version 1.0.1
 
 Adds new crises to the Antiquity and Exploration age. More Crises to come!
 
@@ -29,7 +29,7 @@ Policies - "Let them build shanty towns in the Cities"
 Policies - Second Crisis Level
 
 <ol>
-    <li>Food Insecurity: -5 Food on Districts.</li>
+    <li>Food Insecurity: -5 Food on Urban Districts.</li>
     <li>Knowledge Loss: -2 Science from Specialists.</li>
     <li>Death of the Artists: -2 Culture from Specialists.</li>
 </ol>
@@ -55,7 +55,7 @@ Policies - First Crisis Level
 Policies - Second Crisis Level
 
 <ol>
-    <li>Rent Hike: -5 Gold on Districts in Homeland Settlements. Distant Land Settlements generate Treasure Convoys worth 1 Treasure Fleet point each.</li>
+    <li>Rent Hike: -5 Gold on Urban Districts in Homeland Settlements. Distant Land Settlements generate Treasure Convoys worth 1 Treasure Fleet point each.</li>
     <li>Worthless Treasure: -3 Gold on Treasure Resources.</li>
     <li>Debasement: +100% Building Purchase Cost.</li>
 </ol>
@@ -70,4 +70,4 @@ Policies - Third Crisis Level
 
 ## Latest Update:
 
-Added Inflation Crisis.
+Updated text for clarity.
