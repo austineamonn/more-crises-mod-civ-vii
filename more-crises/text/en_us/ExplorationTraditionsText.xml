@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_TRADITION_LAND_TAX_NAME">
+			<Text>Land Tax</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_LAND_TAX_DESCRIPTION">
+			<Text>-100% [icon:YIELD_GOLD] Gold in Distant Land Towns. Distant Land Towns generate Treasure Convoys worth 1 Treasure Fleet point each.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_CITY_TRIBUTE_NAME">
+			<Text>City Tribute</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_CITY_TRIBUTE_DESCRIPTION">
+			<Text>-100% [icon:YIELD_GOLD] Gold in Distant Land Cities. Distant Land Cities generate Treasure Convoys worth 1 Treasure Fleet point each.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_RENT_HIKE_NAME">
+			<Text>Rent Hike</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_RENT_HIKE_DESCRIPTION">
+			<Text>-5 [icon:YIELD_GOLD] Gold on Districts in Homeland Settlements. Distant Land Settlements generate Treasure Convoys worth 1 Treasure Fleet point each.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_WORTHLESS_TREASURE_NAME">
+			<Text>Worthless Treasure</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_WORTHLESS_TREASURE_DESCRIPTION">
+			<Text>-3 [icon:YIELD_GOLD] Gold on Treasure Resources.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_DEBASEMENT_NAME">
+			<Text>Debasement</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_DEBASEMENT_DESCRIPTION">
+			<Text>+100% Building Purchase Cost.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_PRICE_REVOLUTION_NAME">
+			<Text>Price Revolution</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_PRICE_REVOLUTION_DESCRIPTION">
+			<Text>-10 [icon:YIELD_GOLD] Gold on Gold Buildings in Cities.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_HEFTY_TRIBUTE_NAME">
+			<Text>Hefty Tribute</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_HEFTY_TRIBUTE_DESCRIPTION">
+			<Text>-15 [icon:YIELD_GOLD] Gold in Towns. +1 Movement on Embarked Treasure Convoys.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_EMBARGO_NAME">
+			<Text>Embargo</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_EMBARGO_DESCRIPTION">
+			<Text>-6 [icon:YIELD_GOLD] Gold per Imported Resource.</Text>
+		</Row>
+	</EnglishText>
+</Database>

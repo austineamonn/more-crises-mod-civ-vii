@@ -11,7 +11,7 @@
 			<Text>City Slum</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_CITY_SLUM_DESCRIPTION">
-			<Text>-5 [icon:YIELD_GOLD] on Food Buildings in Cities.</Text>
+			<Text>-5 [icon:YIELD_GOLD] Gold on Food Buildings in Cities.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_FOOD_INSECURITY_NAME">
 			<Text>Food Insecurity</Text>

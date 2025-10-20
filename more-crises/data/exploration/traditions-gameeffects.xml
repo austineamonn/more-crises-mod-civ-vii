@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- Inflation Crisis Policies -->
+	 <Modifier id="LAND_TAX_MOD_TOWN_YIELDS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+			<Requirement type="REQUIREMENT_CITY_IS_DISTANT_LANDS"/>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Percent">-100</Argument>
+		<String context="Description">LOC_TRADITION_LAND_TAX_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="LAND_TAX_MOD_TREASURE_FLEET_GENERATION" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ADJUST_CITY_AUTO_TREASURE_FLEET">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+			<Requirement type="REQUIREMENT_CITY_IS_DISTANT_LANDS"/>
+		</SubjectRequirements>
+		<Argument name="VP">1</Argument>
+	</Modifier>
+	<Modifier id="CITY_TRIBUTE_MOD_CITY_YIELDS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+			<Requirement type="REQUIREMENT_CITY_IS_DISTANT_LANDS"/>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Percent">-100</Argument>
+		<String context="Description">LOC_TRADITION_CITY_TRIBUTE_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="CITY_TRIBUTE_MOD_TREASURE_FLEET_GENERATION" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ADJUST_CITY_AUTO_TREASURE_FLEET">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+			<Requirement type="REQUIREMENT_CITY_IS_DISTANT_LANDS"/>
+		</SubjectRequirements>
+		<Argument name="VP">1</Argument>
+	</Modifier>
+    <Modifier id="RENT_HIKE_MOD_GOLD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_DISTANT_LANDS" inverse="true"/>
+		</SubjectRequirements>
+        <Argument name="ModifierId">ATTACH_MOD_RENT_HIKE</Argument>
+        <String context="Description">LOC_TRADITION_RENT_HIKE_DESCRIPTION</String>
+    </Modifier>
+    <Modifier id="ATTACH_MOD_RENT_HIKE" collection="COLLECTION_CITY_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
+        <SubjectRequirements>
+            <Requirement type="REQUIREMENT_PLOT_DISTRICT_CLASS">
+				<Argument name="DistrictClass">CITYCENTER, URBAN</Argument>
+			</Requirement>
+        </SubjectRequirements>
+        <Argument name="YieldType">YIELD_GOLD</Argument>
+        <Argument name="Amount">-5</Argument>
+    </Modifier>
+	<Modifier id="RENT_HIKE_MOD_TREASURE_FLEET_GENERATION" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ADJUST_CITY_AUTO_TREASURE_FLEET">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_DISTANT_LANDS"/>
+		</SubjectRequirements>
+		<Argument name="VP">1</Argument>
+	</Modifier>
+	<Modifier id="WORTHLESS_TREASURE_MOD_GOLD" collection="COLLECTION_PLAYER_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_RESOURCE_VISIBLE"/>
+			<Requirement type="REQUIREMENT_PLOT_RESOURCE_CLASS_TYPE_MATCHES">
+				<Argument name="ResourceClass">RESOURCECLASS_TREASURE</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">-3</Argument>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<String context="Description">LOC_TRADITION_WORTHLESS_TREASURE_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="DEBASEMENT_MOD_BUILDING_PURCHASE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ADJUST_PLAYER_OR_CITY_BUILDING_PURCHASE_EFFICIENCY">
+		<Argument name="Percent">-100</Argument>
+		<String context="Description">LOC_TRADITION_DEBASEMENT_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="PRICE_REVOLUTION_MOD_GOLD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">-10</Argument>
+		<Argument name="Tag">GOLD</Argument>
+		<String context="Description">LOC_TRADITION_PRICE_REVOLUTION_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="HEFTY_TRIBUTE_MOD_GOLD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN">
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">-15</Argument>
+		<String context="Preview">LOC_TRADITION_HEFTY_TREASURE_NAME</String>
+		<String context="Description">LOC_TRADITION_HEFTY_TREASURE_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="HEFTY_TRIBUTE_TREASURE_MOVEMENT" collection="COLLECTION_ALL_UNITS" effect="EFFECT_ADJUST_UNIT_EMBARKED_MOVEMENT">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_NAVAL_TREASURE</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">1</Argument>
+	</Modifier>
+	<Modifier id="EMBARGO_IMPORTED_RESOURCE_GOLD" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">-6</Argument>
+		<Argument name="Imported">true</Argument>
+		<Argument name="Tooltip">LOC_TRADITION_EMBARGO_NAME</Argument>
+		<String context="Description">LOC_TRADITION_EMBARGO_DESCRIPTION</String>
+	</Modifier>
+</GameEffects>

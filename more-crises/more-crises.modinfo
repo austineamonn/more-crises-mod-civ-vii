@@ -40,12 +40,24 @@
 		<ActionGroup id="age-antiquity-main-more-crises" scope="game" criteria="antiquity-age-current">
 			<Actions>
 				<UpdateDatabase>
-					<Item>data/crisis-stages.xml</Item>
-					<Item>data/traditions-gameeffects.xml</Item>
-					<Item>data/traditions.xml</Item>
+					<Item>data/antiquity/crisis-stages.xml</Item>
+					<Item>data/antiquity/traditions-gameeffects.xml</Item>
+					<Item>data/antiquity/traditions.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
-					<Item>text/en_us/TraditionsText.xml</Item>
+					<Item>text/en_us/AntiquityTraditionsText.xml</Item>
+                </UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-antiquity-main-more-crises" scope="game" criteria="exploration-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/exploration/crisis-stages.xml</Item>
+					<Item>data/exploration/traditions-gameeffects.xml</Item>
+					<Item>data/exploration/traditions.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/ExplorationTraditionsText.xml</Item>
                 </UpdateText>
 			</Actions>
 		</ActionGroup>

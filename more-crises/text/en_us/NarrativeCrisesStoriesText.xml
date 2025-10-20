@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Database>
     <EnglishText>
+        <!-- Antiquity -->
         <Row Tag="LOC_ANTIQUITY_FAMINE_CRISIS_NAME">
             <Text>Antiquity Famine Crisis</Text>
         </Row>
         <Row Tag="LOC_ANTIQUITY_FAMINE_CRISIS_DESCRIPTION">
-            <Text>Starving Settlements begin to shrink.</Text>
+            <Text>Food shortages strain your empire, hampering city growth.</Text>
         </Row>
         <Row Tag="LOC_AFC001A_STORYTITLE">
             <Text>A Drier Summer</Text>
@@ -59,6 +60,61 @@
             <Text>The Age of Antiquity is ending.</Text>
         </Row>
         <Row Tag="LOC_AFC004B_DESCRIPTION">
+            <Text>Who will carry our legacy?</Text>
+        </Row>
+        <!-- Exploration -->
+        <Row Tag="LOC_EXPLORATION_INFLATION_CRISIS_NAME">
+            <Text>Exploration Inflation Crisis</Text>
+        </Row>
+        <Row Tag="LOC_EXPLORATION_INFLATION_CRISIS_DESCRIPTION">
+            <Text>An influx of Treasure Fleet gold leads to ever rising prices.</Text>
+        </Row>
+        <Row Tag="LOC_EIC001A_STORYTITLE">
+            <Text>Rising Prices</Text>
+        </Row>
+        <Row Tag="LOC_EIC001A_COMPLETION">
+            <Text>A lady scoffs at the latest market prices. Her weekly food costs have tripled in the last month alone. Similar grumbles can be heard around the city. If we just had more treasure fleets, every citizen could eat like a king!</Text>
+        </Row>
+        <Row Tag="LOC_EIC001B_NAME">
+            <Text>Continue the crisis</Text>
+        </Row>
+        <Row Tag="LOC_EIC001B_DESCRIPTION">
+            <Text>+1 Crisis Policy Slot.</Text>
+        </Row>
+        <Row Tag="LOC_EIC002A_STORYTITLE">
+            <Text>Unending Debts</Text>
+        </Row>
+        <Row Tag="LOC_EIC002A_COMPLETION">
+            <Text>Royal advisors hide in their chambers as the Queen storms around the castle. How could our great nation be so deep in debt? Print more money! Demand more treasure tributes! She steadies her shaking hands and takes a breath. Perhaps we can take another loan to cover this one?</Text>
+        </Row>
+        <Row Tag="LOC_EIC002B_NAME">
+            <Text>Continue the crisis</Text>
+        </Row>
+        <Row Tag="LOC_EIC002B_DESCRIPTION">
+            <Text>+1 Crisis Policy Slot.</Text>
+        </Row>
+        <Row Tag="LOC_EIC003A_STORYTITLE">
+            <Text>You Can't Eat Gold</Text>
+        </Row>
+        <Row Tag="LOC_EIC003A_COMPLETION">
+            <Text>The streets are littered with gold, but all anyone wants is a bite to eat. Wealth is meaningless when everyone has it. Is everyone now a King or a Peasant?</Text>
+        </Row>
+        <Row Tag="LOC_EIC003B_NAME">
+            <Text>Continue the crisis</Text>
+        </Row>
+        <Row Tag="LOC_EIC003B_DESCRIPTION">
+            <Text>+2 Crisis Policy Slots.</Text>
+        </Row>
+        <Row Tag="LOC_EIC004A_STORYTITLE">
+            <Text>Stabilizing Prices</Text>
+        </Row>
+        <Row Tag="LOC_EIC004A_COMPLETION">
+            <Text>Prices have begun to fall, and now hope begins to rise. The world is almost as it was before. The wealthy are wealthy and the poor are poor. Well, maybe some things need to change ...</Text>
+        </Row>
+        <Row Tag="LOC_EIC004B_NAME">
+            <Text>The Age of Exploration is ending.</Text>
+        </Row>
+        <Row Tag="LOC_EIC004B_DESCRIPTION">
             <Text>Who will carry our legacy?</Text>
         </Row>
     </EnglishText>

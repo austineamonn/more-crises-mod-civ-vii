@@ -2,11 +2,11 @@
 
 Version 1.0
 
-Adds new crisis to the Antiquity and Exploration age. More Crisis to come!
+Adds new crises to the Antiquity and Exploration age. More Crises to come!
 
 ## Current Mod:
 
-Adds a Famine Crisis to Antiquity.
+Adds a Famine Crisis to Antiquity and an Inflation Crisis to Exploration.
 
 ### Famine Crisis - Antiquity
 
@@ -41,6 +41,33 @@ Policies - Third Crisis Level
     <li>Underserved Communities: -6 Food in settlements with unfilled Resource Slots.</li>
 </ol>
 
+### Inflation Crisis - Exploration
+
+Crisis policies reduce the gold output of your Settlements. Some policies also generate Treasure Fleets from Distant Land Settlements, at a cost.
+
+Policies - First Crisis Level
+
+<ol>
+    <li>Land Tax: -100% Gold in Distant Land Towns. Distant Land Towns generate Treasure Convoys worth 1 Treasure Fleet point each.</li>
+    <li>City Tribute: -100% Gold in Distant Land Cities. Distant Land Cities generate Treasure Convoys worth 1 Treasure Fleet point each.</li>
+</ol>
+
+Policies - Second Crisis Level
+
+<ol>
+    <li>Rent Hike: -5 Gold on Districts in Homeland Settlements. Distant Land Settlements generate Treasure Convoys worth 1 Treasure Fleet point each.</li>
+    <li>Worthless Treasure: -3 Gold on Treasure Resources.</li>
+    <li>Debasement: +100% Building Purchase Cost.</li>
+</ol>
+
+Policies - Third Crisis Level
+
+<ol>
+    <li>Price Revolution: -10 Gold on Gold Buildings in Cities.</li>
+    <li>Hefty Tribute: 15 [icon:YIELD_GOLD] Gold in Towns. +1 Movement on Embarked Treasure Convoys.</li>
+    <li>Embargo: -6 Gold per Imported Resource.</li>
+</ol>
+
 ## Latest Update:
 
-Fixed errors in Crisis Policy text and gameeffects.
+Added Inflation Crisis.
