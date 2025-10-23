@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!-- Inflation Crisis -->
+		<Row Tag="LOC_CARD_AT_MOD_INFLATION_INVESTOR_WEALTH_NAME">
+			<Text>Investor Wealth</Text>
+		</Row>
+		<Row Tag="LOC_CARD_AT_MOD_INFLATION_INVESTOR_WEALTH_DESCRIPTION">
+			<Text>+3 [icon:YIELD_GOLD] Gold on Gold Buildings.</Text>
+		</Row>
+		<Row Tag="LOC_CARD_AT_MOD_INFLATION_ENDLESS_TRADE_NAME">
+			<Text>Endless Trade</Text>
+		</Row>
+		<Row Tag="LOC_CARD_AT_MOD_INFLATION_ENDLESS_TRADE_DESCRIPTION">
+			<Text>+1 Trade Route Limit with all other Leaders.</Text>
+		</Row>
+	</EnglishText>
+</Database>

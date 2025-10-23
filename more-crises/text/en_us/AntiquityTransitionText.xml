@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!-- Famine Crisis -->
+		<Row Tag="LOC_CARD_AT_EXP_FAMINE_FISHERIES_NAME">
+			<Text>Fisheries</Text>
+		</Row>
+		<Row Tag="LOC_CARD_AT_EXP_FAMINE_FISHERIES_DESCRIPTION">
+			<Text>Gain the Cartography Tech for free and +50% [icon:YIELD_PRODUCTION] Production towards Wharfs.</Text>
+		</Row>
+		<Row Tag="LOC_CARD_AT_EXP_FAMINE_STARVING_WORKERS_NAME">
+			<Text>Starving Workers</Text>
+		</Row>
+		<Row Tag="LOC_CARD_AT_EXP_FAMINE_STARVING_WORKERS_DESCRIPTION">
+			<Text>+50% [icon:YIELD_FOOD] Food and [icon:YIELD_HAPPINESS] Happiness towards maintaining Specialists.</Text>
+		</Row>
+	</EnglishText>
+</Database>

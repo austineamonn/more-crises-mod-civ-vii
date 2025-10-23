@@ -1,5 +1,7 @@
 # More Crises Civ VII Mod
 
+Author: austineamonn
+
 Version 1.0.1
 
 Adds new crises to the Antiquity and Exploration age. More Crises to come!
@@ -41,6 +43,40 @@ Policies - Third Crisis Level
     <li>Underserved Communities: -6 Food in settlements with unfilled Resource Slots.</li>
 </ol>
 
+Age Transition Unlocks:
+
+Just like the in game Crises, you can unlock extra cards at Age Transition if you meet certain conditions.
+
+<table>
+    <thead>
+        <tr>
+            <th>Card Name</th>
+            <th>Effect</th>
+            <th>Unlock</th>
+            <th>Cost</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Fisheries</td>
+            <td>Gain the Cartography Tech for free and +50% Production towards Wharfs.</td>
+            <td>Have 5 Fishing Quays.</td>
+            <td>2 Militaristic Points</td>
+        </tr>
+        <tr>
+            <td>Starving Workers</td>
+            <td>+50% Food and Happiness towards maintaining Specialists.</td>
+            <td>Have 6 Specialists.</td>
+            <td>2 Scientific Points</td>
+        </tr>
+    </tbody>
+</table>
+
+<ol>
+    <li>Fisheries: Gain the Cartography Tech for free and +50% Production towards Wharfs. Unlock: Have 5 Fishing Quays.</li>
+    <li>Starving Workers: +50% Food and Happiness towards maintaining Specialists. Unlock: Have 6 Specialists.</li>
+</ol>
+
 ### Inflation Crisis - Exploration
 
 Crisis policies reduce the gold output of your Settlements. Some policies also generate Treasure Fleets from Distant Land Settlements, at a cost.
@@ -68,6 +104,41 @@ Policies - Third Crisis Level
     <li>Embargo: -6 Gold per Imported Resource.</li>
 </ol>
 
+Age Transition Unlocks:
+
+Just like the in game Crises, you can unlock extra cards at Age Transition if you meet certain conditions.
+
+<table>
+    <thead>
+        <tr>
+            <th>Card Name</th>
+            <th>Effect</th>
+            <th>Unlock</th>
+            <th>Cost</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Investor Wealth</td>
+            <td>+3 Gold on Gold Buildings.</td>
+            <td>Have positive Gold per turn at the end of Exploration.</td>
+            <td>2 Economic Points</td>
+        </tr>
+        <tr>
+            <td>Endless Trade</td>
+            <td>+1 Trade Route Limit with all other Leaders.</td>
+            <td>Have 10 Trade Routes.</td>
+            <td>2 Cultural Points</td>
+        </tr>
+    </tbody>
+</table>
+
+## Known Bugs:
+
+<ul>
+    <li>When gaining Treasure Fleets with the Inflation Crisis, if the Settlement already produced Treasure Fleets, the number shown will be wrong. This is just a visual bug, as upon unloading the Treasure Fleets the correct amount of Treasure will be given.</li>
+</ul>
+
 ## Latest Update:
 
-Updated text for clarity.
+Added unlockable cards at Age Transition.

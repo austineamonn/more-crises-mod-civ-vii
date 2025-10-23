@@ -4,7 +4,7 @@
 	<Properties>
 		<Name>LOC_MODULE_MORE_CRISES_NAME</Name>
 		<Description>LOC_MODULE_MORE_CRISES_DESCRIPTION</Description>
-		<Authors>Austin Nicolas</Authors>
+		<Authors>austineamonn</Authors>
 		<Package>DLC</Package>
 		<AffectsSavedGames>1</AffectsSavedGames>
 		<Version>1.0.1</Version>
@@ -19,6 +19,9 @@
 		<Criteria id="exploration-age-current">
 			<AgeInUse>AGE_EXPLORATION</AgeInUse>
 		</Criteria>
+		<Criteria id="modern-age-current">
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
 		<Criteria id="always">
 			<AlwaysMet></AlwaysMet>
 		</Criteria>
@@ -31,9 +34,11 @@
 					<Item>data/narrative-crises-stories-gameeffects.xml</Item>
                     <Item>data/narrative-crises-stories.xml</Item>
 					<Item>data/narrative-tags.xml</Item>
+					<Item>data/unlocks.xml</Item>
                 </UpdateDatabase>
                 <UpdateText>
 					<Item>text/en_us/NarrativeCrisesStoriesText.xml</Item>
+					<Item>text/en_us/UnlockText.xml</Item>
                 </UpdateText>
             </Actions>
         </ActionGroup>
@@ -49,15 +54,29 @@
                 </UpdateText>
 			</Actions>
 		</ActionGroup>
-		<ActionGroup id="age-antiquity-main-more-crises" scope="game" criteria="exploration-age-current">
+		<ActionGroup id="age-exploration-main-more-crises" scope="game" criteria="exploration-age-current">
 			<Actions>
 				<UpdateDatabase>
+					<Item>data/exploration/age-transition.xml</Item>
+					<Item>data/exploration/age-transition-gameeffects.xml</Item>
 					<Item>data/exploration/crisis-stages.xml</Item>
 					<Item>data/exploration/traditions-gameeffects.xml</Item>
 					<Item>data/exploration/traditions.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
+					<Item>text/en_us/AntiquityTransitionText.xml</Item>
 					<Item>text/en_us/ExplorationTraditionsText.xml</Item>
+                </UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-modern-main-more-crises" scope="game" criteria="modern-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/modern/age-transition.xml</Item>
+					<Item>data/modern/age-transition-gameeffects.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/ExplorationTransitionText.xml</Item>
                 </UpdateText>
 			</Actions>
 		</ActionGroup>
@@ -68,6 +87,7 @@
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/NarrativeCrisesStoriesText.xml</Item>
+					<Item>text/en_us/UnlockText.xml</Item>
 				</UpdateText>
 			</Actions>
 		</ActionGroup>

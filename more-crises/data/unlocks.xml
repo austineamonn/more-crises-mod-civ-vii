@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_UNLOCK"/>
+	</Kinds>
+	<Types>
+		<!-- Famine Crisis -->
+		<InsertOrIgnore Type="UNLOCK_FAMINE_FISHERIES" Kind="KIND_UNLOCK"/>
+		<InsertOrIgnore Type="UNLOCK_FAMINE_STARVING_WORKERS" Kind="KIND_UNLOCK"/>
+		<!-- Inflation Crisis -->
+		<InsertOrIgnore Type="UNLOCK_INFLATION_INVESTOR_WEALTH" Kind="KIND_UNLOCK"/>
+		<InsertOrIgnore Type="UNLOCK_INFLATION_ENDLESS_TRADE" Kind="KIND_UNLOCK"/>
+	</Types>
+	<Unlocks>
+		<!-- Famine Crisis -->
+		<InsertOrIgnore UnlockType="UNLOCK_FAMINE_FISHERIES"/>
+		<InsertOrIgnore UnlockType="UNLOCK_FAMINE_STARVING_WORKERS"/>
+		<!-- Inflation Crisis -->
+		<InsertOrIgnore UnlockType="UNLOCK_INFLATION_INVESTOR_WEALTH"/>
+		<InsertOrIgnore UnlockType="UNLOCK_INFLATION_ENDLESS_TRADE"/>
+	</Unlocks>
+	<UnlockRewards>
+		<!-- Famine Crisis -->
+		<Row UnlockType="UNLOCK_FAMINE_FISHERIES" Name="LOC_UNLOCK_FAMINE_FISHERIES_NAME" Description="LOC_UNLOCK_FAMINE_FISHERIES_DESCRIPTION" Icon="ICON_VICTORY"/>
+		<Row UnlockType="UNLOCK_FAMINE_STARVING_WORKERS" Name="LOC_UNLOCK_FAMINE_STARVING_WORKERS_NAME" Description="LOC_UNLOCK_FAMINE_STARVING_WORKERS_DESCRIPTION" Icon="ICON_VICTORY"/>
+		<!-- Inflation Crisis -->
+		<Row UnlockType="UNLOCK_INFLATION_INVESTOR_WEALTH" Name="LOC_UNLOCK_INFlATION_INVESTOR_WEALTH_NAME" Description="LOC_UNLOCK_INFLATION_INVESTOR_WEALTH_DESCRIPTION" Icon="ICON_VICTORY"/>
+		<Row UnlockType="UNLOCK_INFLATION_ENDLESS_TRADE" Name="LOC_UNLOCK_INFLATION_ENDLESS_TRADE_NAME" Description="LOC_UNLOCK_INFLATION_ENDLESS_TRADE_DESCRIPTION" Icon="ICON_VICTORY"/>
+	</UnlockRewards>
+	<RequirementSets>
+		<!-- Famine Crisis -->
+		<Row RequirementSetId="REQSET_FAMINE_CRISIS_ACTIVE" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_FAMINE_FISHERIES" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_FAMINE_STARVING_WORKERS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<!-- Inflation Crisis -->
+		<Row RequirementSetId="REQSET_INFLATION_CRISIS_ACTIVE" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_INFLATION_INVESTOR_WEALTH" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_INFLATION_ENDLESS_TRADE" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<Requirements>
+		<!-- Famine Crisis -->
+		<Row RequirementId="REQ_FAMINE_CRISIS_ACTIVE" RequirementType="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS"/>
+		<Row RequirementId="REQ_PLAYER_HAS_X_FISHING_QUAYS" RequirementType="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_BUILDINGS"/>
+		<Row RequirementId="REQ_PLAYER_HAS_X_SPECIALISTS" RequirementType="REQUIREMENT_PLAYER_HAS_X_WORKERS"/>
+		<!-- Inflation Crisis -->
+		<Row RequirementId="REQ_INFLATION_CRISIS_ACTIVE" RequirementType="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS"/>
+		<Row RequirementId="REQ_PLAYER_HAS_POSITIVE_GOLD" RequirementType="REQUIREMENT_PLAYER_HAS_NEGATIVE_YIELD_PER_TURN" inverse="true"/>
+		<Row RequirementId="REQ_PLAYER_HAS_X_TRADE_ROUTES" RequirementType="REQUIREMENT_PLAYER_HAS_X_TRADE_ROUTES_WITH_PLAYER"/>
+		<!-- For Debugging -->
+		<!--<Row RequirementId="REQUIREMENT_PLAYER_HAS_1_SETTLEMENT" RequirementType="REQUIREMENT_PLAYER_HAS_X_SETTLEMENTS"/>-->
+	</Requirements>
+	<RequirementArguments>
+		<!-- Famine Crisis -->
+		<Row RequirementId="REQ_FAMINE_CRISIS_ACTIVE" Name="Amount" Value="1"/>
+		<Row RequirementId="REQ_FAMINE_CRISIS_ACTIVE" Name="NarrativeTagType" Value="NARRATIVE_TAG_CRISIS_FAMINE"/>
+		<Row RequirementId="REQ_PLAYER_HAS_X_FISHING_QUAYS" Name="Amount" Value="5"/>
+		<Row RequirementId="REQ_PLAYER_HAS_X_FISHING_QUAYS" Name="BuildingType" Value="BUILDING_FISHING_QUAY"/>
+		<Row RequirementId="REQ_PLAYER_HAS_X_SPECIALISTS" Name="Amount" Value="6"/>
+		<!-- Inflation Crisis -->
+		<Row RequirementId="REQ_INFLATION_CRISIS_ACTIVE" Name="Amount" Value="1"/>
+		<Row RequirementId="REQ_INFLATION_CRISIS_ACTIVE" Name="NarrativeTagType" Value="NARRATIVE_TAG_CRISIS_INFLATION"/>
+		<Row RequirementId="REQ_PLAYER_HAS_POSITIVE_GOLD" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row RequirementId="REQ_PLAYER_HAS_X_TRADE_ROUTES" Name="Amount" Value="10"/>
+		<Row RequirementId="REQ_PLAYER_HAS_X_TRADE_ROUTES" Name="AllPlayers" Value="true"/>
+		<!-- For Debugging -->
+		<!--<Row RequirementId="REQUIREMENT_PLAYER_HAS_1_SETTLEMENT" Name="RequiredCount" Value="1"/>
+		<Row RequirementId="REQUIREMENT_PLAYER_HAS_1_SETTLEMENT" Name="CountPerOwnSettlement" Value="1"/>-->
+	</RequirementArguments>
+	<RequirementSetRequirements>
+		<!-- Famine Crisis -->
+		<Row RequirementSetId="REQSET_FAMINE_CRISIS_ACTIVE" RequirementId="REQ_FAMINE_CRISIS_ACTIVE"/>
+		<Row RequirementSetId="REQSET_FAMINE_FISHERIES" RequirementId="REQ_PLAYER_HAS_X_FISHING_QUAYS"/>
+		<Row RequirementSetId="REQSET_FAMINE_FISHERIES" RequirementId="REQ_FAMINE_CRISIS_ACTIVE"/>
+		<Row RequirementSetId="REQSET_FAMINE_STARVING_WORKERS" RequirementId="REQ_PLAYER_HAS_X_SPECIALISTS"/>
+		<Row RequirementSetId="REQSET_FAMINE_STARVING_WORKERS" RequirementId="REQ_FAMINE_CRISIS_ACTIVE"/>
+		<!-- Inflation Crisis -->
+		<Row RequirementSetId="REQSET_INFLATION_CRISIS_ACTIVE" RequirementId="REQ_INFLATION_CRISIS_ACTIVE"/>
+		<Row RequirementSetId="REQSET_INFLATION_INVESTOR_WEALTH" RequirementId="REQ_PLAYER_HAS_POSITIVE_GOLD"/>
+		<Row RequirementSetId="REQSET_INFLATION_INVESTOR_WEALTH" RequirementId="REQ_INFLATION_CRISIS_ACTIVE"/>
+		<Row RequirementSetId="REQSET_INFLATION_INVESTOR_WEALTH" RequirementId="REQ_AGE_IS_ENDING"/>
+		<Row RequirementSetId="REQSET_INFLATION_ENDLESS_TRADE" RequirementId="REQ_PLAYER_HAS_X_TRADE_ROUTES"/>
+		<Row RequirementSetId="REQSET_INFLATION_ENDLESS_TRADE" RequirementId="REQ_INFLATION_CRISIS_ACTIVE"/>
+
+	</RequirementSetRequirements>
+	<UnlockRequirements>
+		<!-- Famine Crisis -->
+		<InsertOrIgnore UnlockType="UNLOCK_FAMINE_FISHERIES" RequirementSetId="REQSET_FAMINE_FISHERIES" Description="LOC_UNLOCK_FAMINE_FISHERIES_DESCRIPTION" Tooltip="LOC_UNLOCK_FAMINE_FISHERIES_TOOLTIP"/>
+		<InsertOrIgnore UnlockType="UNLOCK_FAMINE_STARVING_WORKERS" RequirementSetId="REQSET_FAMINE_STARVING_WORKERS" Description="LOC_UNLOCK_FAMINE_STARVING_WORKERS_DESCRIPTION" Tooltip="LOC_UNLOCK_FAMINE_STARVING_WORKERS_TOOLTIP"/>
+		<!-- Inflation Crisis -->
+		<InsertOrIgnore UnlockType="UNLOCK_INFLATION_INVESTOR_WEALTH" RequirementSetId="REQSET_INFLATION_INVESTOR_WEALTH" Description="LOC_UNLOCK_INFLATION_INVESTOR_WEALTH_DESCRIPTION" Tooltip="LOC_UNLOCK_INFLATION_INVESTOR_WEALTH_TOOLTIP"/>
+		<InsertOrIgnore UnlockType="UNLOCK_INFLATION_ENDLESS_TRADE" RequirementSetId="REQSET_INFLATION_ENDLESS_TRADE" Description="LOC_UNLOCK_INFLATION_ENDLESS_TRADE_DESCRIPTION" Tooltip="LOC_UNLOCK_INFLATION_ENDLESS_TRADE_TOOLTIP"/>
+	</UnlockRequirements>
+</Database>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<AdvancedStartCardEffects>
+		<!-- Inflation Crisis -->
+		<Row Age="AGE_MODERN" EffectID="CARD_EFFECT_AT_MOD_GOLD_BUILDINGS" EffectType="CARD_AT_GOLD_BUILDINGS" Amount="1"/>
+		<Row Age="AGE_MODERN" EffectID="CARD_EFFECT_AT_MOD_TRADE_ROUTE_CAP" EffectType="CARD_AT_TRADE_ROUTE_CAP" Amount="1"/>
+	</AdvancedStartCardEffects>
+	<AdvancedStartCards>
+		<!-- Inflation Crisis Cards -->
+		<Row Age="AGE_MODERN" CardSet="AGE_TRANSITION_MOD_DEFAULT" CardID="CARD_AT_MOD_INFLATION_INVESTOR_WEALTH" Name="LOC_CARD_AT_MOD_INFLATION_INVESTOR_WEALTH_NAME" Description="LOC_CARD_AT_MOD_INFLATION_INVESTOR_WEALTH_DESCRIPTION" EconomicCost="2" CardEffectType1="CARD_EFFECT_AT_MOD_GOLD_BUILDINGS" IndividualLimit="1" Unlock="UNLOCK_INFLATION_INVESTOR_WEALTH" CategorySortOrder="10"/>
+		<Row Age="AGE_MODERN" CardSet="AGE_TRANSITION_MOD_DEFAULT" CardID="CARD_AT_MOD_INFLATION_ENDLESS_TRADE" Name="LOC_CARD_AT_MOD_INFLATION_ENDLESS_TRADE_NAME" Description="LOC_CARD_AT_MOD_INFLATION_ENDLESS_TRADE_DESCRIPTION" CultureCost="2" CardEffectType1="CARD_EFFECT_AT_MOD_TRADE_ROUTE_CAP"  IndividualLimit="1" Unlock="UNLOCK_INFLATION_ENDLESS_TRADE" CategorySortOrder="10"/>
+	</AdvancedStartCards>
+</Database>

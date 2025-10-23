@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+    <!-- Inflation Crisis -->
+    <Modifier id="CARD_AT_GOLD_BUILDINGS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">3</Argument>
+		<Argument name="Tag">GOLD</Argument>
+	</Modifier>
+	<Modifier id="CARD_AT_TRADE_ROUTE_CAP" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_TRADE_CAPACITY">
+		<Argument name="Amount">1</Argument>
+		<Argument name="MajorsOnly">true</Argument>
+	</Modifier>
+</GameEffects>

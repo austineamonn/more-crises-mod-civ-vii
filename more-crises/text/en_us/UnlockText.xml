@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!-- Famine Crisis -->
+		<Row Tag="LOC_UNLOCK_FAMINE_FISHERIES_NAME">
+			<Text>Fisheries</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_FAMINE_FISHERIES_DESCRIPTION">
+			<Text>Have 10 Food Buildings.</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_FAMINE_FISHERIES_TOOLTIP">
+			<Text>Your Civilization kept it's people fed by fishing on the coast.</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_FAMINE_STARVING_WORKERS_NAME">
+			<Text>Starving Workers</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_FAMINE_STARVING_WORKERS_DESCRIPTION">
+			<Text>Have 6 Specialists.</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_FAMINE_STARVING_WORKERS_TOOLTIP">
+			<Text>Many Artists and Scientists died from starvation, now our Civilization will treat them better.</Text>
+		</Row>
+		<!-- Inflation Crisis -->
+		<Row Tag="LOC_UNLOCK_INFLATION_INVESTOR_WEALTH_NAME">
+			<Text>Investor Wealth</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_INFLATION_INVESTOR_WEALTH_DESCRIPTION">
+			<Text>End the Age with Positive Gold.</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_INFLATION_INVESTOR_WEALTH_TOOLTIP">
+			<Text>Though our Government ran low on money, private investors remained wealthy.</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_INFLATION_ENDLESS_TRADE_NAME">
+			<Text>Endless Trade</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_INFLATION_ENDLESS_TRADE_DESCRIPTION">
+			<Text>Have 10 Trade Routes.</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_INFLATION_ENDLESS_TRADE_TOOLTIP">
+			<Text>Our Civilization traded so far and wide that no price increases could slow our growth.</Text>
+		</Row>
+	</EnglishText>
+</Database>
