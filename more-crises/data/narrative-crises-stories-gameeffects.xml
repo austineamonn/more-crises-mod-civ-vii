@@ -84,26 +84,29 @@
         <Argument name="Negative">TRUE</Argument>
     </Modifier>
     <Modifier id="ASC001B_NARRATIVE_MODIFIER2" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
-        <Argument name="Tradition">TRADITION_EMPTY_STORAGE</Argument>
+        <Argument name="Tradition">TRADITION_COVER_UP</Argument>
     </Modifier>
     <Modifier id="ASC001B_NARRATIVE_MODIFIER3" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
-        <Argument name="Tradition">TRADITION_OVERWORKED_FARMERS</Argument>
+        <Argument name="Tradition">TRADITION_PRIMOGENITURE</Argument>
     </Modifier>
-    <Modifier id="ASC001B_NARRATIVE_MODIFIER4" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_UNLOCK_PROJECT">
+    <Modifier id="ASC001B_NARRATIVE_MODIFIER4" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <Argument name="Tradition">TRADITION_ULTIMOGENITURE</Argument>
+    </Modifier>
+    <Modifier id="ASC001B_NARRATIVE_MODIFIER5" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_UNLOCK_PROJECT">
         <Argument name="ProjectType">PROJECT_CITY_DIPLOMACY_PROJECT</Argument>
     </Modifier>
-    <Modifier id="ASC001B_NARRATIVE_MODIFIER5" collection="COLLECTION_OWNER" effect="EFFECT_GRANT_ALL_PLAYERS_FAVORS_GRIEVANCES" run-once="true" permanent="true">
+    <Modifier id="ASC001B_NARRATIVE_MODIFIER6" collection="COLLECTION_OWNER" effect="EFFECT_GRANT_ALL_PLAYERS_FAVORS_GRIEVANCES" run-once="true" permanent="true">
 		<Argument name="GrievancesAmount">5</Argument>
 	</Modifier>
     <!-- Crisis Stage 2 -->
     <Modifier id="ASC002B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
-        <Argument name="Tradition">TRADITION_FOOD_INSECURITY</Argument>
+        <Argument name="Tradition">TRADITION_FRATRICIDE</Argument>
     </Modifier>
     <Modifier id="ASC002B_NARRATIVE_MODIFIER2" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
-        <Argument name="Tradition">TRADITION_KNOWLEDGE_LOSS</Argument>
+        <Argument name="Tradition">TRADITION_DEFENSIVE_PACT</Argument>
     </Modifier>
     <Modifier id="ASC002B_NARRATIVE_MODIFIER3" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
-        <Argument name="Tradition">TRADITION_DEATH_OF_THE_ARTISTS</Argument>
+        <Argument name="Tradition">TRADITION_RIVAL_HEIRS</Argument>
     </Modifier>
     <Modifier id="ASC002B_NARRATIVE_MODIFIER4" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_TRADITION_SLOTS" run-once="false" permanent="true">
         <Argument name="Amount">1</Argument>
@@ -118,10 +121,10 @@
         <Argument name="Negative">TRUE</Argument>
     </Modifier>
     <Modifier id="ASC003B_NARRATIVE_MODIFIER2" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
-        <Argument name="Tradition">TRADITION_RESOURCE_SCARCITY</Argument>
+        <Argument name="Tradition">TRADITION_NO_ALLIES</Argument>
     </Modifier>
     <Modifier id="ASC003B_NARRATIVE_MODIFIER3" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
-        <Argument name="Tradition">TRADITION_UNDERRESOURCED_COMMUNITIES</Argument>
+        <Argument name="Tradition">TRADITION_NO_ENEMIES</Argument>
     </Modifier>
     <Modifier id="ASC003B_NARRATIVE_MODIFIER4" collection="COLLECTION_OWNER" effect="EFFECT_GRANT_ALL_PLAYERS_FAVORS_GRIEVANCES" run-once="true" permanent="true">
 		<Argument name="GrievancesAmount">15</Argument>

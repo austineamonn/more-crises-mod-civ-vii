@@ -94,13 +94,16 @@
         <Row NarrativeRewardType="ASC001B_REWARD3" ModifierID="ASC001B_NARRATIVE_MODIFIER3"/>
         <Row NarrativeRewardType="ASC001B_REWARD4" ModifierID="ASC001B_NARRATIVE_MODIFIER4"/>
         <Row NarrativeRewardType="ASC001B_REWARD5" ModifierID="ASC001B_NARRATIVE_MODIFIER5"/>
+        <Row NarrativeRewardType="ASC001B_REWARD6" ModifierID="ASC001B_NARRATIVE_MODIFIER6"/>
         <Row NarrativeRewardType="ASC002B_REWARD" ModifierID="ASC002B_NARRATIVE_MODIFIER"/>
         <Row NarrativeRewardType="ASC002B_REWARD2" ModifierID="ASC002B_NARRATIVE_MODIFIER2"/>
         <Row NarrativeRewardType="ASC002B_REWARD3" ModifierID="ASC002B_NARRATIVE_MODIFIER3"/>
         <Row NarrativeRewardType="ASC002B_REWARD4" ModifierID="ASC002B_NARRATIVE_MODIFIER4"/>
+        <Row NarrativeRewardType="ASC002B_REWARD5" ModifierID="ASC002B_NARRATIVE_MODIFIER5"/>
         <Row NarrativeRewardType="ASC003B_REWARD" ModifierID="ASC003B_NARRATIVE_MODIFIER"/>
         <Row NarrativeRewardType="ASC003B_REWARD2" ModifierID="ASC003B_NARRATIVE_MODIFIER2"/>
         <Row NarrativeRewardType="ASC003B_REWARD3" ModifierID="ASC003B_NARRATIVE_MODIFIER3"/>
+        <Row NarrativeRewardType="ASC003B_REWARD4" ModifierID="ASC003B_NARRATIVE_MODIFIER4"/>
         <!-- Exploration -->
         <!-- Inflation Crisis -->
         <Row NarrativeRewardType="EIC001A_REWARD" ModifierID="EIC001A_NARRATIVE_MODIFIER"/>
@@ -140,13 +143,16 @@
         <Row NarrativeStoryType="ASC001B" NarrativeRewardType="ASC001B_REWARD3" Activation="START" BonusEligible="FALSE"/>
         <Row NarrativeStoryType="ASC001B" NarrativeRewardType="ASC001B_REWARD4" Activation="START" BonusEligible="FALSE"/>
         <Row NarrativeStoryType="ASC001B" NarrativeRewardType="ASC001B_REWARD5" Activation="START" BonusEligible="FALSE"/>
+        <Row NarrativeStoryType="ASC001B" NarrativeRewardType="ASC001B_REWARD6" Activation="START" BonusEligible="FALSE"/>
         <Row NarrativeStoryType="ASC002B" NarrativeRewardType="ASC002B_REWARD" Activation="START" BonusEligible="FALSE"/>
         <Row NarrativeStoryType="ASC002B" NarrativeRewardType="ASC002B_REWARD2" Activation="START" BonusEligible="FALSE"/>
         <Row NarrativeStoryType="ASC002B" NarrativeRewardType="ASC002B_REWARD3" Activation="START" BonusEligible="FALSE"/>
         <Row NarrativeStoryType="ASC002B" NarrativeRewardType="ASC002B_REWARD4" Activation="START" BonusEligible="FALSE"/>
+        <Row NarrativeStoryType="ASC002B" NarrativeRewardType="ASC002B_REWARD5" Activation="START" BonusEligible="FALSE"/>
         <Row NarrativeStoryType="ASC003B" NarrativeRewardType="ASC003B_REWARD" Activation="START" BonusEligible="FALSE"/>
         <Row NarrativeStoryType="ASC003B" NarrativeRewardType="ASC003B_REWARD2" Activation="START" BonusEligible="FALSE"/>
         <Row NarrativeStoryType="ASC003B" NarrativeRewardType="ASC003B_REWARD3" Activation="START" BonusEligible="FALSE"/>
+        <Row NarrativeStoryType="ASC003B" NarrativeRewardType="ASC003B_REWARD4" Activation="START" BonusEligible="FALSE"/>
         <!-- Exploration -->
         <!-- Inflation Crisis -->
         <Row NarrativeStoryType="EIC001A" NarrativeRewardType="EIC001A_REWARD" Activation="COMPLETE" BonusEligible="FALSE"/>

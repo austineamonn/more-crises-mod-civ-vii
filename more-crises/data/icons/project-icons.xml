@@ -4,6 +4,12 @@
 		<Row>
 			<ID>PROJECT_CITY_DIPLOMACY_PROJECT</ID>
 			<Path>blp:yield_influence_20</Path>
+			<IconSize>32</IconSize>
+		</Row>
+		<Row>
+			<ID>PROJECT_CITY_DIPLOMACY_PROJECT</ID>
+			<Path>blp:yield_influence</Path>
+			<IconSize>64</IconSize>
 		</Row>
 	</IconDefinitions>
 </Database>

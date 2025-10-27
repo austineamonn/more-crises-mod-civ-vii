@@ -85,4 +85,86 @@
 		<Argument name="Amount">-6</Argument>
 		<String context="Description">LOC_TRADITION_UNDERRESOURCED_COMMUNITIES_DESCRIPTION</String>
 	</Modifier>
+	<!-- Succession Crisis Policies -->
+	<Modifier id="COVER_UP_MOD_GREAT_WORK_INFLUENCE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_GREAT_WORK">
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Amount">-1</Argument>
+		<String context="Description">LOC_TRADITION_COVER_UP_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="PRIMOGENITURE_MOD_MONUMENT_INFLUENCE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Amount">-2</Argument>
+		<Argument name="ConstructibleType">BUILDING_MONUMENT</Argument>
+		<String context="Description">LOC_TRADITION_PRIMOGENITURE_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="ULTIMOGENITURE_MOD_BARRACKS_INFLUENCE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Amount">-2</Argument>
+		<Argument name="ConstructibleType">BUILDING_BARRACKS</Argument>
+		<String context="Description">LOC_TRADITION_ULTIMOGENITURE_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="FRATRICIDE_MOD_WAR_SUPPORT" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_TRADITION_FRATRICIDE_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="FRATRICIDE_MOD_INFLUENCE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Amount">-3</Argument>
+	</Modifier>
+	<Modifier id="DEFENSIVE_PACT_MOD_WAR_SUPPORT" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="OnlyWhenTarget">true</Argument>
+		<Argument name="Amount">2</Argument>
+		<String context="Description">LOC_TRADITION_DEFENSIVE_PACT_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="DEFENSIVE_PACT_MOD_DIPLOMACY_INFLUENCE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Amount">-3</Argument>
+		<Argument name="Tag">DIPLOMACY</Argument>
+	</Modifier>
+	<Modifier id="RIVAL_HEIRS_MOD_COMMANDER_XP_INFLUENCE" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_GRANT_YIELD_PER_XP_EARNED">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_COMMAND</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_TRADITION_RIVAL_HEIRS_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="RIVAL_HEIRS_MOD_COMMANDER_INFLUENCE" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_PLAYER_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_COMMAND</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Amount">-5</Argument>
+	</Modifier>
+	<Modifier id="NO_ALLIES_MOD_UNFRIENDLY_INFLUENCE" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_YIELD_PER_PLAYER_RELATIONSHIP">
+		<Argument name="RelationshipType">PLAYER_RELATIONSHIP_UNFRIENDLY</Argument>
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Amount">-5</Argument>
+		<String context="Description">LOC_TRADITION_NO_ALLIES_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="NO_ALLIES_MOD_HOSTILE_INFLUENCE" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_YIELD_PER_PLAYER_RELATIONSHIP">
+		<Argument name="RelationshipType">PLAYER_RELATIONSHIP_HOSTILE</Argument>
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Amount">-5</Argument>
+	</Modifier>
+	<Modifier id="NO_ENEMIES_MOD_FRIENDLY_INFLUENCE" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_YIELD_PER_PLAYER_RELATIONSHIP">
+		<Argument name="RelationshipType">PLAYER_RELATIONSHIP_FRIENDLY</Argument>
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Amount">-5</Argument>
+		<String context="Description">LOC_TRADITION_NO_ENEMIES_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="NO_ENEMIES_MOD_HELPFUL_INFLUENCE" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_YIELD_PER_PLAYER_RELATIONSHIP">
+		<Argument name="RelationshipType">PLAYER_RELATIONSHIP_HELPFUL</Argument>
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Amount">-5</Argument>
+	</Modifier>
 </GameEffects>

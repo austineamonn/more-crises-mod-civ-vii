@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<EnglishText>
+		<!-- Famine Crisis Policies -->
 		<Row Tag="LOC_TRADITION_EMPTY_STORAGE_NAME">
 			<Text>Empty Storage</Text>
 		</Row>
@@ -54,6 +55,55 @@
 		</Row>
 		<Row Tag="LOC_TRADITION_UNDERRESOURCED_COMMUNITIES_DESCRIPTION">
 			<Text>-6 [icon:YIELD_FOOD] Food in settlements with unfilled Resource Slots.</Text>
+		</Row>
+		<!-- Succession Crisis Policies -->
+		<Row Tag="LOC_TRADITION_COVER_UP_NAME">
+			<Text>Cover Up</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_COVER_UP_DESCRIPTION">
+			<Text>-1 [icon:YIELD_DIPLOMACY] Influence on displayed Great Works.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_PRIMOGENITURE_NAME">
+			<Text>Primogeniture</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_PRIMOGENITURE_DESCRIPTION">
+			<Text>-2 [icon:YIELD_DIPLOMACY] Influence on Monuments.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_ULTIMOGENITURE_NAME">
+			<Text>Ultimogeniture</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_ULTIMOGENITURE_DESCRIPTION">
+			<Text>-1 [icon:YIELD_DIPLOMACY] Influence on Barracks.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_FRATRICIDE_NAME">
+			<Text>Fratricide</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_FRATRICIDE_DESCRIPTION">
+			<Text>+1 War Support on all Wars. -3 [icon:YIELD_DIPLOMACY] Influence in Cities.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_DEFENSIVE_PACT_NAME">
+			<Text>Defensive Pact</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_DEFENSIVE_PACT_DESCRIPTION">
+			<Text>+2 War Support on all Wars declared against you. -3 [icon:YIELD_DIPLOMACY] Influence on Diplomacy Buildings.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_RIVAL_HEIRS_NAME">
+			<Text>Rival Heirs</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_RIVAL_HEIRS_DESCRIPTION">
+			<Text>+1 [icon:YIELD_DIPLOMACY] Influence for every Commander XP earned. -5 [icon:YIELD_DIPLOMACY] Influence for every Commander.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_NO_ALLIES_NAME">
+			<Text>No Allies</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_NO_ALLIES_DESCRIPTION">
+			<Text>-5 [icon:YIELD_DIPLOMACY] Influence for every leader you are Unfriendly or Hostile with.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_NO_ENEMIES_NAME">
+			<Text>No Enemies</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_NO_ENEMIES_DESCRIPTION">
+			<Text>-5 [icon:YIELD_DIPLOMACY] Influence for every leader you are Friendly or Helpful with.</Text>
 		</Row>
 	</EnglishText>
 </Database>

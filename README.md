@@ -2,7 +2,7 @@
 
 Author: austineamonn
 
-Version 1.0.1
+Version 1.0.2
 
 Adds new crises to the Antiquity and Exploration age. More Crises to come!
 
@@ -136,4 +136,4 @@ Just like the in game Crises, you can unlock extra cards at Age Transition if yo
 
 ## Latest Update:
 
-Added unlockable cards at Age Transition.
+Added Traditions for Succession Crisis.
