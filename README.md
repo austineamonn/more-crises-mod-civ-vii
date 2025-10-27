@@ -12,7 +12,7 @@ Adds a Famine Crisis to Antiquity and an Inflation Crisis to Exploration.
 
 ### Famine Crisis - Antiquity
 
-Crisis policies reduce the food output of your settlements. Settlements with negative food with pillage buildings. You are given a choice at the first level of the crisis, where you gain policies that hurt towns or hurt cities.
+Crisis policies reduce the food output of your settlements. Settlements with negative food will pillage buildings. You are given a choice at the first level of the crisis, where you gain policies that hurt towns or hurt cities.
 
 Policies - "Send the masses to the Towns"
 
@@ -72,11 +72,6 @@ Just like the in game Crises, you can unlock extra cards at Age Transition if yo
     </tbody>
 </table>
 
-<ol>
-    <li>Fisheries: Gain the Cartography Tech for free and +50% Production towards Wharfs. Unlock: Have 5 Fishing Quays.</li>
-    <li>Starving Workers: +50% Food and Happiness towards maintaining Specialists. Unlock: Have 6 Specialists.</li>
-</ol>
-
 ### Inflation Crisis - Exploration
 
 Crisis policies reduce the gold output of your Settlements. Some policies also generate Treasure Fleets from Distant Land Settlements, at a cost.
@@ -100,7 +95,7 @@ Policies - Third Crisis Level
 
 <ol>
     <li>Price Revolution: -10 Gold on Gold Buildings in Cities.</li>
-    <li>Hefty Tribute: 15 [icon:YIELD_GOLD] Gold in Towns. +1 Movement on Embarked Treasure Convoys.</li>
+    <li>Hefty Tribute: - 15 Gold in Towns. +1 Movement on Embarked Treasure Convoys.</li>
     <li>Embargo: -6 Gold per Imported Resource.</li>
 </ol>
 

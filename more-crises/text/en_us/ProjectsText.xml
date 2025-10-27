@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!-- Crisis Projects -->
+		<Row Tag="LOC_PROJECT_CITY_DIPLOMACY_PROJECT_NAME">
+			<Text>Royal Banquet</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_CITY_DIPLOMACY_PROJECT_SHORT_NAME">
+			<Text>City Influence Project</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_CITY_DIPLOMACY_PROJECT_DESCRIPTION">
+			<Text>Continuously generate[icon:YIELD_DIPLOMACY] Influence equal to 25% of this City's[icon:YIELD_PRODUCTION] Production. You can cancel this at any time.</Text>
+		</Row>
+	</EnglishText>
+</Database>

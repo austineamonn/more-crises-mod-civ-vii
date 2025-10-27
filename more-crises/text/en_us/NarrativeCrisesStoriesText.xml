@@ -2,6 +2,7 @@
 <Database>
     <EnglishText>
         <!-- Antiquity -->
+        <!-- Famine Crisis -->
         <Row Tag="LOC_ANTIQUITY_FAMINE_CRISIS_NAME">
             <Text>Antiquity Famine Crisis</Text>
         </Row>
@@ -60,6 +61,61 @@
             <Text>The Age of Antiquity is ending.</Text>
         </Row>
         <Row Tag="LOC_AFC004B_DESCRIPTION">
+            <Text>Who will carry our legacy?</Text>
+        </Row>
+        <!-- Succession Crisis -->
+        <Row Tag="LOC_ANTIQUITY_SUCCESSION_CRISIS_NAME">
+            <Text>Antiquity Succession Crisis</Text>
+        </Row>
+        <Row Tag="LOC_ANTIQUITY_SUCCESSION_CRISIS_DESCRIPTION">
+            <Text>An illegitimate heir takes the thone and ruins diplomatic relations.</Text>
+        </Row>
+        <Row Tag="LOC_ASC001A_STORYTITLE">
+            <Text>A Royal Funeral</Text>
+        </Row>
+        <Row Tag="LOC_ASC001A_COMPLETION">
+            <Text>A farmer looks on at a field of dead crops. The rains were later and lighter this year. Those living in the great cities of the world's civilizations notice nothing, until food prices start to rise and migrants from neighboring nations appear on their doorstep. Where will these people go and how will they find food now?</Text>
+        </Row>
+        <Row Tag="LOC_ASC001B_NAME">
+            <Text>Continue the crisis</Text>
+        </Row>
+        <Row Tag="LOC_ASC001B_DESCRIPTION">
+            <Text>+2 Crisis Policy Slots. Unlock the Royal Banquet City Project. Diplomatic relations worsen.</Text>
+        </Row>
+        <Row Tag="LOC_ASC002A_STORYTITLE">
+            <Text>What did they do now?</Text>
+        </Row>
+        <Row Tag="LOC_ASC002A_COMPLETION">
+            <Text>The hungry masses have begun to leave small towns for massive cities, but no relief can be found. The city warehouses are practically empty and what little food merchants are selling comes with a hefty price. Once bright eyes are now sullen and once full bellies are empty.</Text>
+        </Row>
+        <Row Tag="LOC_ASC002B_NAME">
+            <Text>Continue the crisis</Text>
+        </Row>
+        <Row Tag="LOC_ASC002B_DESCRIPTION">
+            <Text>+1 Crisis Policy Slot.</Text>
+        </Row>
+        <Row Tag="LOC_ASC003A_STORYTITLE">
+            <Text>An Isolated Empire</Text>
+        </Row>
+        <Row Tag="LOC_ASC003A_COMPLETION">
+            <Text>A young child looks up at the cloudless sky. "Why have the rain gods forsaken us now?" they cry out. A stark contrast is seen across the land, the cities are exploding with people, while small towns are empty and silent. The wealthy have retreated to their castles while the poor bang on walls and wait in lines, clamoring for food.</Text>
+        </Row>
+        <Row Tag="LOC_ASC003B_NAME">
+            <Text>Continue the crisis</Text>
+        </Row>
+        <Row Tag="LOC_ASC003B_DESCRIPTION">
+            <Text>+1 Crisis Policy Slot.</Text>
+        </Row>
+        <Row Tag="LOC_ASC004A_STORYTITLE">
+            <Text>An Early Death</Text>
+        </Row>
+        <Row Tag="LOC_ASC004A_COMPLETION">
+            <Text>Never has rain felt so good. Children laugh in the streets, jumping in puddles, while parents smile on. Few survived this ordeal, and those who did look worse for wear. Yet, there is hope on the horizon. Perhaps the rural migrants and city folk can get along after all.</Text>
+        </Row>
+        <Row Tag="LOC_ASC004B_NAME">
+            <Text>The Age of Antiquity is ending.</Text>
+        </Row>
+        <Row Tag="LOC_ASC004B_DESCRIPTION">
             <Text>Who will carry our legacy?</Text>
         </Row>
         <!-- Exploration -->

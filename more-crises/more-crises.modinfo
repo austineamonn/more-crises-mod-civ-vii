@@ -46,11 +46,16 @@
 			<Actions>
 				<UpdateDatabase>
 					<Item>data/antiquity/crisis-stages.xml</Item>
+					<Item>data/antiquity/projects.xml</Item>
 					<Item>data/antiquity/traditions-gameeffects.xml</Item>
 					<Item>data/antiquity/traditions.xml</Item>
 				</UpdateDatabase>
+				<UpdateIcons>
+					<Item>data/icons/project-icons.xml</Item>
+				</UpdateIcons>
 				<UpdateText>
 					<Item>text/en_us/AntiquityTraditionsText.xml</Item>
+					<Item>text/en_us/ProjectsText.xml</Item>
                 </UpdateText>
 			</Actions>
 		</ActionGroup>
@@ -85,6 +90,9 @@
 				<UpdateDatabase>
 					<Item>config/config.xml</Item>
 				</UpdateDatabase>
+				<UpdateIcons>
+					<Item>data/icons/project-icons.xml</Item>
+				</UpdateIcons>
 				<UpdateText>
 					<Item>text/en_us/NarrativeCrisesStoriesText.xml</Item>
 					<Item>text/en_us/UnlockText.xml</Item>

@@ -14,6 +14,7 @@
 		<Row Type="TRADITION_DEATH_OF_THE_ARTISTS" Kind="KIND_TRADITION"/>
 		<Row Type="TRADITION_RESOURCE_SCARCITY" Kind="KIND_TRADITION"/>
 		<Row Type="TRADITION_UNDERRESOURCED_COMMUNITIES" Kind="KIND_TRADITION"/>
+		<!-- Succession Crisis Policies -->
 	</Types>
 	<Traditions>
 		<!-- Famine Crisis Policies -->
@@ -26,6 +27,7 @@
 		<Row TraditionType="TRADITION_DEATH_OF_THE_ARTISTS" Name="LOC_TRADITION_DEATH_OF_THE_ARTISTS_NAME" Description="LOC_TRADITION_DEATH_OF_THE_ARTISTS_DESCRIPTION" IsCrisis="true"/>
 		<Row TraditionType="TRADITION_RESOURCE_SCARCITY" Name="LOC_TRADITION_RESOURCE_SCARCITY_NAME" Description="LOC_TRADITION_RESOURCE_SCARCITY_DESCRIPTION" IsCrisis="true"/>
 		<Row TraditionType="TRADITION_UNDERRESOURCED_COMMUNITIES" Name="LOC_TRADITION_UNDERRESOURCED_COMMUNITIES_NAME" Description="LOC_TRADITION_UNDERRESOURCED_COMMUNITIES_DESCRIPTION" IsCrisis="true"/>
+		<!-- Succession Crisis Policies -->
 	</Traditions>
 	<TraditionModifiers>
 		<!-- Famine Crisis Policies -->
@@ -39,5 +41,6 @@
 		<Row TraditionType="TRADITION_RESOURCE_SCARCITY" ModifierId="RESOURCE_SCARCITY_MOD_RESOURCE_GOLD"/>
 		<Row TraditionType="TRADITION_RESOURCE_SCARCITY" ModifierId="RESOURCE_SCARCITY_MOD_RESOURCE_FOOD"/>
 		<Row TraditionType="TRADITION_UNDERRESOURCED_COMMUNITIES" ModifierId="UNDERRESOURCED_COMMUNITIES_MOD_FOOD"/>
+		<!-- Succession Crisis Policies -->
 	</TraditionModifiers>
 </Database>

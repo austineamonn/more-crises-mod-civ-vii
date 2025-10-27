@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_PROJECT"/>
+	</Kinds>
+	<Types>
+		<!-- Crisis Projects -->
+		<Row Type="PROJECT_CITY_DIPLOMACY_PROJECT" Kind="KIND_PROJECT"/>
+	</Types>
+	<Projects>
+		<!-- Crisis Projects -->
+		<Row ProjectType="PROJECT_CITY_DIPLOMACY_PROJECT" Name="LOC_PROJECT_CITY_DIPLOMACY_PROJECT_NAME" ShortName="LOC_PROJECT_CITY_DIPLOMACY_PROJECT_SHORT_NAME" Description="LOC_PROJECT_CITY_DIPLOMACY_PROJECT_DESCRIPTION" Cost="200" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="200" Food="false" CityOnly="true" RequiresUnlock="true"/>
+	</Projects>
+	<Project_YieldConversions>
+		<!-- Unique Projects -->
+		<Row ProjectType="PROJECT_CITY_DIPLOMACY_PROJECT" YieldType="YIELD_DIPLOMACY" PercentOfProductionRate="25"/>
+	</Project_YieldConversions>
+</Database>
