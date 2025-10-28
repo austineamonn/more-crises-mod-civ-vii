@@ -105,6 +105,7 @@
 	</Modifier>
 	<Modifier id="FRATRICIDE_MOD_WAR_SUPPORT" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
 		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="OnlyWhenInitiator">true</Argument>
 		<Argument name="Amount">1</Argument>
 		<String context="Description">LOC_TRADITION_FRATRICIDE_DESCRIPTION</String>
 	</Modifier>

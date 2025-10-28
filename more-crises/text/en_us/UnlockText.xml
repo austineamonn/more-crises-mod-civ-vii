@@ -20,6 +20,25 @@
 		<Row Tag="LOC_UNLOCK_FAMINE_STARVING_WORKERS_TOOLTIP">
 			<Text>Many Artists and Scientists died from starvation, now our Civilization will treat them better.</Text>
 		</Row>
+		<!-- Succession Crisis -->
+		<Row Tag="LOC_UNLOCK_SUCCESSION_ENTENTE_NAME">
+			<Text>Entente</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_SUCCESSION_ENTENTE_DESCRIPTION">
+			<Text>Have 2 Alliances during the Crisis.</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_SUCCESSION_ENTENTE_TOOLTIP">
+			<Text>Our alliances held steady when an heir could not be found.</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_SUCCESSION_BELLIGERENT_NAME">
+			<Text>Belligerent</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_SUCCESSION_BELLIGERENT_DESCRIPTION">
+			<Text>Declare a War during the Crisis.</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_SUCCESSION_BELLIGERENT_TOOLTIP">
+			<Text>When our civilization was vulnerable we learned that offense is better than defense.</Text>
+		</Row>
 		<!-- Inflation Crisis -->
 		<Row Tag="LOC_UNLOCK_INFLATION_INVESTOR_WEALTH_NAME">
 			<Text>Investor Wealth</Text>

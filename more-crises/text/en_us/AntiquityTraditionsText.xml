@@ -73,13 +73,13 @@
 			<Text>Ultimogeniture</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_ULTIMOGENITURE_DESCRIPTION">
-			<Text>-1 [icon:YIELD_DIPLOMACY] Influence on Barracks.</Text>
+			<Text>-2 [icon:YIELD_DIPLOMACY] Influence on Barracks.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_FRATRICIDE_NAME">
 			<Text>Fratricide</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_FRATRICIDE_DESCRIPTION">
-			<Text>+1 War Support on all Wars. -3 [icon:YIELD_DIPLOMACY] Influence in Cities.</Text>
+			<Text>+1 War Support on Wars you declare. -3 [icon:YIELD_DIPLOMACY] Influence in Cities.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_DEFENSIVE_PACT_NAME">
 			<Text>Defensive Pact</Text>
@@ -93,6 +93,7 @@
 		<Row Tag="LOC_TRADITION_RIVAL_HEIRS_DESCRIPTION">
 			<Text>+1 [icon:YIELD_DIPLOMACY] Influence for every Commander XP earned. -5 [icon:YIELD_DIPLOMACY] Influence for every Commander.</Text>
 		</Row>
+		<!-- TODO: Possible name change as it is a bit confusing. -->
 		<Row Tag="LOC_TRADITION_NO_ALLIES_NAME">
 			<Text>No Allies</Text>
 		</Row>

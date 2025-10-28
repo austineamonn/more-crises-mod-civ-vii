@@ -2,13 +2,13 @@
 
 Author: austineamonn
 
-Version 1.0.2
+Version 1.0.3
 
 Adds new crises to the Antiquity and Exploration age. More Crises to come!
 
 ## Current Mod:
 
-Adds a Famine Crisis to Antiquity and an Inflation Crisis to Exploration.
+Adds Famine and Succession Crises to Antiquity and an Inflation Crisis to Exploration.
 
 ### Famine Crisis - Antiquity
 
@@ -68,6 +68,62 @@ Just like the in game Crises, you can unlock extra cards at Age Transition if yo
             <td>+50% Food and Happiness towards maintaining Specialists.</td>
             <td>Have 6 Specialists.</td>
             <td>2 Scientific Points</td>
+        </tr>
+    </tbody>
+</table>
+
+### Succession Crisis - Antiquity
+
+Crisis policies reduce the influence output of your settlements. As the crisis intensifies diplomatic relations will worsen with all other civilizations. At the start of the crisis, you gain a Royal Banquet City Project that converts 25% of your production into influence.
+
+Policies - First Crisis Level
+
+<ol>
+    <li>Cover Up: -1 Influence on displayed Great Works.</li>
+    <li>Primogeniture: -2 Influence on Monuments.</li>
+    <li>Ultimogeniture: -2 Influence on Barracks.</li>
+</ol>
+
+Policies - Second Crisis Level
+
+<ol>
+    <li>Fratricide: +1 War Support on Wars you declare. -3 Influence in Cities.</li>
+    <li>Defensive Pact: +2 War Support on all Wars declared against you. -3 Influence on Diplomacy Buildings.</li>
+    <li>Rival Heirs: +1 Influence for every Commander XP earned. -5 Influence for every Commander.</li>
+</ol>
+
+Policies - Third Crisis Level
+
+<ol>
+    <li>No Allies: -5 Influence for every leader you are Unfriendly or Hostile with.</li>
+    <li>No Enemies: -5 Influence for every leader you are Friendly or Helpful with.</li>
+</ol>
+
+Age Transition Unlocks:
+
+Just like the in game Crises, you can unlock extra cards at Age Transition if you meet certain conditions.
+
+<table>
+    <thead>
+        <tr>
+            <th>Card Name</th>
+            <th>Effect</th>
+            <th>Unlock</th>
+            <th>Cost</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Entente</td>
+            <td>+5 Influence for every Alliance you have.</td>
+            <td>Have 2 Alliances during the Crisis.</td>
+            <td>2 Cultural Points</td>
+        </tr>
+        <tr>
+            <td>Belligerent</td>
+            <td>+2 War Support on Wars you declare.</td>
+            <td>Declare a War during the Crisis.</td>
+            <td>2 Militaristic Points</td>
         </tr>
     </tbody>
 </table>
@@ -132,8 +188,9 @@ Just like the in game Crises, you can unlock extra cards at Age Transition if yo
 
 <ul>
     <li>When gaining Treasure Fleets with the Inflation Crisis, if the Settlement already produced Treasure Fleets, the number shown will be wrong. This is just a visual bug, as upon unloading the Treasure Fleets the correct amount of Treasure will be given.</li>
+    <li>For the Succession Crisis, grievances caused by the Crisis will say "From a Diplomatic Action".</li>
 </ul>
 
 ## Latest Update:
 
-Added Traditions for Succession Crisis.
+Added Unlockable bonuses for Exploration for Succession Crisis.
