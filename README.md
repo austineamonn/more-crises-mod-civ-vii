@@ -2,7 +2,7 @@
 
 Author: austineamonn
 
-Version 1.0.4
+Version 1.0.5
 
 Adds new crises to the Antiquity and Exploration age. More Crises to come!
 
@@ -74,9 +74,11 @@ Just like the in game Crises, you can unlock extra cards at Age Transition if yo
 
 ### Succession Crisis - Antiquity
 
-Crisis policies reduce the influence output of your settlements. As the crisis intensifies diplomatic relations will worsen with all other civilizations. At the start of the crisis, you gain a Royal Banquet City Project that converts 25% of your production into influence.
+Crisis policies reduce the influence output of your settlements. As the crisis intensifies diplomatic relations will worsen with all other civilizations for a total of -60 Grievances by the third crisis level. At the start of the crisis, you gain a Royal Banquet City Project that converts 25% of your production into influence.
 
 Policies - First Crisis Level
+
+Gain -10 Grievances with all Civs.
 
 <ol>
     <li>Cover Up: -1 Influence on displayed Great Works.</li>
@@ -86,6 +88,8 @@ Policies - First Crisis Level
 
 Policies - Second Crisis Level
 
+Gain -20 Grievances with all Civs.
+
 <ol>
     <li>Fratricide: +1 War Support on Wars you declare. -3 Influence in Cities.</li>
     <li>Defensive Pact: +2 War Support on all Wars declared against you. -3 Influence on Diplomacy Buildings.</li>
@@ -93,6 +97,8 @@ Policies - Second Crisis Level
 </ol>
 
 Policies - Third Crisis Level
+
+Gain -30 Grievances with all Civs.
 
 <ol>
     <li>No Allies: -5 Influence for every leader you are Unfriendly or Hostile with.</li>
@@ -193,4 +199,4 @@ Just like the in game Crises, you can unlock extra cards at Age Transition if yo
 
 ## Latest Update:
 
-Fixed Unlockable bonuses for Exploration for Succession Crisis.
+Adding inital infrastructure for a Decolonization Crisis.

@@ -119,6 +119,62 @@
             <Text>Who will carry our legacy?</Text>
         </Row>
         <!-- Exploration -->
+        <!-- Decolonization Crisis -->
+         <Row Tag="LOC_EXPLORATION_DECOLONIZATION_CRISIS_NAME">
+            <Text>Exploration Decolonization Crisis</Text>
+        </Row>
+        <Row Tag="LOC_EXPLORATION_DECOLONIZATION_CRISIS_DESCRIPTION">
+            <Text>Anti-colonial groups rise up in distant lands to challenge your empire.</Text>
+        </Row>
+        <Row Tag="LOC_EDC001A_STORYTITLE">
+            <Text>The Rising Storm</Text>
+        </Row>
+        <Row Tag="LOC_EDC001A_COMPLETION">
+            <Text>The great civilizations of the world have risen, and in their rise others, too, ascend. Once metalworking, agriculture, and the growth of cities were limited to points on the landscape; now, these are commonplace in all but the most remote corners of the world. Those once thought barbarians now lay equal claim to the mantle of civilization, and the learning of the city centers extends far beyond the boundaries of the known world. With this comes the question: Why are you ascendant, and we are not?</Text>
+        </Row>
+        <Row Tag="LOC_EDC001B_NAME">
+            <Text>Continue the crisis</Text>
+        </Row>
+        <Row Tag="LOC_EDC001B_DESCRIPTION">
+            <Text>+1 Crisis Policy Slot. New hostile independent powers are arriving.</Text>
+        </Row>
+        <Row Tag="LOC_EDC003A_STORYTITLE">
+            <Text>Rumors and Portents</Text>
+        </Row>
+        <Row Tag="LOC_EDC003A_COMPLETION">
+            <Text>In the spaces between, in the distant points on the map, the steady growth of prosperity – and population – intensifies even as the great civilizations of the world expand. Land once thought wasteland turns to pasture, and expanding families mean more second and third children eager to make a name for themselves. Ambitions grow, and the eyes of the steppes and mountains, the forests and deserts turn hungrily towards the great cities.</Text>
+        </Row>
+        <Row Tag="LOC_EDC003B_NAME">
+            <Text>Continue the crisis</Text>
+        </Row>
+        <Row Tag="LOC_EDC003B_DESCRIPTION">
+            <Text>+1 Crisis Policy Slot. Independent encampments grow stronger.</Text>
+        </Row>
+        <Row Tag="LOC_EDC005A_STORYTITLE">
+            <Text>The Scourge Unveiled</Text>
+        </Row>
+        <Row Tag="LOC_EDC005A_COMPLETION">
+            <Text>Ambition finds a home in the hearts of the once-scattered people of the places in between – a great scourge has amassed with an eye towards the settled world. A scourge is not one strand, but many – each an army led by commanders seeking their own chance at dominion, seeking to claim the mantle of civilization… or leave it shattered. With their arrival comes a fracturing of what peace remains in the land. The time has come to kill or be killed, to fight or perish, to seek to catch the whirlwind in a net.</Text>
+        </Row>
+        <Row Tag="LOC_EDC005B_NAME">
+            <Text>Continue the crisis</Text>
+        </Row>
+        <Row Tag="LOC_EDC005B_DESCRIPTION">
+            <Text>+2 Crisis Policy Slots. Independent encampments grow stronger.</Text>
+        </Row>
+        <Row Tag="LOC_EDC007A_STORYTITLE">
+            <Text>A World Broken</Text>
+        </Row>
+        <Row Tag="LOC_EDC007A_COMPLETION">
+            <Text>The scourge has ended, and the world yet turns. But its shape is unfamiliar. Peoples displaced from their homelands make new homes where they have settled. Forever gone is a world of a singular city and a vast barbarian hinterland; now, those that city-dwellers once looked down upon wear their own crowns, and tongues once thought unfit for the capital are spoken by monarchs. The ancient era has passed on to a new time of interconnection. Even we have not remained untouched, as a wave of refugees and immigrants reshape who we are, what tongue we speak, and what stories we tell.</Text>
+        </Row>
+        <Row Tag="LOC_EDC007B_NAME">
+            <Text>The Age of Antiquity is ending.</Text>
+        </Row>
+        <Row Tag="LOC_EDC007B_DESCRIPTION">
+            <Text>Who will carry our legacy?</Text>
+        </Row>
+        <!-- Inflation Crisis -->
         <Row Tag="LOC_EXPLORATION_INFLATION_CRISIS_NAME">
             <Text>Exploration Inflation Crisis</Text>
         </Row>
