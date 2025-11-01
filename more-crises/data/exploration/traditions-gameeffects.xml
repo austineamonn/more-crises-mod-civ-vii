@@ -1,18 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
 	<!-- Isolationism Crisis Policies -->
+	<!-- possible future policies -->
+	<Modifier id="TRAIT_MOD_LOSE_SCIENCE_PER_NON_UNIQUE_TRADITION" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_ACTIVE_TRADITION">
+		<Argument name="YieldType">YIELD_SCIENCE, YIELD_CULTURE</Argument>
+		<Argument name="Amount">-5</Argument>
+		<Argument name="CivUnique">true</Argument>
+		<Argument name="Invert">true</Argument>
+	</Modifier>
+	<Modifier id="EMBARGO_IMPORTED_RESOURCE_GOLD" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
+		<Argument name="YieldType">YIELD_GOLD, YIELD_DIPLOMACY</Argument>
+		<Argument name="Amount">-3</Argument>
+		<Argument name="Imported">true</Argument>
+		<Argument name="Tooltip">LOC_TRADITION_EMBARGO_NAME</Argument>
+		<String context="Description">LOC_TRADITION_EMBARGO_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="LEND_LEASE_MOD_CIV_TRADE_ROUTE_GOLD_YIELD" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_NUM_TRADE_ROUTES">
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">-20</Argument>
+		<String context="Description">LOC_TRADITION_LEND_LEASE_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="COVER_UP_MOD_GREAT_WORK_INFLUENCE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_GREAT_WORK">
+		<Argument name="YieldType">YIELD_SCIENCE, YIELD_CULTURE</Argument>
+		<Argument name="Amount">-2</Argument>
+		<String context="Description">LOC_TRADITION_COVER_UP_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="TORTURE_MOD_DUNGEON_HAPPINESS_INFLUENCE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">-6</Argument>
+		<Argument name="ConstructibleType">BUILDING_TEMPLE</Argument>
+		<String context="Description">LOC_TRADITION_TORTURE_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="SUFFETES_FISHING_TOWNS_FOOD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_PROJECT" inverse="true">
+				<Argument name="ProjectType">PROJECT_TOWN_INTERNAL_TRADE</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">20</Argument>
+		<Argument name="Tooltip">LOC_TRADITION_SUFFETES_NAME</Argument>
+	</Modifier>
+	<Modifier id="CARD_AT_SPECIALIST_CAP_PENALTY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WORKER_CAP">
+        <Argument name="Amount">-2</Argument>
+    </Modifier>
+	<Modifier id="REPATRIATION_MOD_CITY_GROWTH" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_GROWTH">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+		</SubjectRequirements>
+		<Argument name="Percent">50</Argument>
+	</Modifier>
 	<Modifier id="INSURGENTS_DISTANT_LAND_COMBAT_ABILITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_UNIT_IS_IN_HOMELANDS" inverse="true"/>
 		</SubjectRequirements>
 		<Argument name="AbilityType">ABILITY_INSURGENTS_DISTANT_LANDS_STRENGTH</Argument>
 	</Modifier>
-	<!--<Modifier id="SUPPLY_DISRUPTION_DISTANT_LAND_HEALING_ABILITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_UNIT_IS_IN_HOMELANDS" inverse="true"/>
-		</SubjectRequirements>
-		<Argument name="AbilityType">ABILITY_SUPPLY_DISRUPTION_DISTANT_LANDS_HEALING</Argument>
-	</Modifier>-->
 	<Modifier id="SUPPLY_DISRUPTION_DISTANT_LAND_HEALING_ABILITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_HEAL_PER_TURN">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_UNIT_IS_IN_HOMELANDS" inverse="true"/>

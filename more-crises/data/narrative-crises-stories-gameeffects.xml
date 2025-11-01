@@ -173,6 +173,10 @@
     <Modifier id="EDC001B_NARRATIVE_MODIFIER5" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_UNLOCK_PROJECT">
         <Argument name="ProjectType">PROJECT_TOWN_INTERNAL_TRADE</Argument>
     </Modifier>
+    <Modifier id="EDC001B_NARRATIVE_MODIFIER6" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_TRADE_CAPACITY">
+		<Argument name="Amount">-1</Argument>
+		<Argument name="MajorsOnly">true</Argument>
+	</Modifier>
     <!-- Crisis Stage 2 -->
     <Modifier id="EDC002B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
         <Argument name="Tradition">TRADITION_DEMORALIZED_TROOPS</Argument>
@@ -187,6 +191,10 @@
         <Argument name="Amount">1</Argument>
         <Argument name="Negative">TRUE</Argument>
     </Modifier>
+    <Modifier id="EDC002B_NARRATIVE_MODIFIER5" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_TRADE_CAPACITY">
+		<Argument name="Amount">-1</Argument>
+		<Argument name="MajorsOnly">true</Argument>
+	</Modifier>
     <!-- Crisis Stage 3 -->
     <Modifier id="EDC003B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_TRADITION_SLOTS" run-once="false" permanent="true">
         <Argument name="Amount">2</Argument>
@@ -198,6 +206,10 @@
     <Modifier id="EDC003B_NARRATIVE_MODIFIER3" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
         <Argument name="Tradition">TRADITION_REPATRIATION</Argument>
     </Modifier>
+    <Modifier id="EDC003B_NARRATIVE_MODIFIER4" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_TRADE_CAPACITY">
+		<Argument name="Amount">-1</Argument>
+		<Argument name="MajorsOnly">true</Argument>
+	</Modifier>
     <!-- Requirement Sets -->
     <RequirementSet id="REQSET_EDC001A_NARRATIVE">
         <Requirement type="REQUIREMENT_AGE_CRISIS_STAGE_IS_X">

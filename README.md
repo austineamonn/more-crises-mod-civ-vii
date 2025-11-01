@@ -2,7 +2,7 @@
 
 Author: austineamonn
 
-Version 1.0.6
+Version 1.0.7
 
 Adds new crises to the Antiquity and Exploration age. More Crises to come!
 
@@ -76,9 +76,11 @@ Just like the in game Crises, you can unlock extra cards at Age Transition if yo
 
 Crisis policies reduce the influence output of your settlements. As the crisis intensifies diplomatic relations will worsen with all other civilizations for a total of -60 grievances by the third crisis level. At the start of the crisis, you gain a Royal Banquet City Project that converts 25% of your production into influence.
 
-Policies - First Crisis Level
+First Crisis Level:
 
-Gain -10 grievances with all Civs.
+Gain -10 grievances with all Civs. Unlocks the Royal Banquet City Project.
+
+Policies:
 
 <ol>
     <li>Cover Up: -1 Influence on displayed Great Works.</li>
@@ -86,9 +88,11 @@ Gain -10 grievances with all Civs.
     <li>Ultimogeniture: -2 Influence on Barracks.</li>
 </ol>
 
-Policies - Second Crisis Level
+Second Crisis Level:
 
 Gain -20 grievances with all Civs.
+
+Policies:
 
 <ol>
     <li>Fratricide: +1 War Support on Wars you declare. -3 Influence in Cities.</li>
@@ -96,9 +100,11 @@ Gain -20 grievances with all Civs.
     <li>Rival Heirs: +1 Influence for every Commander XP earned. -5 Influence for every Commander.</li>
 </ol>
 
-Policies - Third Crisis Level
+Third Crisis Level:
 
 Gain -30 grievances with all Civs.
+
+Policies:
 
 <ol>
     <li>No Allies: -5 Influence for every leader you are Unfriendly or Hostile with.</li>
@@ -136,29 +142,40 @@ Just like the in game Crises, you can unlock extra cards at Age Transition if yo
 
 ### Isolationism Crisis - Exploration
 
-As the crisis intensifies Trade Limits will decrease (one per crisis level). The crisis unlocks a new Town Specialization, Internal Trade Town. Crisis policies reduce your happiness and influence. Some policies also reduce the combat abilities of your Military Units in Distant Lands.
+Crisis policies impact your Trade Routes. As the crisis intensifies Trade Limits will decrease (one per crisis level). The crisis unlocks a new non exclusive Town Specialization, Internal Trade Town. This specialization reduces your Trade Range by 5 and grants 5 Gold per connected Settlement.
 
-Policies - First Crisis Level
+First Crisis Level:
+
+-1 Trade Route Limit (cannot reduce the limit below 0). Unlocks a new non exclusive Town Specialization, Internal Trade Town.
+
+Policies:
 
 <ol>
-    <li>Insurgents: -6 Combat Strength in Distant Lands.</li>
-    <li>Supply Disruption: -15 healing on all Units in Distant Lands.</li>
-    <li>Condottieri: +100% Gold to maintain Military Units.</li>
+    <li>Trade Protectionism: -3 Gold and Influence for each imported Resource.</li>
+    <li>Shipping Ban: -20 Gold per Trade Route.</li>
+    <li>Hermit Kingdom: -20 Gold on Towns without the Internal Trade Town Specialization.</li>
 </ol>
 
-Policies - Second Crisis Level
+Second Crisis Level:
+
+-1 Trade Route Limit (cannot reduce the limit below 0).
+
+Policies:
 
 <ol>
-    <li>Demoralized Troops: -2 Happiness for every Military Unit.</li>
-    <li>Torture: -3 Happiness and Influence on Dungeons.</li>
-    <li>Worker Strike: -2 Production from Specialists.</li>
+    <li>Cultural Seclusion: -5 Science and Culture for each Social Policy, but not Tradition, slotted.</li>
+    <li>Resettlement -2 Specialist Cap, +50% Growth Rate in Towns.</li>
 </ol>
 
-Policies - Third Crisis Level
+Third Crisis Level:
+
+-1 Trade Route Limit (cannot reduce the limit below 0).
+
+Policies:
 
 <ol>
-    <li>Self Governance: -3 Happiness and Influence in Distant Lands Settlements, doubled in Cities.</li>
-    <li>Repatriation: -3 Settlement Limit. +50% Growth Rate in Homelands Cities.</li>
+    <li>Banned Books -2 Science and Culture on displayed Great Work.</li>
+    <li>Religious Intolerance -6 Happiness on Temples.</li>
 </ol>
 
 Age Transition Unlocks:
@@ -259,4 +276,4 @@ Just like the in game Crises, you can unlock extra cards at Age Transition if yo
 
 ## Latest Update:
 
-Unable to get hostile independents to spawn, so the Decolonization crisis has changed to an Isolationism Crisis. Added new town specialization.
+Added new icon for the Internal Trade Town Specialization. Updated text. Updated Narrative Crisis gameeffects.

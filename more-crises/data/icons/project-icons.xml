@@ -13,7 +13,7 @@
 		</Row>
 		<Row>
 			<ID>PROJECT_TOWN_INTERNAL_TRADE</ID>
-			<Path>blp:focus_hub</Path>
+			<Path>fs://game/more-crises/icons/focus_internal_trade.png</Path>
 		</Row>
 	</IconDefinitions>
 </Database>

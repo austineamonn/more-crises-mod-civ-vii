@@ -15,7 +15,7 @@
 			<Text>Internal Trade Town</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_TOWN_INTERNAL_TRADE_DESCRIPTION">
-			<Text>+5 [icon:YIELD_GOLD] Gold per Settlement Connected to this Town. -5 Trade Range.</Text>
+			<Text>+5 [icon:YIELD_GOLD] Gold per Settlement Connected to this Town. -5 Trade Range. A non exclusive Town Specialization.</Text>
 		</Row>
 	</EnglishText>
 </Database>

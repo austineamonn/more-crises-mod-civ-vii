@@ -124,10 +124,10 @@
             <Text>Exploration Isolationism Crisis</Text>
         </Row>
         <Row Tag="LOC_EXPLORATION_ISOLATIONISM_CRISIS_DESCRIPTION">
-            <Text>Isolationist policy has gripped the nation, leading to harsh trade restrictions.</Text>
+            <Text>Isolationist policy has gripped your empire, leading to harsh trade restrictions.</Text>
         </Row>
         <Row Tag="LOC_EDC001A_STORYTITLE">
-            <Text>The Rising Storm</Text>
+            <Text>Shuttered Markets</Text>
         </Row>
         <Row Tag="LOC_EDC001A_COMPLETION">
             <Text>The great civilizations of the world have risen, and in their rise others, too, ascend. Once metalworking, agriculture, and the growth of cities were limited to points on the landscape; now, these are commonplace in all but the most remote corners of the world. Those once thought barbarians now lay equal claim to the mantle of civilization, and the learning of the city centers extends far beyond the boundaries of the known world. With this comes the question: Why are you ascendant, and we are not?</Text>
@@ -136,7 +136,7 @@
             <Text>Continue the crisis</Text>
         </Row>
         <Row Tag="LOC_EDC001B_DESCRIPTION">
-            <Text>+1 Crisis Policy Slot. New hostile independent powers are arriving.</Text>
+            <Text>+1 Crisis Policy Slot. -1 Trade Route Limit, cannot go below zero. Unlock the Town Specialization Internal Trade Town.</Text>
         </Row>
         <Row Tag="LOC_EDC002A_STORYTITLE">
             <Text>Rumors and Portents</Text>
@@ -148,7 +148,7 @@
             <Text>Continue the crisis</Text>
         </Row>
         <Row Tag="LOC_EDC002B_DESCRIPTION">
-            <Text>+1 Crisis Policy Slot. Independent encampments grow stronger.</Text>
+            <Text>+1 Crisis Policy Slot. -1 Trade Route Limit, cannot go below zero.</Text>
         </Row>
         <Row Tag="LOC_EDC003A_STORYTITLE">
             <Text>The Scourge Unveiled</Text>
@@ -160,7 +160,7 @@
             <Text>Continue the crisis</Text>
         </Row>
         <Row Tag="LOC_EDC003B_DESCRIPTION">
-            <Text>+2 Crisis Policy Slots. Independent encampments grow stronger.</Text>
+            <Text>+2 Crisis Policy Slots. -1 Trade Route Limit, cannot go below zero.</Text>
         </Row>
         <Row Tag="LOC_EDC004A_STORYTITLE">
             <Text>A World Broken</Text>
@@ -169,7 +169,7 @@
             <Text>The scourge has ended, and the world yet turns. But its shape is unfamiliar. Peoples displaced from their homelands make new homes where they have settled. Forever gone is a world of a singular city and a vast barbarian hinterland; now, those that city-dwellers once looked down upon wear their own crowns, and tongues once thought unfit for the capital are spoken by monarchs. The ancient era has passed on to a new time of interconnection. Even we have not remained untouched, as a wave of refugees and immigrants reshape who we are, what tongue we speak, and what stories we tell.</Text>
         </Row>
         <Row Tag="LOC_EDC004B_NAME">
-            <Text>The Age of Antiquity is ending.</Text>
+            <Text>The Age of Exploration is ending.</Text>
         </Row>
         <Row Tag="LOC_EDC004B_DESCRIPTION">
             <Text>Who will carry our legacy?</Text>
