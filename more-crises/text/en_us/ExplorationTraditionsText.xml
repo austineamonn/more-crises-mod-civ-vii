@@ -1,6 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<EnglishText>
+		<!-- Isolationism Crisis -->
+		<Row Tag="LOC_TRADITION_INSURGENTS_NAME">
+			<Text>Insurgents</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_INSURGENTS_DESCRIPTION">
+			<Text>-6 Combat Strength in Distant Lands.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_INSURGENTS_PREVIEW">
+			<Text>{1_Amount} Insurgents</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_SUPPLY_DISRUPTION_NAME">
+			<Text>Supply Disruption</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_SUPPLY_DISRUPTION_DESCRIPTION">
+			<Text>-15 healing on all Units in Distant Lands.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_CONDOTTIERI_NAME">
+			<Text>Condottieri</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_CONDOTTIERI_DESCRIPTION">
+			<Text>+100% [icon:YIELD_GOLD] Gold to maintain Military Units.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_DEMORALIZED_TROOPS_NAME">
+			<Text>Demoralized Troops</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_DEMORALIZED_TROOPS_DESCRIPTION">
+			<Text>-2 [icon:YIELD_HAPPINESS] Happiness for every Military Unit.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_TORTURE_NAME">
+			<Text>Torture</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_TORTURE_DESCRIPTION">
+			<Text>-3 [icon:YIELD_HAPPINESS] Happiness and [icon:YIELD_DIPLOMACY] Influence on Dungeons.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_WORKER_STRIKE_NAME">
+			<Text>Worker Strike</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_WORKER_STRIKE_DESCRIPTION">
+			<Text>-2 [icon:YIELD_PRODUCTION] Production from Specialists.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_SELF_GOVERNANCE_NAME">
+			<Text>Self Governance</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_SELF_GOVERNANCE_DESCRIPTION">
+			<Text>-3 [icon:YIELD_HAPPINESS] Happiness and [icon:YIELD_DIPLOMACY] Influence in Distant Lands Settlements, doubled in Cities.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_REPATRIATION_NAME">
+			<Text>Repatriation</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_REPATRIATION_DESCRIPTION">
+			<Text>-3 Settlement Limit. +50% Growth Rate in Homelands Cities.</Text>
+		</Row>
+		<!-- Inflation Crisis -->
 		<Row Tag="LOC_TRADITION_LAND_TAX_NAME">
 			<Text>Land Tax</Text>
 		</Row>

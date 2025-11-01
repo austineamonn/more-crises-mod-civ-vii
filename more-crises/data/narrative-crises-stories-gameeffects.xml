@@ -151,70 +151,52 @@
         </Requirement>
     </RequirementSet>
     <!-- Exploration -->
-    <!-- Decolonization Crisis -->
+    <!-- Isolationism Crisis -->
     <!-- Crisis Stage 1 -->
-    <Modifier id="EDC001A_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_SPAWN_TRIBE_NEAR" run-once="false" permanent="true">
-        <Argument name="NumCities">1</Argument>
-        <Argument name="TribeType">TRIBE_CRISIS</Argument>
-    </Modifier>
-    <Modifier id="EDC001A_NARRATIVE_MODIFIER2" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
+    <Modifier id="EDC001A_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_NARRATIVE_TAG" run-once="false" permanent="true">
         <Argument name="Amount">1</Argument>
-        <Argument name="NarrativeTagType">NARRATIVE_TAG_CRISIS_DECOLONIZATION</Argument>
+        <Argument name="NarrativeTagType">NARRATIVE_TAG_CRISIS_ISOLATIONISM</Argument>
     </Modifier>
     <Modifier id="EDC001B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_TRADITION_SLOTS" run-once="false" permanent="true">
         <Argument name="Amount">1</Argument>
         <Argument name="Negative">TRUE</Argument>
     </Modifier>
     <Modifier id="EDC001B_NARRATIVE_MODIFIER2" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
-        <Argument name="Tradition">TRADITION_LAND_TAX</Argument>
+        <Argument name="Tradition">TRADITION_INSURGENTS</Argument>
     </Modifier>
     <Modifier id="EDC001B_NARRATIVE_MODIFIER3" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
-        <Argument name="Tradition">TRADITION_CITY_TRIBUTE</Argument>
+        <Argument name="Tradition">TRADITION_SUPPLY_DISRUPTION</Argument>
     </Modifier>
     <Modifier id="EDC001B_NARRATIVE_MODIFIER4" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
-        <Argument name="Tradition">TRADITION_RENT_HIKE</Argument>
+        <Argument name="Tradition">TRADITION_CONDOTTIERI</Argument>
+    </Modifier>
+    <Modifier id="EDC001B_NARRATIVE_MODIFIER5" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_UNLOCK_PROJECT">
+        <Argument name="ProjectType">PROJECT_TOWN_INTERNAL_TRADE</Argument>
     </Modifier>
     <!-- Crisis Stage 2 -->
-    <Modifier id="EDC003B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
-        <Argument name="Tradition">TRADITION_WORTHLESS_TREASURE</Argument>
+    <Modifier id="EDC002B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <Argument name="Tradition">TRADITION_DEMORALIZED_TROOPS</Argument>
+    </Modifier>
+    <Modifier id="EDC002B_NARRATIVE_MODIFIER2" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <Argument name="Tradition">TRADITION_TORTURE</Argument>
+    </Modifier>
+    <Modifier id="EDC002B_NARRATIVE_MODIFIER3" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <Argument name="Tradition">TRADITION_WORKER_STRIKE</Argument>
+    </Modifier>
+    <Modifier id="EDC002B_NARRATIVE_MODIFIER4" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_TRADITION_SLOTS" run-once="false" permanent="true">
+        <Argument name="Amount">1</Argument>
+        <Argument name="Negative">TRUE</Argument>
+    </Modifier>
+    <!-- Crisis Stage 3 -->
+    <Modifier id="EDC003B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_TRADITION_SLOTS" run-once="false" permanent="true">
+        <Argument name="Amount">2</Argument>
+        <Argument name="Negative">TRUE</Argument>
     </Modifier>
     <Modifier id="EDC003B_NARRATIVE_MODIFIER2" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
-        <Argument name="Tradition">TRADITION_DEBASEMENT</Argument>
+        <Argument name="Tradition">TRADITION_SELF_GOVERNANCE</Argument>
     </Modifier>
     <Modifier id="EDC003B_NARRATIVE_MODIFIER3" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
-        <Argument name="Tradition">TRADITION_PRICE_REVOLUTION</Argument>
-    </Modifier>
-    <Modifier id="EDC003B_NARRATIVE_MODIFIER4" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_TRADITION_SLOTS" run-once="false" permanent="true">
-        <Argument name="Amount">1</Argument>
-        <Argument name="Negative">TRUE</Argument>
-    </Modifier>
-    <Modifier id="EDC003B_NARRATIVE_MODIFIER5" collection="COLLECTION_INDEPENDENT_PLAYERS" effect="EFFECT_PLAYER_SPAWN_TRIBE_ARMY" run-once="false" permanent="true">
-    </Modifier>
-    <Modifier id="EDC004A_NARRATIVE_MODIFIER" collection="COLLECTION_ALL_UNITS" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="false" permanent="true">
-        <SubjectRequirements>
-            <Requirement type="REQUIREMENT_UNIT_TYPE_MATCHES">
-                <Argument name="UnitType">UNIT_ARMY_COMMANDER</Argument>
-            </Requirement>
-            <Requirement type="REQUIREMENT_UNIT_IS_INDEPENDENT">
-            </Requirement>
-        </SubjectRequirements>
-        <Argument name="Amount">1</Argument>
-    </Modifier>
-    <Modifier id="EDC005B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_TRADITION_SLOTS" run-once="false" permanent="true">
-        <Argument name="Amount">2</Argument>
-        <Argument name="Negative">TRUE</Argument>
-    </Modifier>
-    <Modifier id="EDC006A_NARRATIVE_MODIFIER" collection="COLLECTION_ALL_UNITS" effect="EFFECT_GRANT_UNIT_PROMOTION" run-once="false" permanent="true">
-        <SubjectRequirements>
-            <Requirement type="REQUIREMENT_UNIT_TYPE_MATCHES">
-                <Argument name="UnitType">UNIT_ARMY_COMMANDER</Argument>
-            </Requirement>
-            <Requirement type="REQUIREMENT_UNIT_IS_INDEPENDENT">
-            </Requirement>
-        </SubjectRequirements>
-        <Argument name="Amount">2</Argument>
-    </Modifier>
-    <Modifier id="EDC005B_NARRATIVE_MODIFIER2" collection="COLLECTION_INDEPENDENT_PLAYERS" effect="EFFECT_PLAYER_SPAWN_TRIBE_ARMY" run-once="false" permanent="true">
+        <Argument name="Tradition">TRADITION_REPATRIATION</Argument>
     </Modifier>
     <!-- Requirement Sets -->
     <RequirementSet id="REQSET_EDC001A_NARRATIVE">
@@ -222,17 +204,17 @@
             <Argument name="Amount">0</Argument>
         </Requirement>
     </RequirementSet>
-    <RequirementSet id="REQSET_EDC003A_NARRATIVE">
+    <RequirementSet id="REQSET_EDC002A_NARRATIVE">
         <Requirement type="REQUIREMENT_AGE_CRISIS_STAGE_IS_X">
             <Argument name="Amount">1</Argument>
         </Requirement>
     </RequirementSet>
-    <RequirementSet id="REQSET_EDC005A_NARRATIVE">
+    <RequirementSet id="REQSET_EDC003A_NARRATIVE">
         <Requirement type="REQUIREMENT_AGE_CRISIS_STAGE_IS_X">
             <Argument name="Amount">2</Argument>
         </Requirement>
     </RequirementSet>
-    <RequirementSet id="REQSET_EDC007A_NARRATIVE">
+    <RequirementSet id="REQSET_EDC004A_NARRATIVE">
         <Requirement type="REQUIREMENT_AGE_CRISIS_STAGE_IS_X">
             <Argument name="Amount">3</Argument>
         </Requirement>

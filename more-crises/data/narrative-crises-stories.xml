@@ -24,19 +24,16 @@
         <Row Type="ASC004A" Kind="KIND_NARRATIVE_STORY"/>
         <Row Type="ASC004B" Kind="KIND_NARRATIVE_STORY"/>
         <!-- Exploration -->
-        <!-- Decolonization Crisis -->
+        <!-- Isolationism Crisis -->
         <Row Type="EDCINTROA" Kind="KIND_NARRATIVE_STORY"/>
         <Row Type="EDC001A" Kind="KIND_NARRATIVE_STORY"/>
         <Row Type="EDC001B" Kind="KIND_NARRATIVE_STORY"/>
         <Row Type="EDC002A" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="EDC002B" Kind="KIND_NARRATIVE_STORY"/>
         <Row Type="EDC003A" Kind="KIND_NARRATIVE_STORY"/>
         <Row Type="EDC003B" Kind="KIND_NARRATIVE_STORY"/>
         <Row Type="EDC004A" Kind="KIND_NARRATIVE_STORY"/>
-        <Row Type="EDC005A" Kind="KIND_NARRATIVE_STORY"/>
-        <Row Type="EDC005B" Kind="KIND_NARRATIVE_STORY"/>
-        <Row Type="EDC006A" Kind="KIND_NARRATIVE_STORY"/>
-        <Row Type="EDC007A" Kind="KIND_NARRATIVE_STORY"/>
-        <Row Type="EDC007B" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="EDC004B" Kind="KIND_NARRATIVE_STORY"/>
         <!-- Inflation Crisis -->
         <Row Type="EICINTROA" Kind="KIND_NARRATIVE_STORY"/>
         <Row Type="EIC001A" Kind="KIND_NARRATIVE_STORY"/>
@@ -72,19 +69,16 @@
         <Row NarrativeStoryType="ASC004A" Name="LOC_ASC004A_NAME" Description="LOC_ASC004A_DESCRIPTION" Completion="LOC_ASC004A_COMPLETION" StoryTitle="LOC_ASC004A_STORYTITLE" Age="AGE_ANTIQUITY" Activation="UNLOCKED" Hidden="FALSE" RequirementSetId="REQSET_ASC004A_NARRATIVE" UIActivation="CRISIS" ForceChoice="TRUE" Crisis="TRUE"/>
         <Row NarrativeStoryType="ASC004B" Name="LOC_ASC004B_NAME" Description="LOC_ASC004B_DESCRIPTION" Completion="LOC_ASC004B_COMPLETION" Age="AGE_ANTIQUITY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="CRISIS" ForceChoice="TRUE" Crisis="TRUE"/>
         <!-- Exploration -->
-        <!-- Decolonization Crisis -->
+        <!-- Isolationism Crisis -->
         <Row NarrativeStoryType="EDCINTROA" Name="LOC_EDCINTROA_NAME" Description="LOC_EDCINTROA_DESCRIPTION" Completion="LOC_EDCINTROA_COMPLETION" Age="AGE_ANTIQUITY" Activation="AUTO" Hidden="TRUE" RequirementSetId="Met" UIActivation="CRISIS" Queue="NARRATIVE_GROUP_CRISIS" ForceChoice="TRUE" Crisis="TRUE"/>
         <Row NarrativeStoryType="EDC001A" Name="LOC_EDC001A_NAME" Description="LOC_EDC001A_DESCRIPTION" Completion="LOC_EDC001A_COMPLETION" StoryTitle="LOC_EDC001A_STORYTITLE" Age="AGE_ANTIQUITY" Activation="UNLOCKED" Hidden="FALSE" RequirementSetId="REQSET_EDC001A_NARRATIVE" UIActivation="CRISIS" ForceChoice="TRUE" Crisis="TRUE"/>
         <Row NarrativeStoryType="EDC001B" Name="LOC_EDC001B_NAME" Description="LOC_EDC001B_DESCRIPTION" Completion="LOC_EDC001B_COMPLETION" Age="AGE_ANTIQUITY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="CRISIS" ForceChoice="TRUE" Crisis="TRUE"/>
-        <Row NarrativeStoryType="EDC002A" Name="LOC_EDC002A_NAME" Description="LOC_EDC002A_DESCRIPTION" Completion="LOC_EDC002A_COMPLETION" Age="AGE_ANTIQUITY" Activation="UNLOCKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="CRISIS" ForceChoice="TRUE" Crisis="TRUE"/>
+        <Row NarrativeStoryType="EDC002A" Name="LOC_EDC002A_NAME" Description="LOC_EDC002A_DESCRIPTION" Completion="LOC_EDC002A_COMPLETION" StoryTitle="LOC_EDC002A_STORYTITLE" Age="AGE_ANTIQUITY" Activation="UNLOCKED" Hidden="FALSE" RequirementSetId="REQSET_EDC002A_NARRATIVE" UIActivation="CRISIS" ForceChoice="TRUE" Crisis="TRUE"/>
+        <Row NarrativeStoryType="EDC002B" Name="LOC_EDC002B_NAME" Description="LOC_EDC002B_DESCRIPTION" Completion="LOC_EDC002B_COMPLETION" Age="AGE_ANTIQUITY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="CRISIS" ForceChoice="TRUE" Crisis="TRUE"/>
         <Row NarrativeStoryType="EDC003A" Name="LOC_EDC003A_NAME" Description="LOC_EDC003A_DESCRIPTION" Completion="LOC_EDC003A_COMPLETION" StoryTitle="LOC_EDC003A_STORYTITLE" Age="AGE_ANTIQUITY" Activation="UNLOCKED" Hidden="FALSE" RequirementSetId="REQSET_EDC003A_NARRATIVE" UIActivation="CRISIS" ForceChoice="TRUE" Crisis="TRUE"/>
         <Row NarrativeStoryType="EDC003B" Name="LOC_EDC003B_NAME" Description="LOC_EDC003B_DESCRIPTION" Completion="LOC_EDC003B_COMPLETION" Age="AGE_ANTIQUITY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="CRISIS" ForceChoice="TRUE" Crisis="TRUE"/>
-        <Row NarrativeStoryType="EDC004A" Name="LOC_EDC004A_NAME" Description="LOC_EDC004A_DESCRIPTION" Completion="LOC_EDC004A_COMPLETION" Age="AGE_ANTIQUITY" Activation="UNLOCKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="CRISIS" ForceChoice="TRUE" Crisis="TRUE"/>
-        <Row NarrativeStoryType="EDC005A" Name="LOC_EDC005A_NAME" Description="LOC_EDC005A_DESCRIPTION" Completion="LOC_EDC005A_COMPLETION" StoryTitle="LOC_EDC005A_STORYTITLE" Age="AGE_ANTIQUITY" Activation="UNLOCKED" Hidden="FALSE" RequirementSetId="REQSET_EDC005A_NARRATIVE" UIActivation="CRISIS" ForceChoice="TRUE" Crisis="TRUE"/>
-        <Row NarrativeStoryType="EDC005B" Name="LOC_EDC005B_NAME" Description="LOC_EDC005B_DESCRIPTION" Completion="LOC_EDC005B_COMPLETION" Age="AGE_ANTIQUITY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="CRISIS" ForceChoice="TRUE" Crisis="TRUE"/>
-        <Row NarrativeStoryType="EDC006A" Name="LOC_EDC006A_NAME" Description="LOC_EDC006A_DESCRIPTION" Completion="LOC_EDC006A_COMPLETION" Age="AGE_ANTIQUITY" Activation="UNLOCKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="CRISIS" ForceChoice="TRUE" Crisis="TRUE"/>
-        <Row NarrativeStoryType="EDC007A" Name="LOC_EDC007A_NAME" Description="LOC_EDC007A_DESCRIPTION" Completion="LOC_EDC007A_COMPLETION" StoryTitle="LOC_EDC007A_STORYTITLE" Age="AGE_ANTIQUITY" Activation="UNLOCKED" Hidden="FALSE" RequirementSetId="REQSET_EDC007A_NARRATIVE" UIActivation="CRISIS" ForceChoice="TRUE" Crisis="TRUE"/>
-        <Row NarrativeStoryType="EDC007B" Name="LOC_EDC007B_NAME" Description="LOC_EDC007B_DESCRIPTION" Completion="LOC_EDC007B_COMPLETION" Age="AGE_ANTIQUITY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="CRISIS" ForceChoice="TRUE" Crisis="TRUE"/>
+        <Row NarrativeStoryType="EDC004A" Name="LOC_EDC004A_NAME" Description="LOC_EDC004A_DESCRIPTION" Completion="LOC_EDC004A_COMPLETION" StoryTitle="LOC_EDC004A_STORYTITLE" Age="AGE_ANTIQUITY" Activation="UNLOCKED" Hidden="FALSE" RequirementSetId="REQSET_EDC004A_NARRATIVE" UIActivation="CRISIS" ForceChoice="TRUE" Crisis="TRUE"/>
+        <Row NarrativeStoryType="EDC004B" Name="LOC_EDC004B_NAME" Description="LOC_EDC004B_DESCRIPTION" Completion="LOC_EDC004B_COMPLETION" Age="AGE_ANTIQUITY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="CRISIS" ForceChoice="TRUE" Crisis="TRUE"/>
         <!-- Inflation Crisis -->
         <Row NarrativeStoryType="EICINTROA" Name="LOC_EICINTROA_NAME" Description="LOC_EICINTROA_DESCRIPTION" Completion="LOC_EICINTROA_COMPLETION" Age="AGE_EXPLORATION" Activation="AUTO" Hidden="TRUE" RequirementSetId="Met" UIActivation="CRISIS" Queue="NARRATIVE_GROUP_CRISIS" ForceChoice="TRUE" Crisis="TRUE"/>
         <Row NarrativeStoryType="EIC001A" Name="LOC_EIC001A_NAME" Description="LOC_EIC001A_DESCRIPTION" Completion="LOC_EIC001A_COMPLETION" StoryTitle="LOC_EIC001A_STORYTITLE" Age="AGE_EXPLORATION" Activation="UNLOCKED" Hidden="FALSE" RequirementSetId="REQSET_EIC001A_NARRATIVE" UIActivation="CRISIS" ForceChoice="TRUE" Crisis="TRUE"/>
@@ -131,22 +125,20 @@
         <Row NarrativeRewardType="ASC003B_REWARD3" ModifierID="ASC003B_NARRATIVE_MODIFIER3"/>
         <Row NarrativeRewardType="ASC003B_REWARD4" ModifierID="ASC003B_NARRATIVE_MODIFIER4"/>
         <!-- Exploration -->
-        <!-- Decolonization Crisis -->
+        <!-- Isolationism Crisis -->
         <Row NarrativeRewardType="EDC001A_REWARD" ModifierID="EDC001A_NARRATIVE_MODIFIER"/>
-        <Row NarrativeRewardType="EDC001A_REWARD2" ModifierID="EDC001A_NARRATIVE_MODIFIER2"/>
         <Row NarrativeRewardType="EDC001B_REWARD" ModifierID="EDC001B_NARRATIVE_MODIFIER"/>
         <Row NarrativeRewardType="EDC001B_REWARD2" ModifierID="EDC001B_NARRATIVE_MODIFIER2"/>
         <Row NarrativeRewardType="EDC001B_REWARD3" ModifierID="EDC001B_NARRATIVE_MODIFIER3"/>
         <Row NarrativeRewardType="EDC001B_REWARD4" ModifierID="EDC001B_NARRATIVE_MODIFIER4"/>
+        <Row NarrativeRewardType="EDC001B_REWARD5" ModifierID="EDC001B_NARRATIVE_MODIFIER5"/>
+        <Row NarrativeRewardType="EDC002B_REWARD" ModifierID="EDC002B_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="EDC002B_REWARD2" ModifierID="EDC002B_NARRATIVE_MODIFIER2"/>
+        <Row NarrativeRewardType="EDC002B_REWARD3" ModifierID="EDC002B_NARRATIVE_MODIFIER3"/>
+        <Row NarrativeRewardType="EDC002B_REWARD4" ModifierID="EDC002B_NARRATIVE_MODIFIER4"/>
         <Row NarrativeRewardType="EDC003B_REWARD" ModifierID="EDC003B_NARRATIVE_MODIFIER"/>
         <Row NarrativeRewardType="EDC003B_REWARD2" ModifierID="EDC003B_NARRATIVE_MODIFIER2"/>
         <Row NarrativeRewardType="EDC003B_REWARD3" ModifierID="EDC003B_NARRATIVE_MODIFIER3"/>
-        <Row NarrativeRewardType="EDC003B_REWARD4" ModifierID="EDC003B_NARRATIVE_MODIFIER4"/>
-        <Row NarrativeRewardType="EDC003B_REWARD5" ModifierID="EDC003B_NARRATIVE_MODIFIER5"/>
-        <Row NarrativeRewardType="EDC004A_REWARD" ModifierID="EDC004A_NARRATIVE_MODIFIER"/>
-        <Row NarrativeRewardType="EDC005B_REWARD" ModifierID="EDC005B_NARRATIVE_MODIFIER"/>
-        <Row NarrativeRewardType="EDC005B_REWARD2" ModifierID="EDC005B_NARRATIVE_MODIFIER2"/>
-        <Row NarrativeRewardType="EDC006A_REWARD" ModifierID="EDC006A_NARRATIVE_MODIFIER"/>
         <!-- Inflation Crisis -->
         <Row NarrativeRewardType="EIC001A_REWARD" ModifierID="EIC001A_NARRATIVE_MODIFIER"/>
         <Row NarrativeRewardType="EIC001B_REWARD" ModifierID="EIC001B_NARRATIVE_MODIFIER"/>
@@ -196,22 +188,20 @@
         <Row NarrativeStoryType="ASC003B" NarrativeRewardType="ASC003B_REWARD3" Activation="START" BonusEligible="FALSE"/>
         <Row NarrativeStoryType="ASC003B" NarrativeRewardType="ASC003B_REWARD4" Activation="START" BonusEligible="FALSE"/>
         <!-- Exploration -->
-        <!-- Decolonization Crisis -->
+        <!-- Isolationism Crisis -->
         <Row NarrativeStoryType="EDC001A" NarrativeRewardType="EDC001A_REWARD" Activation="COMPLETE" BonusEligible="FALSE"/>
-        <Row NarrativeStoryType="EDC001A" NarrativeRewardType="EDC001A_REWARD2" Activation="COMPLETE" BonusEligible="FALSE"/>
         <Row NarrativeStoryType="EDC001B" NarrativeRewardType="EDC001B_REWARD" Activation="START" BonusEligible="FALSE"/>
         <Row NarrativeStoryType="EDC001B" NarrativeRewardType="EDC001B_REWARD2" Activation="START" BonusEligible="FALSE"/>
         <Row NarrativeStoryType="EDC001B" NarrativeRewardType="EDC001B_REWARD3" Activation="START" BonusEligible="FALSE"/>
         <Row NarrativeStoryType="EDC001B" NarrativeRewardType="EDC001B_REWARD4" Activation="START" BonusEligible="FALSE"/>
+        <Row NarrativeStoryType="EDC001B" NarrativeRewardType="EDC001B_REWARD5" Activation="START" BonusEligible="FALSE"/>
+        <Row NarrativeStoryType="EDC002B" NarrativeRewardType="EDC002B_REWARD" Activation="START" BonusEligible="FALSE"/>
+        <Row NarrativeStoryType="EDC002B" NarrativeRewardType="EDC002B_REWARD2" Activation="START" BonusEligible="FALSE"/>
+        <Row NarrativeStoryType="EDC002B" NarrativeRewardType="EDC002B_REWARD3" Activation="START" BonusEligible="FALSE"/>
+        <Row NarrativeStoryType="EDC002B" NarrativeRewardType="EDC002B_REWARD4" Activation="START" BonusEligible="FALSE"/>
         <Row NarrativeStoryType="EDC003B" NarrativeRewardType="EDC003B_REWARD" Activation="START" BonusEligible="FALSE"/>
         <Row NarrativeStoryType="EDC003B" NarrativeRewardType="EDC003B_REWARD2" Activation="START" BonusEligible="FALSE"/>
         <Row NarrativeStoryType="EDC003B" NarrativeRewardType="EDC003B_REWARD3" Activation="START" BonusEligible="FALSE"/>
-        <Row NarrativeStoryType="EDC003B" NarrativeRewardType="EDC003B_REWARD4" Activation="START" BonusEligible="FALSE"/>
-        <Row NarrativeStoryType="EDC003B" NarrativeRewardType="EDC003B_REWARD5" Activation="START" BonusEligible="FALSE"/>
-        <Row NarrativeStoryType="EDC004A" NarrativeRewardType="EDC004A_REWARD" Activation="START" BonusEligible="FALSE"/>
-        <Row NarrativeStoryType="EDC005B" NarrativeRewardType="EDC005B_REWARD" Activation="START" BonusEligible="FALSE"/>
-        <Row NarrativeStoryType="EDC005B" NarrativeRewardType="EDC005B_REWARD2" Activation="START" BonusEligible="FALSE"/>
-        <Row NarrativeStoryType="EDC006A" NarrativeRewardType="EDC006A_REWARD" Activation="START" BonusEligible="FALSE"/>
         <!-- Inflation Crisis -->
         <Row NarrativeStoryType="EIC001A" NarrativeRewardType="EIC001A_REWARD" Activation="COMPLETE" BonusEligible="FALSE"/>
         <Row NarrativeStoryType="EIC001B" NarrativeRewardType="EIC001B_REWARD" Activation="START" BonusEligible="FALSE"/>
@@ -248,18 +238,15 @@
         <Row FromNarrativeStoryType="ASCINTROA" ToNarrativeStoryType="ASC004A" Priority="0" Name="LOC_ASC004A_NAME" Description="LOC_ASC004A_DESCRIPTION"/>
         <Row FromNarrativeStoryType="ASC004A" ToNarrativeStoryType="ASC004B" Priority="0" Name="LOC_ASC004B_NAME" Description="LOC_ASC004B_DESCRIPTION"/>
         <!-- Exploration -->
-        <!-- Decolonization Crisis -->
+        <!-- Isolationism Crisis -->
         <Row FromNarrativeStoryType="EDCINTROA" ToNarrativeStoryType="EDC001A" Priority="0" Name="LOC_EDC001A_NAME" Description="LOC_EDC001A_DESCRIPTION"/>
         <Row FromNarrativeStoryType="EDC001A" ToNarrativeStoryType="EDC001B" Priority="0" Name="LOC_EDC001B_NAME" Description="LOC_EDC001B_DESCRIPTION"/>
-        <Row FromNarrativeStoryType="EDC001B" ToNarrativeStoryType="EDC002A" Priority="0" Name="LOC_EDC002A_NAME" Description="LOC_EDC002A_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="EDCINTROA" ToNarrativeStoryType="EDC002A" Priority="0" Name="LOC_EDC002A_NAME" Description="LOC_EDC002A_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="EDC002A" ToNarrativeStoryType="EDC002B" Priority="0" Name="LOC_EDC002B_NAME" Description="LOC_EDC002B_DESCRIPTION"/>
         <Row FromNarrativeStoryType="EDCINTROA" ToNarrativeStoryType="EDC003A" Priority="0" Name="LOC_EDC003A_NAME" Description="LOC_EDC003A_DESCRIPTION"/>
         <Row FromNarrativeStoryType="EDC003A" ToNarrativeStoryType="EDC003B" Priority="0" Name="LOC_EDC003B_NAME" Description="LOC_EDC003B_DESCRIPTION"/>
-        <Row FromNarrativeStoryType="EDC003B" ToNarrativeStoryType="EDC004A" Priority="0" Name="LOC_EDC004A_NAME" Description="LOC_EDC004A_DESCRIPTION"/>
-        <Row FromNarrativeStoryType="EDCINTROA" ToNarrativeStoryType="EDC005A" Priority="0" Name="LOC_EDC005A_NAME" Description="LOC_EDC005A_DESCRIPTION"/>
-        <Row FromNarrativeStoryType="EDC005A" ToNarrativeStoryType="EDC005B" Priority="0" Name="LOC_EDC005B_NAME" Description="LOC_EDC005B_DESCRIPTION"/>
-        <Row FromNarrativeStoryType="EDC005B" ToNarrativeStoryType="EDC006A" Priority="0" Name="LOC_EDC006A_NAME" Description="LOC_EDC006A_DESCRIPTION"/>
-        <Row FromNarrativeStoryType="EDCINTROA" ToNarrativeStoryType="EDC007A" Priority="0" Name="LOC_EDC007A_NAME" Description="LOC_EDC007A_DESCRIPTION"/>
-        <Row FromNarrativeStoryType="EDC007A" ToNarrativeStoryType="EDC007B" Priority="0" Name="LOC_EDC007B_NAME" Description="LOC_EDC007B_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="EDCINTROA" ToNarrativeStoryType="EDC004A" Priority="0" Name="LOC_EDC004A_NAME" Description="LOC_EDC004A_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="EDC004A" ToNarrativeStoryType="EDC004B" Priority="0" Name="LOC_EDC004B_NAME" Description="LOC_EDC004B_DESCRIPTION"/>
         <!-- Inflation Crisis -->
         <Row FromNarrativeStoryType="EICINTROA" ToNarrativeStoryType="EIC001A" Priority="0" Name="LOC_EIC001A_NAME" Description="LOC_EIC001A_DESCRIPTION"/>
         <Row FromNarrativeStoryType="EIC001A" ToNarrativeStoryType="EIC001B" Priority="0" Name="LOC_EIC001B_NAME" Description="LOC_EIC001B_DESCRIPTION"/>

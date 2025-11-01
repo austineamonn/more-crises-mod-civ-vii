@@ -2,7 +2,7 @@
 
 Author: austineamonn
 
-Version 1.0.5
+Version 1.0.6
 
 Adds new crises to the Antiquity and Exploration age. More Crises to come!
 
@@ -74,11 +74,11 @@ Just like the in game Crises, you can unlock extra cards at Age Transition if yo
 
 ### Succession Crisis - Antiquity
 
-Crisis policies reduce the influence output of your settlements. As the crisis intensifies diplomatic relations will worsen with all other civilizations for a total of -60 Grievances by the third crisis level. At the start of the crisis, you gain a Royal Banquet City Project that converts 25% of your production into influence.
+Crisis policies reduce the influence output of your settlements. As the crisis intensifies diplomatic relations will worsen with all other civilizations for a total of -60 grievances by the third crisis level. At the start of the crisis, you gain a Royal Banquet City Project that converts 25% of your production into influence.
 
 Policies - First Crisis Level
 
-Gain -10 Grievances with all Civs.
+Gain -10 grievances with all Civs.
 
 <ol>
     <li>Cover Up: -1 Influence on displayed Great Works.</li>
@@ -88,7 +88,7 @@ Gain -10 Grievances with all Civs.
 
 Policies - Second Crisis Level
 
-Gain -20 Grievances with all Civs.
+Gain -20 grievances with all Civs.
 
 <ol>
     <li>Fratricide: +1 War Support on Wars you declare. -3 Influence in Cities.</li>
@@ -98,7 +98,7 @@ Gain -20 Grievances with all Civs.
 
 Policies - Third Crisis Level
 
-Gain -30 Grievances with all Civs.
+Gain -30 grievances with all Civs.
 
 <ol>
     <li>No Allies: -5 Influence for every leader you are Unfriendly or Hostile with.</li>
@@ -134,6 +134,66 @@ Just like the in game Crises, you can unlock extra cards at Age Transition if yo
     </tbody>
 </table>
 
+### Isolationism Crisis - Exploration
+
+As the crisis intensifies Trade Limits will decrease (one per crisis level). The crisis unlocks a new Town Specialization, Internal Trade Town. Crisis policies reduce your happiness and influence. Some policies also reduce the combat abilities of your Military Units in Distant Lands.
+
+Policies - First Crisis Level
+
+<ol>
+    <li>Insurgents: -6 Combat Strength in Distant Lands.</li>
+    <li>Supply Disruption: -15 healing on all Units in Distant Lands.</li>
+    <li>Condottieri: +100% Gold to maintain Military Units.</li>
+</ol>
+
+Policies - Second Crisis Level
+
+<ol>
+    <li>Demoralized Troops: -2 Happiness for every Military Unit.</li>
+    <li>Torture: -3 Happiness and Influence on Dungeons.</li>
+    <li>Worker Strike: -2 Production from Specialists.</li>
+</ol>
+
+Policies - Third Crisis Level
+
+<ol>
+    <li>Self Governance: -3 Happiness and Influence in Distant Lands Settlements, doubled in Cities.</li>
+    <li>Repatriation: -3 Settlement Limit. +50% Growth Rate in Homelands Cities.</li>
+</ol>
+
+Age Transition Unlocks:
+
+Just like the in game Crises, you can unlock extra cards at Age Transition if you meet certain conditions.
+
+<table>
+    <thead>
+        <tr>
+            <th>Card Name</th>
+            <th>Effect</th>
+            <th>Unlock</th>
+            <th>Cost</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Non-Alignment</td>
+            <td>+10% Influence when not at War.</td>
+            <td>REQUIREMENT_PLAYER_IS_AT_PEACE_WITH_ALL_MAJORS</td>
+            <td>Have no Distant Land Settlements when the Age ends.</td>
+            <td>REQUIREMENT_PLAYER_HAS_X_SETTLEMENTS_FOREIGN_HEMISPHERE</td>
+            <td>2 Cultural Points</td>
+        </tr>
+        <tr>
+            <td>Hegemon</td>
+            <td>Units get +1 strength from resources</td>
+            <td>EFFECT_ADJUST_UNIT_RESOURCE_DAMAGE</td>
+            <td>Conquered 2 distant land settlements</td>
+            <td>REQUIREMENT_PLAYER_CONQUERED_X_CITIES</td>
+            <td>2 Militaristic Points</td>
+        </tr>
+    </tbody>
+</table>
+
 ### Inflation Crisis - Exploration
 
 Crisis policies reduce the gold output of your Settlements. Some policies also generate Treasure Fleets from Distant Land Settlements, at a cost.
@@ -157,7 +217,7 @@ Policies - Third Crisis Level
 
 <ol>
     <li>Price Revolution: -10 Gold on Gold Buildings in Cities.</li>
-    <li>Hefty Tribute: - 15 Gold in Towns. +1 Movement on Embarked Treasure Convoys.</li>
+    <li>Hefty Tribute: -15 Gold in Towns. +1 Movement on Embarked Treasure Convoys.</li>
     <li>Embargo: -6 Gold per Imported Resource.</li>
 </ol>
 
@@ -199,4 +259,4 @@ Just like the in game Crises, you can unlock extra cards at Age Transition if yo
 
 ## Latest Update:
 
-Adding inital infrastructure for a Decolonization Crisis.
+Unable to get hostile independents to spawn, so the Decolonization crisis has changed to an Isolationism Crisis. Added new town specialization.

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_PROJECT"/>
+	</Kinds>
+	<Types>
+		<!-- Crisis Projects -->
+		<Row Type="PROJECT_TOWN_INTERNAL_TRADE" Kind="KIND_PROJECT"/>
+	</Types>
+	<Projects>
+		<!-- Crisis Projects -->
+		<Row ProjectType="PROJECT_TOWN_INTERNAL_TRADE" Name="LOC_PROJECT_TOWN_INTERNAL_TRADE_NAME" ShortName="LOC_PROJECT_TOWN_INTERNAL_TRADE_SHORT_NAME" Description="LOC_PROJECT_TOWN_INTERNAL_TRADE_DESCRIPTION" Food="true" ExclusiveSpecialization="false" TownOnly="true" PrereqPopulation="7" RequiresUnlock="true"/>
+	</Projects>
+	<ProjectModifiers>
+		<!-- Crisis Project Modifiers -->
+		<Row ProjectType="PROJECT_TOWN_INTERNAL_TRADE" ModifierId="GOLD_ON_INTERNAL_TRADE_IN_CITY_FROM_PROJECT"/>
+	</ProjectModifiers>
+</Database>

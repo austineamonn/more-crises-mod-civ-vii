@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<Modifier id="GOLD_ON_INTERNAL_TRADE_IN_CITY_FROM_PROJECT" collection="COLLECTION_OWNER" effect="EFFECT_ATTACH_MODIFIERS">
+		<Argument name="ModifierId">ATTACH_GOLD_ON_INTERNAL_TRADE_IN_CITY_FROM_PROJECT, ATTACH_NEG_LAND_TRADE_RANGE_IN_CITY_FROM_PROJECT, ATTACH_NEG_SEA_TRADE_RANGE_IN_CITY_FROM_PROJECT</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_GOLD_ON_INTERNAL_TRADE_IN_CITY_FROM_PROJECT" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_YIELD_PER_CONNECTED_CITY">
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">5</Argument>
+	</Modifier>
+	<!-- TODO: Change 15 to 5 -->
+	<Modifier id="ATTACH_NEG_LAND_TRADE_RANGE_IN_CITY_FROM_PROJECT" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_TRADE_ROUTE_RANGE">
+		<Argument name="Amount">-15</Argument>
+		<Argument name="DomainType">DOMAIN_LAND</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_NEG_SEA_TRADE_RANGE_IN_CITY_FROM_PROJECT" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_TRADE_ROUTE_RANGE">
+		<Argument name="Amount">-15</Argument>
+		<Argument name="DomainType">DOMAIN_SEA</Argument>
+	</Modifier>
+</GameEffects>

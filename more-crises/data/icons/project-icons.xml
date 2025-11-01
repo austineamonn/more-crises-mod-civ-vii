@@ -11,5 +11,9 @@
 			<Path>blp:yield_influence</Path>
 			<IconSize>64</IconSize>
 		</Row>
+		<Row>
+			<ID>PROJECT_TOWN_INTERNAL_TRADE</ID>
+			<Path>blp:focus_hub</Path>
+		</Row>
 	</IconDefinitions>
 </Database>

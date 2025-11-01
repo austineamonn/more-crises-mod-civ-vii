@@ -11,5 +11,11 @@
 		<Row Tag="LOC_PROJECT_CITY_DIPLOMACY_PROJECT_DESCRIPTION">
 			<Text>Continuously generate[icon:YIELD_DIPLOMACY] Influence equal to 25% of this City's[icon:YIELD_PRODUCTION] Production. You can cancel this at any time.</Text>
 		</Row>
+		<Row Tag="LOC_PROJECT_TOWN_INTERNAL_TRADE_NAME">
+			<Text>Internal Trade Town</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_TOWN_INTERNAL_TRADE_DESCRIPTION">
+			<Text>+5 [icon:YIELD_GOLD] Gold per Settlement Connected to this Town. -5 Trade Range.</Text>
+		</Row>
 	</EnglishText>
 </Database>
