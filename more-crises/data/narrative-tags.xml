@@ -3,13 +3,13 @@
     <Types>
         <Row Type="NARRATIVE_TAG_CRISIS_FAMINE" Kind="KIND_NARRATIVE_TAG"/>
         <Row Type="NARRATIVE_TAG_CRISIS_SUCCESSION" Kind="KIND_NARRATIVE_TAG"/>
-        <Row Type="NARRATIVE_TAG_CRISIS_ISOLATIONISM" Kind="KIND_NARRATIVE_TAG"/>
         <Row Type="NARRATIVE_TAG_CRISIS_INFLATION" Kind="KIND_NARRATIVE_TAG"/>
+        <Row Type="NARRATIVE_TAG_CRISIS_ISOLATIONISM" Kind="KIND_NARRATIVE_TAG"/>
     </Types>
     <NarrativeTags>
         <Row NarrativeTagType="NARRATIVE_TAG_CRISIS_FAMINE"/>
         <Row NarrativeTagType="NARRATIVE_TAG_CRISIS_SUCCESSION"/>
-        <Row NarrativeTagType="NARRATIVE_TAG_CRISIS_ISOLATIONISM"/>
         <Row NarrativeTagType="NARRATIVE_TAG_CRISIS_INFLATION"/>
+        <Row NarrativeTagType="NARRATIVE_TAG_CRISIS_ISOLATIONISM"/>
     </NarrativeTags>
 </Database>

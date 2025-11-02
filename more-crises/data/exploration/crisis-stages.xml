@@ -6,17 +6,17 @@
 		<Row Stage="2" AgeCrisisEventType="EXPLORATION_CRISIS_ISOLATIONISM" MinDuration="5" AgeProgressTriggerPercent="10" AgeProgressEndPercent="15"/>
 		<Row Stage="3" AgeCrisisEventType="EXPLORATION_CRISIS_ISOLATIONISM" MinDuration="5" AgeProgressTriggerPercent="15" AgeProgressEndPercent="20"/>
 		<Row Stage="4" AgeCrisisEventType="EXPLORATION_CRISIS_ISOLATIONISM" MinDuration="5" AgeProgressTriggerPercent="20" AgeProgressEndPercent="100" FinalStage="true"/>
-		<!--<Row Stage="1" AgeCrisisEventType="EXPLORATION_CRISIS_ISOLATIONISM" MinDuration="5" AgeProgressTriggerPercent="70" AgeProgressEndPercent="80"/>
-		<Row Stage="2" AgeCrisisEventType="EXPLORATION_CRISIS_ISOLATIONISM" MinDuration="5" AgeProgressTriggerPercent="80" AgeProgressEndPercent="90"/>
-		<Row Stage="3" AgeCrisisEventType="EXPLORATION_CRISIS_ISOLATIONISM" MinDuration="5" AgeProgressTriggerPercent="90" AgeProgressEndPercent="100"/>
-		<Row Stage="4" AgeCrisisEventType="EXPLORATION_CRISIS_ISOLATIONISM" MinDuration="5" AgeProgressTriggerPercent="100" AgeProgressEndPercent="100" FinalStage="true"/>-->
 		<Row Stage="1" AgeCrisisEventType="EXPLORATION_CRISIS_INFLATION" MinDuration="5" AgeProgressTriggerPercent="70" AgeProgressEndPercent="80"/>
 		<Row Stage="2" AgeCrisisEventType="EXPLORATION_CRISIS_INFLATION" MinDuration="5" AgeProgressTriggerPercent="80" AgeProgressEndPercent="90"/>
 		<Row Stage="3" AgeCrisisEventType="EXPLORATION_CRISIS_INFLATION" MinDuration="5" AgeProgressTriggerPercent="90" AgeProgressEndPercent="100"/>
 		<Row Stage="4" AgeCrisisEventType="EXPLORATION_CRISIS_INFLATION" MinDuration="5" AgeProgressTriggerPercent="100" AgeProgressEndPercent="100" FinalStage="true"/>
+		<!--<Row Stage="1" AgeCrisisEventType="EXPLORATION_CRISIS_ISOLATIONISM" MinDuration="5" AgeProgressTriggerPercent="70" AgeProgressEndPercent="80"/>
+		<Row Stage="2" AgeCrisisEventType="EXPLORATION_CRISIS_ISOLATIONISM" MinDuration="5" AgeProgressTriggerPercent="80" AgeProgressEndPercent="90"/>
+		<Row Stage="3" AgeCrisisEventType="EXPLORATION_CRISIS_ISOLATIONISM" MinDuration="5" AgeProgressTriggerPercent="90" AgeProgressEndPercent="100"/>
+		<Row Stage="4" AgeCrisisEventType="EXPLORATION_CRISIS_ISOLATIONISM" MinDuration="5" AgeProgressTriggerPercent="100" AgeProgressEndPercent="100" FinalStage="true"/>-->
 	</AgeCrisisStages>
 	<AgeCrisisNarratives>
-		<Row NarrativeStoryType="EDCINTROA" AgeCrisisEventType="EXPLORATION_CRISIS_ISOLATIONISM" Age="AGE_EXPLORATION"/>
-		<Row NarrativeStoryType="EICINTROA" AgeCrisisEventType="EXPLORATION_CRISIS_INFLATION" Age="AGE_EXPLORATION"/>
+		<Row NarrativeStoryType="EINCINTROA" AgeCrisisEventType="EXPLORATION_CRISIS_INFLATION" Age="AGE_EXPLORATION"/>
+		<Row NarrativeStoryType="EISCINTROA" AgeCrisisEventType="EXPLORATION_CRISIS_ISOLATIONISM" Age="AGE_EXPLORATION"/>
 	</AgeCrisisNarratives>
 </Database>

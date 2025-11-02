@@ -1,122 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
-	<!-- Isolationism Crisis Policies -->
-	<!-- possible future policies -->
-	<Modifier id="TRAIT_MOD_LOSE_SCIENCE_PER_NON_UNIQUE_TRADITION" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_ACTIVE_TRADITION">
-		<Argument name="YieldType">YIELD_SCIENCE, YIELD_CULTURE</Argument>
-		<Argument name="Amount">-5</Argument>
-		<Argument name="CivUnique">true</Argument>
-		<Argument name="Invert">true</Argument>
-	</Modifier>
-	<Modifier id="EMBARGO_IMPORTED_RESOURCE_GOLD" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
-		<Argument name="YieldType">YIELD_GOLD, YIELD_DIPLOMACY</Argument>
-		<Argument name="Amount">-3</Argument>
-		<Argument name="Imported">true</Argument>
-		<Argument name="Tooltip">LOC_TRADITION_EMBARGO_NAME</Argument>
-		<String context="Description">LOC_TRADITION_EMBARGO_DESCRIPTION</String>
-	</Modifier>
-	<Modifier id="LEND_LEASE_MOD_CIV_TRADE_ROUTE_GOLD_YIELD" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_NUM_TRADE_ROUTES">
-		<Argument name="YieldType">YIELD_GOLD</Argument>
-		<Argument name="Amount">-20</Argument>
-		<String context="Description">LOC_TRADITION_LEND_LEASE_DESCRIPTION</String>
-	</Modifier>
-	<Modifier id="COVER_UP_MOD_GREAT_WORK_INFLUENCE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_GREAT_WORK">
-		<Argument name="YieldType">YIELD_SCIENCE, YIELD_CULTURE</Argument>
-		<Argument name="Amount">-2</Argument>
-		<String context="Description">LOC_TRADITION_COVER_UP_DESCRIPTION</String>
-	</Modifier>
-	<Modifier id="TORTURE_MOD_DUNGEON_HAPPINESS_INFLUENCE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
-		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
-		<Argument name="Amount">-6</Argument>
-		<Argument name="ConstructibleType">BUILDING_TEMPLE</Argument>
-		<String context="Description">LOC_TRADITION_TORTURE_DESCRIPTION</String>
-	</Modifier>
-	<Modifier id="SUFFETES_FISHING_TOWNS_FOOD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_CITY_HAS_PROJECT" inverse="true">
-				<Argument name="ProjectType">PROJECT_TOWN_INTERNAL_TRADE</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="YieldType">YIELD_GOLD</Argument>
-		<Argument name="Amount">20</Argument>
-		<Argument name="Tooltip">LOC_TRADITION_SUFFETES_NAME</Argument>
-	</Modifier>
-	<Modifier id="CARD_AT_SPECIALIST_CAP_PENALTY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WORKER_CAP">
-        <Argument name="Amount">-2</Argument>
-    </Modifier>
-	<Modifier id="REPATRIATION_MOD_CITY_GROWTH" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_GROWTH">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
-		</SubjectRequirements>
-		<Argument name="Percent">50</Argument>
-	</Modifier>
-	<Modifier id="INSURGENTS_DISTANT_LAND_COMBAT_ABILITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_UNIT_IS_IN_HOMELANDS" inverse="true"/>
-		</SubjectRequirements>
-		<Argument name="AbilityType">ABILITY_INSURGENTS_DISTANT_LANDS_STRENGTH</Argument>
-	</Modifier>
-	<Modifier id="SUPPLY_DISRUPTION_DISTANT_LAND_HEALING_ABILITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_HEAL_PER_TURN">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_UNIT_IS_IN_HOMELANDS" inverse="true"/>
-		</SubjectRequirements>
-		<Argument name="Amount">-15</Argument>
-		<String context="Description">LOC_TRADITION_SUPPLY_DISRUPTION_DESCRIPTION</String>
-	</Modifier>
-	<Modifier id="CONDOTTIERI_MOD_UNIT_MAINTENANCE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_UNIT_MAINTENANCE_EFFICIENCY">
-		<Argument name="Percent">-100</Argument>
-		<Argument name="UnitTag">UNIT_CLASS_COMBAT</Argument>
-		<String context="Description">LOC_TRADITION_CONDOTTIERI_DESCRIPTION</String>
-	</Modifier>
-	<Modifier id="DEMORALIZED_TROOPS_MOD_UNIT_HAPPINESS" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_PLAYER_YIELD">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
-				<Argument name="Tag">UNIT_CLASS_COMBAT</Argument>
-			</Requirement>
-		</SubjectRequirements>
-		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
-		<Argument name="Amount">-2</Argument>
-		<String context="Description">LOC_TRADITION_DEMORALIZED_TROOPS_DESCRIPTION</String>
-	</Modifier>
-	<Modifier id="TORTURE_MOD_DUNGEON_HAPPINESS_INFLUENCE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
-		<Argument name="YieldType">YIELD_DIPLOMACY, YIELD_HAPPINESS</Argument>
-		<Argument name="Amount">-3</Argument>
-		<Argument name="ConstructibleType">BUILDING_DUNGEON</Argument>
-		<String context="Description">LOC_TRADITION_TORTURE_DESCRIPTION</String>
-	</Modifier>
-	<Modifier id="WORKER_STRIKE_MOD_PRODUCTION" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WORKER_YIELD">
-        <Argument name="YieldType">YIELD_PRODUCTION</Argument>
-        <Argument name="Amount">-2</Argument>
-		<String context="Description">LOC_TRADITION_WORKER_STRIKE_DESCRIPTION</String>
-    </Modifier>
-	<Modifier id="SELF_GOVERNANCE_MOD_DISTANT_LANDS_HAPPINESS_INFLUENCE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_CITY_IS_DISTANT_LANDS"/>
-		</SubjectRequirements>
-		<Argument name="Amount">-3</Argument>
-		<Argument name="YieldType">YIELD_DIPLOMACY, YIELD_HAPPINESS</Argument>
-		<String context="Description">LOC_TRADITION_SELF_GOVERNANCE_DESCRIPTION</String>
-		<String context="Tooltip">LOC_TRADITION_SELF_GOVERNANCE_NAME</String>
-	</Modifier>
-	<Modifier id="SELF_GOVERNANCE_MOD_DISTANT_LANDS_HAPPINESS_INFLUENCE_CITY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
-			<Requirement type="REQUIREMENT_CITY_IS_DISTANT_LANDS"/>
-		</SubjectRequirements>
-		<Argument name="Amount">-3</Argument>
-		<Argument name="YieldType">YIELD_DIPLOMACY, YIELD_HAPPINESS</Argument>
-	</Modifier>
-	<Modifier id="REPATRIATION_MOD_SC" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_SETTLEMENT_CAP">
-		<Argument name="Amount">-3</Argument>
-		<String context="Description">LOC_TRADITION_REPATRIATION_DESCRIPTION</String>
-	</Modifier>
-	<Modifier id="REPATRIATION_MOD_CITY_GROWTH" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_GROWTH">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
-			<Requirement type="REQUIREMENT_CITY_IS_DISTANT_LANDS" inverse="true"/>
-		</SubjectRequirements>
-		<Argument name="Percent">50</Argument>
-	</Modifier>
 	<!-- Inflation Crisis Policies -->
 	 <Modifier id="LAND_TAX_MOD_TOWN_YIELDS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
 		<SubjectRequirements>
@@ -206,7 +89,7 @@
 		<String context="Preview">LOC_TRADITION_HEFTY_TREASURE_NAME</String>
 		<String context="Description">LOC_TRADITION_HEFTY_TREASURE_DESCRIPTION</String>
 	</Modifier>
-	<Modifier id="HEFTY_TRIBUTE_TREASURE_MOVEMENT" collection="COLLECTION_ALL_UNITS" effect="EFFECT_ADJUST_UNIT_EMBARKED_MOVEMENT">
+	<Modifier id="HEFTY_TRIBUTE_MOD_TREASURE_MOVEMENT" collection="COLLECTION_ALL_UNITS" effect="EFFECT_ADJUST_UNIT_EMBARKED_MOVEMENT">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
 				<Argument name="Tag">UNIT_CLASS_NAVAL_TREASURE</Argument>
@@ -214,11 +97,76 @@
 		</SubjectRequirements>
 		<Argument name="Amount">1</Argument>
 	</Modifier>
-	<Modifier id="EMBARGO_IMPORTED_RESOURCE_GOLD" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
+	<Modifier id="EMBARGO_MOD_IMPORTED_RESOURCE_GOLD" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
 		<Argument name="YieldType">YIELD_GOLD</Argument>
 		<Argument name="Amount">-6</Argument>
 		<Argument name="Imported">true</Argument>
-		<Argument name="Tooltip">LOC_TRADITION_EMBARGO_NAME</Argument>
 		<String context="Description">LOC_TRADITION_EMBARGO_DESCRIPTION</String>
+	</Modifier>
+	<!-- Isolationism Crisis Policies -->
+	<Modifier id="TRADE_PROTECTIONISM_MOD_IMPORTED_RESOURCE_GOLD" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">-3</Argument>
+		<Argument name="Imported">true</Argument>
+		<String context="Description">LOC_TRADITION_TRADE_PROTECTIONISM_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="TRADE_PROTECTIONISM_MOD_IMPORTED_RESOURCE_INFLUENCE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Amount">-3</Argument>
+		<Argument name="Imported">true</Argument>
+	</Modifier>
+	<Modifier id="SHIPPING_BAN_MOD_TRADE_ROUTE_GOLD" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_NUM_TRADE_ROUTES">
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">-20</Argument>
+		<String context="Description">LOC_TRADITION_SHIPPING_BAN_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="HERMIT_KINGDOM_MOD_TOWN_GOLD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+			<Requirement type="REQUIREMENT_CITY_HAS_PROJECT" inverse="true">
+				<Argument name="ProjectType">PROJECT_TOWN_INTERNAL_TRADE</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">-20</Argument>
+		<String context="Description">LOC_TRADITION_HERMIT_KINGDOM_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="CULTURAL_SECLUSION_MOD_NON_UNIQUE_TRADITION_CULTURE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_ACTIVE_TRADITION">
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="Amount">-5</Argument>
+		<Argument name="CivUnique">true</Argument>
+		<Argument name="Invert">true</Argument>
+		<String context="Description">LOC_TRADITION_CULTURAL_SECLUSION_DESCRIPTION </String>
+	</Modifier>
+	<Modifier id="CULTURAL_SECLUSION_MOD_NON_UNIQUE_TRADITION_SCIENCE" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_ACTIVE_TRADITION">
+		<Argument name="YieldType">YIELD_SCIENCE</Argument>
+		<Argument name="Amount">-5</Argument>
+		<Argument name="CivUnique">true</Argument>
+		<Argument name="Invert">true</Argument>
+	</Modifier>
+	<Modifier id="RESETTLEMENT_MOD_SPECIALIST_CAP_PENALTY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WORKER_CAP">
+        <Argument name="Amount">-1</Argument>
+		<String context="Description">LOC_TRADITION_RESETTLEMENT_DESCRIPTION </String>
+    </Modifier>
+	<Modifier id="RESETTLEMENT_MOD_TOWN_GROWTH" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_GROWTH">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+		</SubjectRequirements>
+		<Argument name="Percent">50</Argument>
+	</Modifier>
+	<Modifier id="BOOK_BAN_MOD_GREAT_WORK_CULTURE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_GREAT_WORK">
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="Amount">-2</Argument>
+		<String context="Description">LOC_TRADITION_BOOK_BAN_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="BOOK_BAN_MOD_GREAT_WORK_SCIENCE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_GREAT_WORK">
+		<Argument name="YieldType">YIELD_SCIENCE</Argument>
+		<Argument name="Amount">-2</Argument>
+	</Modifier>
+	<Modifier id="RELIGIOUS_INTOLERANCE_MOD_TEMPLE_HAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">-10</Argument>
+		<Argument name="ConstructibleType">BUILDING_TEMPLE</Argument>
+		<String context="Description">LOC_TRADITION_RELIGIOUS_INTOLERANCE_DESCRIPTION</String>
 	</Modifier>
 </GameEffects>

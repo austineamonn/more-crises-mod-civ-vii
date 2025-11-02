@@ -14,5 +14,18 @@
 		<Row Tag="LOC_CARD_AT_MOD_INFLATION_ENDLESS_TRADE_DESCRIPTION">
 			<Text>+1 Trade Route Limit with all other Leaders.</Text>
 		</Row>
+		<!-- Isolationism Crisis -->
+		<Row Tag="LOC_CARD_AT_MOD_ISOLATIONISM_SELF_RELIANCE_NAME">
+			<Text>Self Reliance</Text>
+		</Row>
+		<Row Tag="LOC_CARD_AT_MOD_ISOLATIONISM_SELF_RELIANCE_DESCRIPTION">
+			<Text>+75% [icon:YIELD_GOLD] Gold toward purchasing Factories. -1 Trade Route Limit.</Text>
+		</Row>
+		<Row Tag="LOC_CARD_AT_MOD_ISOLATIONISM_RUINOPHILIA_NAME">
+			<Text>Ruinophilia</Text>
+		</Row>
+		<Row Tag="LOC_CARD_AT_MOD_ISOLATIONISM_RUINOPHILIA_DESCRIPTION">
+			<Text>Gain the Natural History Civic for free and +2 [icon:YIELD_CULTURE] Culture on displayed Great Works.</Text>
+		</Row>
 	</EnglishText>
 </Database>

@@ -2,13 +2,13 @@
 
 Author: austineamonn
 
-Version 1.0.7
+Version 1.0.8
 
 Adds new crises to the Antiquity and Exploration age. More Crises to come!
 
 ## Current Mod:
 
-Adds Famine and Succession Crises to Antiquity and an Inflation Crisis to Exploration.
+Adds Famine and Succession Crises to Antiquity and Inflation and Isolationism Crises to Exploration. Depending on your build these Crises can be much more punishing than the Base Game ones, so beware.
 
 ### Famine Crisis - Antiquity
 
@@ -140,77 +140,6 @@ Just like the in game Crises, you can unlock extra cards at Age Transition if yo
     </tbody>
 </table>
 
-### Isolationism Crisis - Exploration
-
-Crisis policies impact your Trade Routes. As the crisis intensifies Trade Limits will decrease (one per crisis level). The crisis unlocks a new non exclusive Town Specialization, Internal Trade Town. This specialization reduces your Trade Range by 5 and grants 5 Gold per connected Settlement.
-
-First Crisis Level:
-
--1 Trade Route Limit (cannot reduce the limit below 0). Unlocks a new non exclusive Town Specialization, Internal Trade Town.
-
-Policies:
-
-<ol>
-    <li>Trade Protectionism: -3 Gold and Influence for each imported Resource.</li>
-    <li>Shipping Ban: -20 Gold per Trade Route.</li>
-    <li>Hermit Kingdom: -20 Gold on Towns without the Internal Trade Town Specialization.</li>
-</ol>
-
-Second Crisis Level:
-
--1 Trade Route Limit (cannot reduce the limit below 0).
-
-Policies:
-
-<ol>
-    <li>Cultural Seclusion: -5 Science and Culture for each Social Policy, but not Tradition, slotted.</li>
-    <li>Resettlement -2 Specialist Cap, +50% Growth Rate in Towns.</li>
-</ol>
-
-Third Crisis Level:
-
--1 Trade Route Limit (cannot reduce the limit below 0).
-
-Policies:
-
-<ol>
-    <li>Banned Books -2 Science and Culture on displayed Great Work.</li>
-    <li>Religious Intolerance -6 Happiness on Temples.</li>
-</ol>
-
-Age Transition Unlocks:
-
-Just like the in game Crises, you can unlock extra cards at Age Transition if you meet certain conditions.
-
-<table>
-    <thead>
-        <tr>
-            <th>Card Name</th>
-            <th>Effect</th>
-            <th>Unlock</th>
-            <th>Cost</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Non-Alignment</td>
-            <td>+10% Influence when not at War.</td>
-            <td>REQUIREMENT_PLAYER_IS_AT_PEACE_WITH_ALL_MAJORS</td>
-            <td>Have no Distant Land Settlements when the Age ends.</td>
-            <td>REQUIREMENT_PLAYER_HAS_X_SETTLEMENTS_FOREIGN_HEMISPHERE</td>
-            <td>2 Cultural Points</td>
-        </tr>
-        <tr>
-            <td>Hegemon</td>
-            <td>Units get +1 strength from resources</td>
-            <td>EFFECT_ADJUST_UNIT_RESOURCE_DAMAGE</td>
-            <td>Conquered 2 distant land settlements</td>
-            <td>REQUIREMENT_PLAYER_CONQUERED_X_CITIES</td>
-            <td>2 Militaristic Points</td>
-        </tr>
-    </tbody>
-</table>
-
 ### Inflation Crisis - Exploration
 
 Crisis policies reduce the gold output of your Settlements. Some policies also generate Treasure Fleets from Distant Land Settlements, at a cost.
@@ -274,6 +203,73 @@ Just like the in game Crises, you can unlock extra cards at Age Transition if yo
     <li>For the Succession Crisis, grievances caused by the Crisis will say "From a Diplomatic Action".</li>
 </ul>
 
+### Isolationism Crisis - Exploration
+
+Crisis policies impact your Trade Routes. As the crisis intensifies Trade Limits will decrease (one per crisis level). The crisis unlocks a new non exclusive Town Specialization, Internal Trade Town. This specialization reduces your Trade Range by 5 and grants 5 Gold per connected Settlement. Note that if you have more Trade Route with a leader than your Trade Limit Allows, Trade Routes will be lost until you are under the limit. In other words, if you do not increase your Trade Limit with leaders, this crisis will delete all your trade routes and you will have to resend merchants.
+
+First Crisis Level:
+
+-1 Trade Route Limit (cannot reduce the limit below 0). Unlocks a new non exclusive Town Specialization, Internal Trade Town.
+
+Policies:
+
+<ol>
+    <li>Trade Protectionism: -3 Gold and Influence for each imported Resource.</li>
+    <li>Shipping Ban: -20 Gold per Trade Route.</li>
+    <li>Hermit Kingdom: -20 Gold on Towns without the Internal Trade Town Specialization.</li>
+</ol>
+
+Second Crisis Level:
+
+-1 Trade Route Limit (cannot reduce the limit below 0).
+
+Policies:
+
+<ol>
+    <li>Cultural Seclusion: -5 Science and Culture for each Social Policy, but not Tradition, slotted.</li>
+    <li>Resettlement: -1 Specialist Cap. +50% Growth Rate in Towns.</li>
+</ol>
+
+Third Crisis Level:
+
+-1 Trade Route Limit (cannot reduce the limit below 0).
+
+Policies:
+
+<ol>
+    <li>Book Ban: -2 Science and Culture on displayed Great Works.</li>
+    <li>Religious Intolerance: -10 Happiness on Temples.</li>
+</ol>
+
+Age Transition Unlocks:
+
+Just like the in game Crises, you can unlock extra cards at Age Transition if you meet certain conditions.
+
+<table>
+    <thead>
+        <tr>
+            <th>Card Name</th>
+            <th>Effect</th>
+            <th>Unlock</th>
+            <th>Cost</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Self Reliance</td>
+            <td>+75% Gold toward purchasing Factories. -1 Trade Route Limit.</td>
+            <td>Have no Trade Routes when the Age ends.</td>
+            <td>2 Economic Points</td>
+        </tr>
+        <tr>
+            <td>Ruinophilia</td>
+            <td>Gain the Natural History Civic for free and +2 Culture on displayed Great Works.</td>
+            <td>have 20 displayed Great Works</td>
+            <td>2 Cultural Points</td>
+        </tr>
+    </tbody>
+</table>
+
 ## Latest Update:
 
-Added new icon for the Internal Trade Town Specialization. Updated text. Updated Narrative Crisis gameeffects.
+Fixed icon issue for Town Specialization icon. Added crisis policies for the Isolationism crisis. Edited some text.

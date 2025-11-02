@@ -58,5 +58,24 @@
 		<Row Tag="LOC_UNLOCK_INFLATION_ENDLESS_TRADE_TOOLTIP">
 			<Text>Our Civilization traded so far and wide that no price increases could slow our growth.</Text>
 		</Row>
+		<!-- Isolationism Crisis -->
+		<Row Tag="LOC_UNLOCK_ISOLATIONISM_SELF_RELIANCE_NAME">
+			<Text>Self Reliance</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_ISOLATIONISM_SELF_RELIANCE_DESCRIPTION">
+			<Text>End the Age with no Trade Routes.</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_ISOLATIONISM_SELF_RELIANCE_TOOLTIP">
+			<Text>When other empires closed their borders, our Civilzation found economic prosperity internally.</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_ISOLATIONISM_RUINOPHILIA_NAME">
+			<Text>Ruinophilia</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_ISOLATIONISM_RUINOPHILIA_DESCRIPTION">
+			<Text>Have 20 displayed Great Works.</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_ISOLATIONISM_RUINOPHILIA_TOOLTIP">
+			<Text>Our Civilization looked to the past to protect our unique culture for the future.</Text>
+		</Row>
 	</EnglishText>
 </Database>

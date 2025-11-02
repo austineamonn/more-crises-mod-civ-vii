@@ -110,7 +110,7 @@
             <Text>The One True Ruler</Text>
         </Row>
         <Row Tag="LOC_ASC004A_COMPLETION">
-            <Text>A sword pulled from a stone. A glowing figure in a lake. Almost by divine intervention the true heir has been found. The young man rallies the generals, the court attendants, and the aristocrats. The Emperor's brother and wife both have no choice but to acknowledge the legitimacy of our new ruler. Now that the empire's internal struggles have been resolved we can focus on rehabilitating our international image.</Text>
+            <Text>A sword pulled from a stone. A glowing figure in a lake. Almost by divine intervention the true heir has been found. The young man rallies the generals, the court attendants, and the aristocrats. The Emperor's brother and wife both have no choice but to acknowledge the legitimacy of our new ruler. Now that the empire's internal struggles have been resolved we can focus on rehabilitating our international image, though we probably need a new succession method.</Text>
         </Row>
         <Row Tag="LOC_ASC004B_NAME">
             <Text>The Age of Antiquity is ending.</Text>
@@ -119,61 +119,6 @@
             <Text>Who will carry our legacy?</Text>
         </Row>
         <!-- Exploration -->
-        <!-- Isolationism Crisis -->
-         <Row Tag="LOC_EXPLORATION_ISOLATIONISM_CRISIS_NAME">
-            <Text>Exploration Isolationism Crisis</Text>
-        </Row>
-        <Row Tag="LOC_EXPLORATION_ISOLATIONISM_CRISIS_DESCRIPTION">
-            <Text>Isolationist policy has gripped your empire, leading to harsh trade restrictions.</Text>
-        </Row>
-        <Row Tag="LOC_EDC001A_STORYTITLE">
-            <Text>Shuttered Markets</Text>
-        </Row>
-        <Row Tag="LOC_EDC001A_COMPLETION">
-            <Text>The great civilizations of the world have risen, and in their rise others, too, ascend. Once metalworking, agriculture, and the growth of cities were limited to points on the landscape; now, these are commonplace in all but the most remote corners of the world. Those once thought barbarians now lay equal claim to the mantle of civilization, and the learning of the city centers extends far beyond the boundaries of the known world. With this comes the question: Why are you ascendant, and we are not?</Text>
-        </Row>
-        <Row Tag="LOC_EDC001B_NAME">
-            <Text>Continue the crisis</Text>
-        </Row>
-        <Row Tag="LOC_EDC001B_DESCRIPTION">
-            <Text>+1 Crisis Policy Slot. -1 Trade Route Limit, cannot go below zero. Unlock the Town Specialization Internal Trade Town.</Text>
-        </Row>
-        <Row Tag="LOC_EDC002A_STORYTITLE">
-            <Text>Rumors and Portents</Text>
-        </Row>
-        <Row Tag="LOC_EDC002A_COMPLETION">
-            <Text>In the spaces between, in the distant points on the map, the steady growth of prosperity – and population – intensifies even as the great civilizations of the world expand. Land once thought wasteland turns to pasture, and expanding families mean more second and third children eager to make a name for themselves. Ambitions grow, and the eyes of the steppes and mountains, the forests and deserts turn hungrily towards the great cities.</Text>
-        </Row>
-        <Row Tag="LOC_EDC002B_NAME">
-            <Text>Continue the crisis</Text>
-        </Row>
-        <Row Tag="LOC_EDC002B_DESCRIPTION">
-            <Text>+1 Crisis Policy Slot. -1 Trade Route Limit, cannot go below zero.</Text>
-        </Row>
-        <Row Tag="LOC_EDC003A_STORYTITLE">
-            <Text>The Scourge Unveiled</Text>
-        </Row>
-        <Row Tag="LOC_EDC003A_COMPLETION">
-            <Text>Ambition finds a home in the hearts of the once-scattered people of the places in between – a great scourge has amassed with an eye towards the settled world. A scourge is not one strand, but many – each an army led by commanders seeking their own chance at dominion, seeking to claim the mantle of civilization… or leave it shattered. With their arrival comes a fracturing of what peace remains in the land. The time has come to kill or be killed, to fight or perish, to seek to catch the whirlwind in a net.</Text>
-        </Row>
-        <Row Tag="LOC_EDC003B_NAME">
-            <Text>Continue the crisis</Text>
-        </Row>
-        <Row Tag="LOC_EDC003B_DESCRIPTION">
-            <Text>+2 Crisis Policy Slots. -1 Trade Route Limit, cannot go below zero.</Text>
-        </Row>
-        <Row Tag="LOC_EDC004A_STORYTITLE">
-            <Text>A World Broken</Text>
-        </Row>
-        <Row Tag="LOC_EDC004A_COMPLETION">
-            <Text>The scourge has ended, and the world yet turns. But its shape is unfamiliar. Peoples displaced from their homelands make new homes where they have settled. Forever gone is a world of a singular city and a vast barbarian hinterland; now, those that city-dwellers once looked down upon wear their own crowns, and tongues once thought unfit for the capital are spoken by monarchs. The ancient era has passed on to a new time of interconnection. Even we have not remained untouched, as a wave of refugees and immigrants reshape who we are, what tongue we speak, and what stories we tell.</Text>
-        </Row>
-        <Row Tag="LOC_EDC004B_NAME">
-            <Text>The Age of Exploration is ending.</Text>
-        </Row>
-        <Row Tag="LOC_EDC004B_DESCRIPTION">
-            <Text>Who will carry our legacy?</Text>
-        </Row>
         <!-- Inflation Crisis -->
         <Row Tag="LOC_EXPLORATION_INFLATION_CRISIS_NAME">
             <Text>Exploration Inflation Crisis</Text>
@@ -181,52 +126,107 @@
         <Row Tag="LOC_EXPLORATION_INFLATION_CRISIS_DESCRIPTION">
             <Text>An influx of treasure fleet gold leads to ever rising prices.</Text>
         </Row>
-        <Row Tag="LOC_EIC001A_STORYTITLE">
+        <Row Tag="LOC_EINC001A_STORYTITLE">
             <Text>Rising Prices</Text>
         </Row>
-        <Row Tag="LOC_EIC001A_COMPLETION">
+        <Row Tag="LOC_EINC001A_COMPLETION">
             <Text>A lady scoffs at the latest market prices. Her weekly food costs have tripled in the last month alone. Similar grumbles can be heard around the city. If we just had more treasure fleets, every citizen could eat like a king!</Text>
         </Row>
-        <Row Tag="LOC_EIC001B_NAME">
+        <Row Tag="LOC_EINC001B_NAME">
             <Text>Continue the crisis</Text>
         </Row>
-        <Row Tag="LOC_EIC001B_DESCRIPTION">
+        <Row Tag="LOC_EINC001B_DESCRIPTION">
             <Text>+1 Crisis Policy Slot.</Text>
         </Row>
-        <Row Tag="LOC_EIC002A_STORYTITLE">
+        <Row Tag="LOC_EINC002A_STORYTITLE">
             <Text>Unending Debts</Text>
         </Row>
-        <Row Tag="LOC_EIC002A_COMPLETION">
+        <Row Tag="LOC_EINC002A_COMPLETION">
             <Text>Royal advisors hide in their chambers as the Queen storms around the castle. How could our great nation be so deep in debt? Print more money! Demand more treasure tributes! She steadies her shaking hands and takes a breath. Perhaps we can take another loan to cover this one?</Text>
         </Row>
-        <Row Tag="LOC_EIC002B_NAME">
+        <Row Tag="LOC_EINC002B_NAME">
             <Text>Continue the crisis</Text>
         </Row>
-        <Row Tag="LOC_EIC002B_DESCRIPTION">
+        <Row Tag="LOC_EINC002B_DESCRIPTION">
             <Text>+1 Crisis Policy Slot.</Text>
         </Row>
-        <Row Tag="LOC_EIC003A_STORYTITLE">
+        <Row Tag="LOC_EINC003A_STORYTITLE">
             <Text>You Can't Eat Gold</Text>
         </Row>
-        <Row Tag="LOC_EIC003A_COMPLETION">
+        <Row Tag="LOC_EINC003A_COMPLETION">
             <Text>The streets are littered with gold, but all anyone wants is a bite to eat. Wealth is meaningless when everyone has it. Is everyone now a King or a Peasant?</Text>
         </Row>
-        <Row Tag="LOC_EIC003B_NAME">
+        <Row Tag="LOC_EINC003B_NAME">
             <Text>Continue the crisis</Text>
         </Row>
-        <Row Tag="LOC_EIC003B_DESCRIPTION">
+        <Row Tag="LOC_EINC003B_DESCRIPTION">
             <Text>+2 Crisis Policy Slots.</Text>
         </Row>
-        <Row Tag="LOC_EIC004A_STORYTITLE">
+        <Row Tag="LOC_EINC004A_STORYTITLE">
             <Text>Stabilizing Prices</Text>
         </Row>
-        <Row Tag="LOC_EIC004A_COMPLETION">
+        <Row Tag="LOC_EINC004A_COMPLETION">
             <Text>Prices have begun to fall, and now hope begins to rise. The world is almost as it was before. The wealthy are wealthy and the poor are poor. Well, maybe some things need to change ...</Text>
         </Row>
-        <Row Tag="LOC_EIC004B_NAME">
+        <Row Tag="LOC_EINC004B_NAME">
             <Text>The Age of Exploration is ending.</Text>
         </Row>
-        <Row Tag="LOC_EIC004B_DESCRIPTION">
+        <Row Tag="LOC_EINC004B_DESCRIPTION">
+            <Text>Who will carry our legacy?</Text>
+        </Row>
+        <!-- Isolationism Crisis -->
+         <Row Tag="LOC_EXPLORATION_ISOLATIONISM_CRISIS_NAME">
+            <Text>Exploration Isolationism Crisis</Text>
+        </Row>
+        <Row Tag="LOC_EXPLORATION_ISOLATIONISM_CRISIS_DESCRIPTION">
+            <Text>Empires begin to turn inwards, leading to a collapse in international trade.</Text>
+        </Row>
+        <Row Tag="LOC_EISC001A_STORYTITLE">
+            <Text>Shuttered Markets</Text>
+        </Row>
+        <Row Tag="LOC_EISC001A_COMPLETION">
+            <Text>After centuries of empires clashing against one another, the leading civilizations have turned inward. Ports and markets are forcibly closed and merchants find once open borders to be strictly closed. Royal advisors scoff, what could they have that we already don't. Our great civilization will continue without our former trade partners. Surely we have enough internal resources to sustain us.</Text>
+        </Row>
+        <Row Tag="LOC_EISC001B_NAME">
+            <Text>Continue the crisis</Text>
+        </Row>
+        <Row Tag="LOC_EISC001B_DESCRIPTION">
+            <Text>+1 Crisis Policy Slot. -1 Trade Route Limit, cannot go below zero. Unlock the Town Specialization Internal Trade Town.</Text>
+        </Row>
+        <Row Tag="LOC_EISC002A_STORYTITLE">
+            <Text>Unsold Wares</Text>
+        </Row>
+        <Row Tag="LOC_EISC002A_COMPLETION">
+            <Text>A merchant returns to the town square, pulling a cart full of unsold goods. Meanwhile, a young woodworker is unable to find the tools they need at market. No new shipments of goods have arrived in months and the townsfolk grow anxious. Where is the greatness we were promised? The benefits to shutting out the world?</Text>
+        </Row>
+        <Row Tag="LOC_EISC002B_NAME">
+            <Text>Continue the crisis</Text>
+        </Row>
+        <Row Tag="LOC_EISC002B_DESCRIPTION">
+            <Text>+1 Crisis Policy Slot. -1 Trade Route Limit, cannot go below zero.</Text>
+        </Row>
+        <Row Tag="LOC_EISC003A_STORYTITLE">
+            <Text>A Breaking Point</Text>
+        </Row>
+        <Row Tag="LOC_EISC003A_COMPLETION">
+            <Text>A young scholar groans at her desk. By the time she learns the latest laws and regulations, ten more have been added. The number of banned books feels larger than the books that can still be legally read. Religious ceremonies must be performed in secret while black market goods are kept in the shadows.</Text>
+        </Row>
+        <Row Tag="LOC_EISC003B_NAME">
+            <Text>Continue the crisis</Text>
+        </Row>
+        <Row Tag="LOC_EISC003B_DESCRIPTION">
+            <Text>+2 Crisis Policy Slots. -1 Trade Route Limit, cannot go below zero.</Text>
+        </Row>
+        <Row Tag="LOC_EISC004A_STORYTITLE">
+            <Text>Forced Reopening</Text>
+        </Row>
+        <Row Tag="LOC_EISC004A_COMPLETION">
+            <Text>The whole nation is shaken. Huge boats filled with guns pointed at the royal palace. This great humiliation will not stand. With one decree, the era of isolationism is over. Merchants wave goodbye as the first trade ships leave our harbors once again. We were not the first to look outward again, but we will not be the last.</Text>
+        </Row>
+        <Row Tag="LOC_EISC004B_NAME">
+            <Text>The Age of Exploration is ending.</Text>
+        </Row>
+        <Row Tag="LOC_EISC004B_DESCRIPTION">
             <Text>Who will carry our legacy?</Text>
         </Row>
     </EnglishText>

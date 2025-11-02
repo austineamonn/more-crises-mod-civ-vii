@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<GameEffects xmlns="GameEffects">
-	<!-- Isolationism Crisis Policies -->
-	<Modifier id="INSURGENTS_DISTANT_LAND_COMBAT" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
-		<Argument name="Amount">-6</Argument>
-		<String context="Preview">LOC_TRADITION_INSURGENTS_PREVIEW</String>
-		<String context="Description">LOC_TRADITION_INSURGENTS_DESCRIPTION</String>
-	</Modifier>
-</GameEffects>
