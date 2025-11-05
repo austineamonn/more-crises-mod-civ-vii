@@ -2,17 +2,21 @@
 
 Author: austineamonn
 
-Version 1.0.8
+Version 1.1.0
 
-Adds new crises to the Antiquity and Exploration age. More Crises to come!
+Adds 4 new crises to the Antiquity and Exploration age. More Crises to come!
 
 ## Current Mod:
 
-Adds Famine and Succession Crises to Antiquity and Inflation and Isolationism Crises to Exploration. Depending on your build these Crises can be much more punishing than the Base Game ones, so beware.
+Adds the Famine and Succession Crises to Antiquity and the Inflation and Isolationism Crises to Exploration. Depending on your build these crises can be much more punishing than the Base Game ones, so beware. You can select which crises you want (or don't want) by clicking the Advanced Options button before launching your game. All crises (including Base Game crises) start enabled but you can toggle whichever ones you don't want to disabled them.
 
 ### Famine Crisis - Antiquity
 
 Crisis policies reduce the food output of your settlements. Settlements with negative food will pillage buildings. You are given a choice at the first level of the crisis, where you gain policies that hurt towns or hurt cities.
+
+First Crisis Level:
+
+Unlock one crisis policy slot.
 
 Policies - "Send the masses to the Towns"
 
@@ -28,7 +32,11 @@ Policies - "Let them build shanty towns in the Cities"
     <li>City Migration: -50% Growth Rate in Cities.</li>
 </ol>
 
-Policies - Second Crisis Level
+Second Crisis Level:
+
+Unlock one crisis policy slot.
+
+Policies:
 
 <ol>
     <li>Food Insecurity: -5 Food on Urban Districts.</li>
@@ -36,7 +44,11 @@ Policies - Second Crisis Level
     <li>Death of the Artists: -2 Culture from Specialists.</li>
 </ol>
 
-Policies - Third Crisis Level
+Third Crisis Level:
+
+Unlock two crisis policy slots.
+
+Policies:
 
 <ol>
     <li>Resource Scarcity: -1 Gold and -2 Food on Resources.</li>
@@ -78,7 +90,7 @@ Crisis policies reduce the influence output of your settlements. As the crisis i
 
 First Crisis Level:
 
-Gain -10 grievances with all Civs. Unlocks the Royal Banquet City Project.
+Gain -10 grievances with all Civs. Unlocks the Royal Banquet City Project. Unlock two crisis policy slots.
 
 Policies:
 
@@ -90,7 +102,7 @@ Policies:
 
 Second Crisis Level:
 
-Gain -20 grievances with all Civs.
+Gain -20 grievances with all Civs. Unlock one crisis policy slot.
 
 Policies:
 
@@ -102,13 +114,13 @@ Policies:
 
 Third Crisis Level:
 
-Gain -30 grievances with all Civs.
+Gain -30 grievances with all Civs. Unlock one crisis policy slot.
 
 Policies:
 
 <ol>
-    <li>No Allies: -5 Influence for every leader you are Unfriendly or Hostile with.</li>
-    <li>No Enemies: -5 Influence for every leader you are Friendly or Helpful with.</li>
+    <li>Border Tensions: -5 Influence for every leader you are Unfriendly or Hostile with.</li>
+    <li>Bumbling Leadership: -5 Influence for every leader you are Friendly or Helpful with.</li>
 </ol>
 
 Age Transition Unlocks:
@@ -144,14 +156,22 @@ Just like the in game Crises, you can unlock extra cards at Age Transition if yo
 
 Crisis policies reduce the gold output of your Settlements. Some policies also generate Treasure Fleets from Distant Land Settlements, at a cost.
 
-Policies - First Crisis Level
+First Crisis Level:
+
+Unlock one crisis policy slot.
+
+Policies:
 
 <ol>
     <li>Land Tax: -100% Gold in Distant Land Towns. Distant Land Towns generate Treasure Convoys worth 1 Treasure Fleet point each.</li>
     <li>City Tribute: -100% Gold in Distant Land Cities. Distant Land Cities generate Treasure Convoys worth 1 Treasure Fleet point each.</li>
 </ol>
 
-Policies - Second Crisis Level
+Second Crisis Level:
+
+Unlock one crisis policy slot.
+
+Policies:
 
 <ol>
     <li>Rent Hike: -5 Gold on Urban Districts in Homeland Settlements. Distant Land Settlements generate Treasure Convoys worth 1 Treasure Fleet point each.</li>
@@ -159,12 +179,16 @@ Policies - Second Crisis Level
     <li>Debasement: +100% Building Purchase Cost.</li>
 </ol>
 
-Policies - Third Crisis Level
+Third Crisis Level:
+
+Unlock two crisis policy slots.
+
+Policies:
 
 <ol>
     <li>Price Revolution: -10 Gold on Gold Buildings in Cities.</li>
     <li>Hefty Tribute: -15 Gold in Towns. +1 Movement on Embarked Treasure Convoys.</li>
-    <li>Embargo: -6 Gold per Imported Resource.</li>
+    <li>Embargo: -6 Gold per imported Resource.</li>
 </ol>
 
 Age Transition Unlocks:
@@ -196,20 +220,13 @@ Just like the in game Crises, you can unlock extra cards at Age Transition if yo
     </tbody>
 </table>
 
-## Known Bugs:
-
-<ul>
-    <li>When gaining Treasure Fleets with the Inflation Crisis, if the Settlement already produced Treasure Fleets, the number shown will be wrong. This is just a visual bug, as upon unloading the Treasure Fleets the correct amount of Treasure will be given.</li>
-    <li>For the Succession Crisis, grievances caused by the Crisis will say "From a Diplomatic Action".</li>
-</ul>
-
 ### Isolationism Crisis - Exploration
 
-Crisis policies impact your Trade Routes. As the crisis intensifies Trade Limits will decrease (one per crisis level). The crisis unlocks a new non exclusive Town Specialization, Internal Trade Town. This specialization reduces your Trade Range by 5 and grants 5 Gold per connected Settlement. Note that if you have more Trade Route with a leader than your Trade Limit Allows, Trade Routes will be lost until you are under the limit. In other words, if you do not increase your Trade Limit with leaders, this crisis will delete all your trade routes and you will have to resend merchants.
+Crisis policies impact your Trade Routes. As the crisis intensifies Trade Limits will decrease (one per crisis level). The crisis unlocks a new Town Specialization, Internal Trade Town. This specialization reduces your Trade Range by 5 and grants 5 Gold per connected Settlement. Note that if you have more Trade Route with a leader than your Trade Limit Allows, Trade Routes will be lost until you are under the limit. In other words, if you do not increase your Trade Limit with leaders, this crisis will delete all your trade routes and you will have to resend merchants.
 
 First Crisis Level:
 
--1 Trade Route Limit (cannot reduce the limit below 0). Unlocks a new non exclusive Town Specialization, Internal Trade Town.
+-1 Trade Route Limit (cannot reduce the limit below 0). Unlocks a new Town Specialization, Internal Trade Town. Unlock one crisis policy slot.
 
 Policies:
 
@@ -221,7 +238,7 @@ Policies:
 
 Second Crisis Level:
 
--1 Trade Route Limit (cannot reduce the limit below 0).
+-1 Trade Route Limit (cannot reduce the limit below 0). Unlock one crisis policy slot.
 
 Policies:
 
@@ -232,7 +249,7 @@ Policies:
 
 Third Crisis Level:
 
--1 Trade Route Limit (cannot reduce the limit below 0).
+-1 Trade Route Limit (cannot reduce the limit below 0). Unlock two crisis policy slots.
 
 Policies:
 
@@ -258,18 +275,24 @@ Just like the in game Crises, you can unlock extra cards at Age Transition if yo
         <tr>
             <td>Self Reliance</td>
             <td>+75% Gold toward purchasing Factories. -1 Trade Route Limit.</td>
-            <td>Have no Trade Routes when the Age ends.</td>
+            <td>Have 3 Towns with the Internal Trade Town Specialization.</td>
             <td>2 Economic Points</td>
         </tr>
         <tr>
             <td>Ruinophilia</td>
             <td>Gain the Natural History Civic for free and +2 Culture on displayed Great Works.</td>
-            <td>have 20 displayed Great Works</td>
+            <td>Have 20 displayed Great Works</td>
             <td>2 Cultural Points</td>
         </tr>
     </tbody>
 </table>
 
+## Known Bugs:
+
+<ul>
+    <li>For the Succession Crisis, grievances caused by the Crisis will say "From a Diplomatic Action".</li>
+</ul>
+
 ## Latest Update:
 
-Fixed icon issue for Town Specialization icon. Added crisis policies for the Isolationism crisis. Edited some text.
+Added Succession and Isolationism Crises. Updated for 1.3.0.

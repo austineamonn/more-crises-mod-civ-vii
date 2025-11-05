@@ -74,7 +74,7 @@
             <Text>Royal Funeral</Text>
         </Row>
         <Row Tag="LOC_ASC001A_COMPLETION">
-            <Text>A nation mourns the Emperor's death. But in the dark halls of the palace, court attendents have already begun to scheme. The Emperor died without naming an heir. Within the empire several factions begin to prepare a nominee, while our neighbors look on with interest hoping to take advantage of the chaos.</Text>
+            <Text>A nation mourns the Emperor's death. But in the dark halls of the palace, court attendents have already begun to scheme. The Emperor died without naming an heir, and the ambitious are desperate to fill the power vacuum. Within the empire several factions begin to prepare a nominee, while our neighbors look on with interest hoping to take advantage of the chaos.</Text>
         </Row>
         <Row Tag="LOC_ASC001B_NAME">
             <Text>Continue the crisis</Text>
@@ -86,7 +86,7 @@
             <Text>A Demand Refused</Text>
         </Row>
         <Row Tag="LOC_ASC002A_COMPLETION">
-            <Text>The power vacuum only grows each day without a ruler. Neighboring kings and queens are demanding their kids are named the true ruler of our great nation, but each one is refused. Even the greediest of court advisors knows that power is best kept within the nation where they will have more control over the next ruler. With a recent sighting of troops near the border, the search for an acceptable ruler grows more desperate.</Text>
+            <Text>The chaos and confusion only grow each day without a ruler. Neighboring kings and queens are demanding their kids are coronated as the ruler of our great nation, but each one is refused. Even the greediest of court advisors knows that power is best kept within the nation where they will have more control over the next ruler. With a recent sighting of troops near the border, the search for an acceptable ruler grows more desperate.</Text>
         </Row>
         <Row Tag="LOC_ASC002B_NAME">
             <Text>Continue the crisis</Text>
@@ -166,7 +166,7 @@
             <Text>Stabilizing Prices</Text>
         </Row>
         <Row Tag="LOC_EINC004A_COMPLETION">
-            <Text>Prices have begun to fall, and now hope begins to rise. The world is almost as it was before. The wealthy are wealthy and the poor are poor. Well, maybe some things need to change ...</Text>
+            <Text>Prices have begun to fall, and now hope begins to rise. The world is almost as it was before. Government funds can now be spent on expanding infrastructure and families are able to save for the future. The wealthy are wealthy and the poor are poor. Well, maybe some things need to change ...</Text>
         </Row>
         <Row Tag="LOC_EINC004B_NAME">
             <Text>The Age of Exploration is ending.</Text>
@@ -185,7 +185,7 @@
             <Text>Shuttered Markets</Text>
         </Row>
         <Row Tag="LOC_EISC001A_COMPLETION">
-            <Text>After centuries of empires clashing against one another, the leading civilizations have turned inward. Ports and markets are forcibly closed and merchants find once open borders to be strictly closed. Royal advisors scoff, what could they have that we already don't. Our great civilization will continue without our former trade partners. Surely we have enough internal resources to sustain us.</Text>
+            <Text>After centuries of empires clashing against one another, the leading civilizations have decided to turn inward. Ports and markets are forcibly shut down and merchants find once open borders to be strictly closed. Royal advisors scoff, what could they have that we already don't. Our great civilization will continue without our former trade partners. Surely we have enough internal resources to sustain us.</Text>
         </Row>
         <Row Tag="LOC_EISC001B_NAME">
             <Text>Continue the crisis</Text>
@@ -209,7 +209,7 @@
             <Text>A Breaking Point</Text>
         </Row>
         <Row Tag="LOC_EISC003A_COMPLETION">
-            <Text>A young scholar groans at her desk. By the time she learns the latest laws and regulations, ten more have been added. The number of banned books feels larger than the books that can still be legally read. Religious ceremonies must be performed in secret while black market goods are kept in the shadows.</Text>
+            <Text>A young scholar groans at her desk. By the time she learns the latest laws and regulations, ten more have been added. The number of banned books feels larger than the books that can still be legally read. Religious ceremonies must be performed in secret while black market goods are kept in the shadows. No outside influence is allowed to corrupt our civilization. Citizens begin to wonder if all this censorship is inspiring artists or stifling them.</Text>
         </Row>
         <Row Tag="LOC_EISC003B_NAME">
             <Text>Continue the crisis</Text>

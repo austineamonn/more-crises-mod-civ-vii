@@ -9,7 +9,7 @@
 	</Types>
 	<Projects>
 		<!-- Crisis Projects -->
-		<Row ProjectType="PROJECT_TOWN_INTERNAL_TRADE" Name="LOC_PROJECT_TOWN_INTERNAL_TRADE_NAME" ShortName="LOC_PROJECT_TOWN_INTERNAL_TRADE_SHORT_NAME" Description="LOC_PROJECT_TOWN_INTERNAL_TRADE_DESCRIPTION" Food="true" ExclusiveSpecialization="false" TownOnly="true" PrereqPopulation="7" RequiresUnlock="true"/>
+		<Row ProjectType="PROJECT_TOWN_INTERNAL_TRADE" Name="LOC_PROJECT_TOWN_INTERNAL_TRADE_NAME" ShortName="LOC_PROJECT_TOWN_INTERNAL_TRADE_SHORT_NAME" Description="LOC_PROJECT_TOWN_INTERNAL_TRADE_DESCRIPTION" Food="true" ExclusiveSpecialization="true" TownOnly="true" PrereqPopulation="7" RequiresUnlock="true"/>
 	</Projects>
 	<ProjectModifiers>
 		<!-- Crisis Project Modifiers -->

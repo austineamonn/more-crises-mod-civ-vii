@@ -63,7 +63,7 @@
 			<Text>Self Reliance</Text>
 		</Row>
 		<Row Tag="LOC_UNLOCK_ISOLATIONISM_SELF_RELIANCE_DESCRIPTION">
-			<Text>End the Age with no Trade Routes.</Text>
+			<Text>Have 3 Towns with the Internal Trade Town Specialization.</Text>
 		</Row>
 		<Row Tag="LOC_UNLOCK_ISOLATIONISM_SELF_RELIANCE_TOOLTIP">
 			<Text>When other empires closed their borders, our Civilzation found economic prosperity internally.</Text>

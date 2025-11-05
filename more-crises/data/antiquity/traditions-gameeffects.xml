@@ -146,24 +146,24 @@
 		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
 		<Argument name="Amount">-5</Argument>
 	</Modifier>
-	<Modifier id="NO_ALLIES_MOD_UNFRIENDLY_INFLUENCE" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_YIELD_PER_PLAYER_RELATIONSHIP">
+	<Modifier id="BORDER_TENSIONS_MOD_UNFRIENDLY_INFLUENCE" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_YIELD_PER_PLAYER_RELATIONSHIP">
 		<Argument name="RelationshipType">PLAYER_RELATIONSHIP_UNFRIENDLY</Argument>
 		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
 		<Argument name="Amount">-5</Argument>
-		<String context="Description">LOC_TRADITION_NO_ALLIES_DESCRIPTION</String>
+		<String context="Description">LOC_TRADITION_BORDER_TENSIONS_DESCRIPTION</String>
 	</Modifier>
-	<Modifier id="NO_ALLIES_MOD_HOSTILE_INFLUENCE" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_YIELD_PER_PLAYER_RELATIONSHIP">
+	<Modifier id="BORDER_TENSIONS_MOD_HOSTILE_INFLUENCE" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_YIELD_PER_PLAYER_RELATIONSHIP">
 		<Argument name="RelationshipType">PLAYER_RELATIONSHIP_HOSTILE</Argument>
 		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
 		<Argument name="Amount">-5</Argument>
 	</Modifier>
-	<Modifier id="NO_ENEMIES_MOD_FRIENDLY_INFLUENCE" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_YIELD_PER_PLAYER_RELATIONSHIP">
+	<Modifier id="BUMBLING_LEADERSHIP_MOD_FRIENDLY_INFLUENCE" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_YIELD_PER_PLAYER_RELATIONSHIP">
 		<Argument name="RelationshipType">PLAYER_RELATIONSHIP_FRIENDLY</Argument>
 		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
 		<Argument name="Amount">-5</Argument>
-		<String context="Description">LOC_TRADITION_NO_ENEMIES_DESCRIPTION</String>
+		<String context="Description">LOC_TRADITION_BUMBLING_LEADERSHIP_DESCRIPTION</String>
 	</Modifier>
-	<Modifier id="NO_ENEMIES_MOD_HELPFUL_INFLUENCE" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_YIELD_PER_PLAYER_RELATIONSHIP">
+	<Modifier id="BUMBLING_LEADERSHIP_MOD_HELPFUL_INFLUENCE" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_YIELD_PER_PLAYER_RELATIONSHIP">
 		<Argument name="RelationshipType">PLAYER_RELATIONSHIP_HELPFUL</Argument>
 		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
 		<Argument name="Amount">-5</Argument>

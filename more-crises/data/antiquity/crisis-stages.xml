@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
+	<AgeCrisisEvents>
+		<Row NarrativeStoryType="AFCINTROA" AgeCrisisEventType="ANTIQUITY_CRISIS_FAMINE" AgeCrisisType="ANTIQUITY_AGE_TIMER_CRISIS" Age="AGE_ANTIQUITY"/>
+		<Row NarrativeStoryType="ASCINTROA" AgeCrisisEventType="ANTIQUITY_CRISIS_SUCCESSION" AgeCrisisType="ANTIQUITY_AGE_TIMER_CRISIS" Age="AGE_ANTIQUITY"/>
+	</AgeCrisisEvents>
 	<AgeCrisisStages>
 		<!-- Testing Percents -->
 		<!--<Row Stage="1" AgeCrisisEventType="ANTIQUITY_CRISIS_SUCCESSION" MinDuration="5" AgeProgressTriggerPercent="5" AgeProgressEndPercent="10"/>
@@ -15,8 +19,4 @@
 		<Row Stage="3" AgeCrisisEventType="ANTIQUITY_CRISIS_SUCCESSION" MinDuration="5" AgeProgressTriggerPercent="90" AgeProgressEndPercent="100"/>
 		<Row Stage="4" AgeCrisisEventType="ANTIQUITY_CRISIS_SUCCESSION" MinDuration="5" AgeProgressTriggerPercent="100" AgeProgressEndPercent="100" FinalStage="true"/>
 	</AgeCrisisStages>
-	<AgeCrisisNarratives>
-		<Row NarrativeStoryType="AFCINTROA" AgeCrisisEventType="ANTIQUITY_CRISIS_FAMINE" Age="AGE_ANTIQUITY"/>
-		<Row NarrativeStoryType="ASCINTROA" AgeCrisisEventType="ANTIQUITY_CRISIS_SUCCESSION" Age="AGE_ANTIQUITY"/>
-	</AgeCrisisNarratives>
 </Database>

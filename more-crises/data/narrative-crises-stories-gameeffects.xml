@@ -57,21 +57,25 @@
     <RequirementSet id="REQSET_AFC001A_NARRATIVE">
         <Requirement type="REQUIREMENT_AGE_CRISIS_STAGE_IS_X">
             <Argument name="Amount">0</Argument>
+            <Argument name="AgeCrisisType">ANTIQUITY_AGE_TIMER_CRISIS</Argument>
         </Requirement>
     </RequirementSet>
     <RequirementSet id="REQSET_AFC002A_NARRATIVE">
         <Requirement type="REQUIREMENT_AGE_CRISIS_STAGE_IS_X">
             <Argument name="Amount">1</Argument>
+            <Argument name="AgeCrisisType">ANTIQUITY_AGE_TIMER_CRISIS</Argument>
         </Requirement>
     </RequirementSet>
     <RequirementSet id="REQSET_AFC003A_NARRATIVE">
         <Requirement type="REQUIREMENT_AGE_CRISIS_STAGE_IS_X">
             <Argument name="Amount">2</Argument>
+            <Argument name="AgeCrisisType">ANTIQUITY_AGE_TIMER_CRISIS</Argument>
         </Requirement>
     </RequirementSet>
     <RequirementSet id="REQSET_AFC004A_NARRATIVE">
         <Requirement type="REQUIREMENT_AGE_CRISIS_STAGE_IS_X">
             <Argument name="Amount">3</Argument>
+            <Argument name="AgeCrisisType">ANTIQUITY_AGE_TIMER_CRISIS</Argument>
         </Requirement>
     </RequirementSet>
     <!-- Succession Crisis -->
@@ -121,10 +125,10 @@
         <Argument name="Negative">TRUE</Argument>
     </Modifier>
     <Modifier id="ASC003B_NARRATIVE_MODIFIER2" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
-        <Argument name="Tradition">TRADITION_NO_ALLIES</Argument>
+        <Argument name="Tradition">TRADITION_BORDER_TENSIONS</Argument>
     </Modifier>
     <Modifier id="ASC003B_NARRATIVE_MODIFIER3" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
-        <Argument name="Tradition">TRADITION_NO_ENEMIES</Argument>
+        <Argument name="Tradition">TRADITION_BUMBLING_LEADERSHIP</Argument>
     </Modifier>
     <Modifier id="ASC003B_NARRATIVE_MODIFIER4" collection="COLLECTION_OWNER" effect="EFFECT_GRANT_ALL_PLAYERS_FAVORS_GRIEVANCES" run-once="true" permanent="true">
 		<Argument name="GrievancesAmount">15</Argument>
@@ -133,21 +137,25 @@
     <RequirementSet id="REQSET_ASC001A_NARRATIVE">
         <Requirement type="REQUIREMENT_AGE_CRISIS_STAGE_IS_X">
             <Argument name="Amount">0</Argument>
+            <Argument name="AgeCrisisType">ANTIQUITY_AGE_TIMER_CRISIS</Argument>
         </Requirement>
     </RequirementSet>
     <RequirementSet id="REQSET_ASC002A_NARRATIVE">
         <Requirement type="REQUIREMENT_AGE_CRISIS_STAGE_IS_X">
             <Argument name="Amount">1</Argument>
+            <Argument name="AgeCrisisType">ANTIQUITY_AGE_TIMER_CRISIS</Argument>
         </Requirement>
     </RequirementSet>
     <RequirementSet id="REQSET_ASC003A_NARRATIVE">
         <Requirement type="REQUIREMENT_AGE_CRISIS_STAGE_IS_X">
             <Argument name="Amount">2</Argument>
+            <Argument name="AgeCrisisType">ANTIQUITY_AGE_TIMER_CRISIS</Argument>
         </Requirement>
     </RequirementSet>
     <RequirementSet id="REQSET_ASC004A_NARRATIVE">
         <Requirement type="REQUIREMENT_AGE_CRISIS_STAGE_IS_X">
             <Argument name="Amount">3</Argument>
+            <Argument name="AgeCrisisType">ANTIQUITY_AGE_TIMER_CRISIS</Argument>
         </Requirement>
     </RequirementSet>
     <!-- Exploration -->
@@ -199,21 +207,25 @@
     <RequirementSet id="REQSET_EINC001A_NARRATIVE">
         <Requirement type="REQUIREMENT_AGE_CRISIS_STAGE_IS_X">
             <Argument name="Amount">0</Argument>
+            <Argument name="AgeCrisisType">EXPLORATION_AGE_TIMER_CRISIS</Argument>
         </Requirement>
     </RequirementSet>
     <RequirementSet id="REQSET_EINC002A_NARRATIVE">
         <Requirement type="REQUIREMENT_AGE_CRISIS_STAGE_IS_X">
             <Argument name="Amount">1</Argument>
+            <Argument name="AgeCrisisType">EXPLORATION_AGE_TIMER_CRISIS</Argument>
         </Requirement>
     </RequirementSet>
     <RequirementSet id="REQSET_EINC003A_NARRATIVE">
         <Requirement type="REQUIREMENT_AGE_CRISIS_STAGE_IS_X">
             <Argument name="Amount">2</Argument>
+            <Argument name="AgeCrisisType">EXPLORATION_AGE_TIMER_CRISIS</Argument>
         </Requirement>
     </RequirementSet>
     <RequirementSet id="REQSET_EINC004A_NARRATIVE">
         <Requirement type="REQUIREMENT_AGE_CRISIS_STAGE_IS_X">
             <Argument name="Amount">3</Argument>
+            <Argument name="AgeCrisisType">EXPLORATION_AGE_TIMER_CRISIS</Argument>
         </Requirement>
     </RequirementSet>
     <!-- Isolationism Crisis -->
@@ -276,21 +288,25 @@
     <RequirementSet id="REQSET_EISC001A_NARRATIVE">
         <Requirement type="REQUIREMENT_AGE_CRISIS_STAGE_IS_X">
             <Argument name="Amount">0</Argument>
+            <Argument name="AgeCrisisType">EXPLORATION_AGE_TIMER_CRISIS</Argument>
         </Requirement>
     </RequirementSet>
     <RequirementSet id="REQSET_EISC002A_NARRATIVE">
         <Requirement type="REQUIREMENT_AGE_CRISIS_STAGE_IS_X">
             <Argument name="Amount">1</Argument>
+            <Argument name="AgeCrisisType">EXPLORATION_AGE_TIMER_CRISIS</Argument>
         </Requirement>
     </RequirementSet>
     <RequirementSet id="REQSET_EISC003A_NARRATIVE">
         <Requirement type="REQUIREMENT_AGE_CRISIS_STAGE_IS_X">
             <Argument name="Amount">2</Argument>
+            <Argument name="AgeCrisisType">EXPLORATION_AGE_TIMER_CRISIS</Argument>
         </Requirement>
     </RequirementSet>
     <RequirementSet id="REQSET_EISC004A_NARRATIVE">
         <Requirement type="REQUIREMENT_AGE_CRISIS_STAGE_IS_X">
             <Argument name="Amount">3</Argument>
+            <Argument name="AgeCrisisType">EXPLORATION_AGE_TIMER_CRISIS</Argument>
         </Requirement>
     </RequirementSet>
 </GameEffects>

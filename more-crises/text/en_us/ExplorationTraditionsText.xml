@@ -48,7 +48,7 @@
 			<Text>Embargo</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_EMBARGO_DESCRIPTION">
-			<Text>-6 [icon:YIELD_GOLD] Gold per Imported Resource.</Text>
+			<Text>-6 [icon:YIELD_GOLD] Gold per imported Resource.</Text>
 		</Row>
 		<!-- Isolationism Crisis -->
 		<Row Tag="LOC_TRADITION_TRADE_PROTECTIONISM_NAME">
