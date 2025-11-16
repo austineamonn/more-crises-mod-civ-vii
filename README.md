@@ -2,13 +2,13 @@
 
 Author: austineamonn
 
-Version 1.1.0
+Version 1.1.1
 
 Adds 4 new crises to the Antiquity and Exploration age. More Crises to come!
 
 ## Current Mod:
 
-Adds the Famine and Succession Crises to Antiquity and the Inflation and Isolationism Crises to Exploration. Depending on your build these crises can be much more punishing than the Base Game ones, so beware. You can select which crises you want (or don't want) by clicking the Advanced Options button before launching your game. All crises (including Base Game crises) start enabled but you can toggle whichever ones you don't want to disabled them.
+Adds the Famine and Succession Crises to Antiquity and the Inflation and Isolationism Crises to Exploration. Depending on your build these crises can be much more punishing than the Base Game ones, so beware. You can select which crises you want (or don't want) by clicking the Advanced Options button before launching your game. All crises (including Base Game crises) start enabled but you can toggle whichever ones you don't want to disable them.
 
 ### Famine Crisis - Antiquity
 
@@ -281,7 +281,7 @@ Just like the in game Crises, you can unlock extra cards at Age Transition if yo
         <tr>
             <td>Ruinophilia</td>
             <td>Gain the Natural History Civic for free and +2 Culture on displayed Great Works.</td>
-            <td>Have 20 displayed Great Works</td>
+            <td>Have 20 displayed Great Works.</td>
             <td>2 Cultural Points</td>
         </tr>
     </tbody>
@@ -295,4 +295,4 @@ Just like the in game Crises, you can unlock extra cards at Age Transition if yo
 
 ## Latest Update:
 
-Added Succession and Isolationism Crises. Updated for 1.3.0.
+Added Alternative Crises Settings.

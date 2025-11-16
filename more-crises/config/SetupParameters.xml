@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<!--<ParameterGroups>
+		<Row GroupId="MoreCrisesOptions" Name="LOC_GROUPID_MORECRISESOPTIONS"/>
+	</ParameterGroups>-->
+	<Parameters>
+		<!-- COMMON OPTIONS -->
+		<Row ParameterID="MoreCrisesAlt" Name="LOC_MORE_CRISES_NAME" Description="LOC_MORE_CRISES_DESCRIPTION" Domain="MoreCrises" Hash="0" ConfigurationGroup="Game" ConfigurationKey="MoreCrisesAlt" GroupId="DisasterOptions" ChangeableAfterGameStart="0" SortIndex="3020"/>
+		<!--<Row ParameterID="Crises" Name="LOC_SETUP_CRISIS_NAME" Description="LOC_SETUP_CRISIS_DESC" Domain="StandardCrises" Hash="0" Array="1" UxHint="InvertSelection" ConfigurationGroup="Game" ConfigurationKey="ExcludeCrises" GroupId="DisasterOptions" GroupIDMultiplayerOverride="MPAdvancedDisasterOptions" ChangeableAfterGameStart="0" SortIndex="3030"/>-->
+	</Parameters>
+	<ParameterDependencies>
+		<!-- Enable certain options only if in world builder. -->
+		<!--<Row ParameterId="WorldWrap" ConfigurationGroup="Game" ConfigurationKey="WORLD_BUILDER" Operator="Equals" ConfigurationValue="1"/>-->
+	</ParameterDependencies>
+	<DomainValues>
+		<Row Domain="MoreCrises" Value="BASECRISES" Name="LOC_BASECRISES_NAME" Description="LOC_BASECRISES_DESCRIPTION" SortIndex="10"/>
+		<Row Domain="MoreCrises" Value="ALTCRISES" Name="LOC_ALTCRISES_NAME" Description="LOC_ALTCRISES_DESCRIPTION" SortIndex="20"/>
+	</DomainValues>
+	<Queries>
+		<!--<Row QueryId="Crises" Type="DomainValues" SQL="SELECT Domain, Name, Description, Category, AgeCrisisEventType AS Value, AgeType, SortIndex FROM Crises"/>-->
+	</Queries>
+	<QueryParameters>
+		<!--<Row QueryId="RulesetParameters" Index="1" ConfigurationGroup="Game" ConfigurationKey="RuleSet"/>-->
+	</QueryParameters>
+</Database>

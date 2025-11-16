@@ -1,6 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Database>
     <EnglishText>
+        <!-- Crises Settings -->
+        <Row Tag="LOC_MORE_CRISES_NAME">
+			<Text>More Crises</Text>
+		</Row>
+		<Row Tag="LOC_MORE_CRISES_DESCRIPTION">
+			<Text>Contains additional Crises for the Antiquity and Exploration Eras.</Text>
+		</Row>
+		<Row Tag="LOC_BASECRISES_NAME">
+			<Text>Base Crises</Text>
+		</Row>
+		<Row Tag="LOC_BASECRISES_DESCRIPTION">
+			<Text>Unchanged Base Crises.</Text>
+		</Row>
+		<Row Tag="LOC_ALTCRISES_NAME">
+			<Text>Alternative Crises</Text>
+		</Row>
+		<Row Tag="LOC_ALTCRISES_DESCRIPTION">
+			<Text>Changes Base Crises.</Text>
+		</Row>
         <!-- Antiquity -->
         <!-- Famine Crisis -->
         <Row Tag="LOC_ANTIQUITY_FAMINE_CRISIS_NAME">

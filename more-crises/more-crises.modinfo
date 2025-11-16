@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="more-crises" version="1.1.0"
+<Mod id="more-crises" version="1.1.1"
 	xmlns="ModInfo">
 	<Properties>
 		<Name>LOC_MODULE_MORE_CRISES_NAME</Name>
@@ -7,7 +7,7 @@
 		<Authors>austineamonn</Authors>
 		<Package>DLC</Package>
 		<AffectsSavedGames>1</AffectsSavedGames>
-		<Version>1.1.0</Version>
+		<Version>1.1.1</Version>
 	</Properties>
 	<Dependencies>
 		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
@@ -24,6 +24,13 @@
 		</Criteria>
 		<Criteria id="always">
 			<AlwaysMet></AlwaysMet>
+		</Criteria>
+		<Criteria id="alt-crises">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>MoreCrisesAlt</ConfigurationId>
+				<Value>ALTCRISES</Value>
+			</ConfigurationValueMatches>
 		</Criteria>
 	</ActionCriteria>
 	<ActionGroups>
@@ -94,10 +101,23 @@
                 </UpdateText>
 			</Actions>
 		</ActionGroup>
+		<!-- Alternative Base Crises -->
+        <ActionGroup id="base-game-main-more-crises" scope="game" criteria="always">
+            <Actions>
+                <UpdateDatabase>
+					<Item>data/alt-crises/traditions-gameeffects.xml</Item>
+					<Item>data/alt-crises/traditions.xml</Item>
+                </UpdateDatabase>
+                <UpdateText>
+					<Item>text/en_us/AltCrisesTraditionsText.xml</Item>
+                </UpdateText>
+            </Actions>
+        </ActionGroup>
 		<ActionGroup id="shell-more-crises" scope="shell" criteria="always">
 			<Actions>
 				<UpdateDatabase>
 					<Item>config/config.xml</Item>
+					<Item>config/SetupParameters.xml</Item>
 				</UpdateDatabase>
 				<UpdateIcons>
 					<Item>data/icons/project-icons.xml</Item>
