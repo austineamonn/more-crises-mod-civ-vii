@@ -2,7 +2,7 @@
 
 Author: austineamonn
 
-Version 1.1.1
+Version 1.1.2
 
 Adds 4 new crises to the Antiquity and Exploration age. More Crises to come!
 
@@ -291,8 +291,13 @@ Just like the in game Crises, you can unlock extra cards at Age Transition if yo
 
 <ul>
     <li>For the Succession Crisis, grievances caused by the Crisis will say "From a Diplomatic Action".</li>
+    <li>For the Alternate Invasion Crisis, if a player dies with Inferior Tactics slotted, the extra strength for independent powers will remain.".</li>
 </ul>
 
 ## Latest Update:
 
-Added Alternative Crises Settings.
+Added Alternative, more difficult, Traditions to the Invasion Crisis.
+
+## Notes:
+
+Since the AI always seem to slow Inferior Tactics, the Alternate Invasion Crisis is very painful on large and huge map sizes where independent powers could gain at least +20 strength.

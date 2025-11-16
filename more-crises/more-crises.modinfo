@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="more-crises" version="1.1.1"
+<Mod id="more-crises" version="1.1.2"
 	xmlns="ModInfo">
 	<Properties>
 		<Name>LOC_MODULE_MORE_CRISES_NAME</Name>
@@ -7,7 +7,7 @@
 		<Authors>austineamonn</Authors>
 		<Package>DLC</Package>
 		<AffectsSavedGames>1</AffectsSavedGames>
-		<Version>1.1.1</Version>
+		<Version>1.1.2</Version>
 	</Properties>
 	<Dependencies>
 		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
@@ -105,6 +105,7 @@
         <ActionGroup id="base-game-main-more-crises" scope="game" criteria="always">
             <Actions>
                 <UpdateDatabase>
+					<Item>data/alt-crises/crisis-stages.xml</Item>
 					<Item>data/alt-crises/traditions-gameeffects.xml</Item>
 					<Item>data/alt-crises/traditions.xml</Item>
                 </UpdateDatabase>

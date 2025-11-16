@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Traditions>
+		<!-- Alternate Invasion Crisis Policies -->
+		<Update>
+			<Where TraditionType="TRADITION_BANDITRY"/>
+			<Set Description="LOC_ALT_TRADITION_BANDITRY_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where TraditionType="TRADITION_INFERIOR_TACTICS"/>
+			<Set Description="LOC_ALT_TRADITION_INFERIOR_TACTICS_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where TraditionType="TRADITION_REBELLIOUS_COMMANDERS"/>
+			<Set Description="LOC_ALT_TRADITION_REBELLIOUS_COMMANDERS_DESCRIPTION"/>
+		</Update>
+	</Traditions>
+	<TraditionModifiers>
+		<!-- Alternate Invasion Crisis Policies -->
+		<Update>
+			<Where TraditionType="TRADITION_BANDITRY"/>
+			<Set ModifierId="ALT_BANDITRY_MOD_GOLD"/>
+		</Update>
+		<Update>
+			<Where TraditionType="TRADITION_INFERIOR_TACTICS"/>
+			<Set ModifierId="ALT_INFERIOR_TACTICS_MOD_INDEPENDENT_COMBAT"/>
+		</Update>
+		<Update>
+			<Where TraditionType="TRADITION_REBELLIOUS_COMMANDERS"/>
+			<Set ModifierId="ALT_REBELLIOUS_COMMANDERS_MOD_HAPPINESS"/>
+		</Update>
+	</TraditionModifiers>
+</Database>

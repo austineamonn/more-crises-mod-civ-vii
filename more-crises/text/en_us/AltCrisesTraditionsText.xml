@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!-- Alternate Invasion Crisis Policies -->
+		<Row Tag="LOC_ALT_TRADITION_BANDITRY_DESCRIPTION">
+			<Text>-6 [icon:YIELD_GOLD] Gold for each imported [icon:RADIAL_RESOURCES] Resource.</Text>
+		</Row>
+		<Row Tag="LOC_ALT_TRADITION_INFERIOR_TACTICS_DESCRIPTION">
+			<Text>+6 [icon:NAR_REW_COMBAT] Combat Strength for [icon:INDEPENDENT_POWER] Independent Powers, stacks if slotted by other Players.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_INFERIOR_TACTICS_PREVIEW">
+			<Text>+{1_Amount} Inferior Tactics</Text>
+		</Row>
+		<Row Tag="LOC_ALT_TRADITION_REBELLIOUS_COMMANDERS_DESCRIPTION">
+			<Text>-3[icon:YIELD_HAPPINESS] Happiness in all [icon:YIELD_CITIES] Cities for each [icon:NAR_REW_PROMOTION] Commander Level.</Text>
+		</Row>
+	</EnglishText>
+</Database>

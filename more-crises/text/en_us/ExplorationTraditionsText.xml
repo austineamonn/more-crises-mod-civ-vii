@@ -6,19 +6,19 @@
 			<Text>Land Tax</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_LAND_TAX_DESCRIPTION">
-			<Text>-100% [icon:YIELD_GOLD] Gold in Distant Land Towns. Distant Land Towns generate Treasure Convoys worth 1 Treasure Fleet point each.</Text>
+			<Text>-100% [icon:YIELD_GOLD] Gold in Distant Land [icon:YIELD_TOWNS] Towns. Distant Land [icon:YIELD_TOWNS] Towns generate [icon:UNIT_TREASURE_FLEET] Treasure Convoys worth 1 Treasure Fleet point each.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_CITY_TRIBUTE_NAME">
 			<Text>City Tribute</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_CITY_TRIBUTE_DESCRIPTION">
-			<Text>-100% [icon:YIELD_GOLD] Gold in Distant Land Cities. Distant Land Cities generate Treasure Convoys worth 1 Treasure Fleet point each.</Text>
+			<Text>-100% [icon:YIELD_GOLD] Gold in Distant Land [icon:YIELD_CITIES] Cities. Distant Land [icon:YIELD_CITIES] Cities generate [icon:UNIT_TREASURE_FLEET] Treasure Convoys worth 1 Treasure Fleet point each.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_RENT_HIKE_NAME">
 			<Text>Rent Hike</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_RENT_HIKE_DESCRIPTION">
-			<Text>-5 [icon:YIELD_GOLD] Gold on Urban Districts in Homeland Settlements. Distant Land Settlements generate Treasure Convoys worth 1 Treasure Fleet point each.</Text>
+			<Text>-5 [icon:YIELD_GOLD] Gold on Urban Districts in Homeland Settlements. Distant Land Settlements generate [icon:UNIT_TREASURE_FLEET] Treasure Convoys worth 1 Treasure Fleet point each.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_WORTHLESS_TREASURE_NAME">
 			<Text>Worthless Treasure</Text>
@@ -30,32 +30,32 @@
 			<Text>Debasement</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_DEBASEMENT_DESCRIPTION">
-			<Text>+100% Building Purchase Cost.</Text>
+			<Text>+100% [icon:CITY_BUILDING_LIST] Building Purchase Cost.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_PRICE_REVOLUTION_NAME">
 			<Text>Price Revolution</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_PRICE_REVOLUTION_DESCRIPTION">
-			<Text>-10 [icon:YIELD_GOLD] Gold on Gold Buildings in Cities.</Text>
+			<Text>-10 [icon:YIELD_GOLD] Gold on Gold Buildings in [icon:YIELD_CITIES] Cities.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_HEFTY_TRIBUTE_NAME">
 			<Text>Hefty Tribute</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_HEFTY_TRIBUTE_DESCRIPTION">
-			<Text>-15 [icon:YIELD_GOLD] Gold in Towns. +1 Movement on Embarked Treasure Convoys.</Text>
+			<Text>-15 [icon:YIELD_GOLD] Gold in Towns. +1 Movement on Embarked [icon:UNIT_TREASURE_FLEET] Treasure Convoys.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_EMBARGO_NAME">
 			<Text>Embargo</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_EMBARGO_DESCRIPTION">
-			<Text>-6 [icon:YIELD_GOLD] Gold per imported Resource.</Text>
+			<Text>-6 [icon:YIELD_GOLD] Gold per imported [icon:RADIAL_RESOURCES] Resource.</Text>
 		</Row>
 		<!-- Isolationism Crisis -->
 		<Row Tag="LOC_TRADITION_TRADE_PROTECTIONISM_NAME">
 			<Text>Trade Protectionism</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_TRADE_PROTECTIONISM_DESCRIPTION">
-			<Text>-3 [icon:YIELD_GOLD] Gold and [icon:YIELD_DIPLOMACY] Influence for each imported Resource.</Text>
+			<Text>-3 [icon:YIELD_GOLD] Gold and [icon:YIELD_DIPLOMACY] Influence for each imported [icon:RADIAL_RESOURCES] Resource.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_SHIPPING_BAN_NAME">
 			<Text>Shipping Ban</Text>
@@ -85,7 +85,7 @@
 			<Text>Book Ban</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_BOOK_BAN_DESCRIPTION">
-			<Text>-2 [icon:YIELD_SCIENCE] Science and [icon:YIELD_CULTURE] Culture on displayed Great Works.</Text>
+			<Text>-2 [icon:YIELD_SCIENCE] Science and [icon:YIELD_CULTURE] Culture on displayed [icon:NAR_REW_GREATWORK] Great Works.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_RELIGIOUS_INTOLERANCE_NAME">
 			<Text>Religious Intolerance</Text>

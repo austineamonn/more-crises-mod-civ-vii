@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<AgeCrisisStages>
+		<!-- Testing Percents -->
+		<Update>
+			<Where Stage="1" AgeCrisisEventType="ANTIQUITY_CRISIS_INVASION"/>
+			<Set AgeProgressTriggerPercent="5" AgeProgressEndPercent="10"/>
+		</Update>
+		<Update>
+			<Where Stage="2" AgeCrisisEventType="ANTIQUITY_CRISIS_INVASION"/>
+			<Set AgeProgressTriggerPercent="10" AgeProgressEndPercent="15"/>
+		</Update>
+		<Update>
+			<Where Stage="3" AgeCrisisEventType="ANTIQUITY_CRISIS_INVASION"/>
+			<Set AgeProgressTriggerPercent="15" AgeProgressEndPercent="20"/>
+		</Update>
+		<Update>
+			<Where Stage="4" AgeCrisisEventType="ANTIQUITY_CRISIS_INVASION"/>
+			<Set AgeProgressTriggerPercent="20" AgeProgressEndPercent="100"/>
+		</Update>
+	</AgeCrisisStages>
+</Database>

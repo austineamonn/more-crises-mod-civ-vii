@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- Alternate Invasion Crisis Policies -->
+	<Modifier id="ALT_BANDITRY_MOD_GOLD" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_RESOURCE">
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Imported">true</Argument>
+		<Argument name="Amount">-6</Argument>
+		<String context="Description">LOC_ALT_TRADITION_BANDITRY_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="ALT_INFERIOR_TACTICS_MOD_INDEPENDENT_COMBAT" collection="COLLECTION_ALL_UNITS" effect="EFFECT_ATTACH_MODIFIERS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_IS_INDEPENDENT"/>
+		</SubjectRequirements>
+		<Argument name="ModifierId">ALT_INFERIOR_TACTICS_MOD_ADJUST_UNIT_COMBAT_STRENGTH_MODIFIER</Argument>
+	</Modifier>
+	<Modifier id="ALT_INFERIOR_TACTICS_MOD_ADJUST_UNIT_COMBAT_STRENGTH_MODIFIER" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<Argument name="Amount">2</Argument>
+		<String context="Preview">LOC_TRADITION_INFERIOR_TACTICS_PREVIEW</String>
+	</Modifier>
+	<Modifier id="ALT_REBELLIOUS_COMMANDERS_MOD_HAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_COMMANDER_LEVEL">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">-3</Argument>
+		<String context="Description">LOC_ALT_TRADITION_REBELLIOUS_COMMANDERS_DESCRIPTION</String>
+	</Modifier>
+</GameEffects>

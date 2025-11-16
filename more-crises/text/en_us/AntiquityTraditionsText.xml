@@ -6,13 +6,13 @@
 			<Text>Empty Storage</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_EMPTY_STORAGE_DESCRIPTION">
-			<Text>-5 [icon:YIELD_GOLD] Gold on Warehouse Buildings in Towns.</Text>
+			<Text>-5 [icon:YIELD_GOLD] Gold on Warehouse Buildings in [icon:YIELD_TOWNS] Towns.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_CITY_SLUM_NAME">
 			<Text>City Slum</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_CITY_SLUM_DESCRIPTION">
-			<Text>-5 [icon:YIELD_GOLD] Gold on Food Buildings in Cities.</Text>
+			<Text>-5 [icon:YIELD_GOLD] Gold on Food Buildings in [icon:YIELD_CITIES] Cities.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_FOOD_INSECURITY_NAME">
 			<Text>Food Insecurity</Text>
@@ -24,31 +24,31 @@
 			<Text>City Migration</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_CITY_MIGRATION_DESCRIPTION">
-			<Text>-50% Growth Rate in Cities.</Text>
+			<Text>-50% Growth Rate in [icon:YIELD_CITIES] Cities.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_OVERWORKED_FARMERS_NAME">
 			<Text>Overworked Farmers</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_OVERWORKED_FARMERS_DESCRIPTION">
-			<Text>-75%[icon:YIELD_PRODUCTION] Production and [icon:YIELD_FOOD] Food in Growing Towns.</Text>
+			<Text>-75%[icon:YIELD_PRODUCTION] Production and [icon:YIELD_FOOD] Food in Growing [icon:YIELD_TOWNS] Towns.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_KNOWLEDGE_LOSS_NAME">
 			<Text>Knowledge Loss</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_KNOWLEDGE_LOSS_DESCRIPTION">
-			<Text>-2 [icon:YIELD_SCIENCE] Science from Specialists.</Text>
+			<Text>-2 [icon:YIELD_SCIENCE] Science from [icon:SPECIALIST] Specialists.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_DEATH_OF_THE_ARTISTS_NAME">
 			<Text>Death of the Artists</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_DEATH_OF_THE_ARTISTS_DESCRIPTION">
-			<Text>-2 [icon:YIELD_CULTURE] Culture from Specialists.</Text>
+			<Text>-2 [icon:YIELD_CULTURE] Culture from [icon:SPECIALIST] Specialists.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_RESOURCE_SCARCITY_NAME">
 			<Text>Resource Scarcity</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_RESOURCE_SCARCITY_DESCRIPTION">
-			<Text>-1 [icon:YIELD_GOLD] Gold and -2 [icon:YIELD_FOOD] Food on Resources.</Text>
+			<Text>-1 [icon:YIELD_GOLD] Gold and -2 [icon:YIELD_FOOD] Food on [icon:RADIAL_RESOURCES] Resources.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_UNDERRESOURCED_COMMUNITIES_NAME">
 			<Text>Underserved Communities</Text>
@@ -61,7 +61,7 @@
 			<Text>Cover Up</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_COVER_UP_DESCRIPTION">
-			<Text>-1 [icon:YIELD_DIPLOMACY] Influence on displayed Great Works.</Text>
+			<Text>-1 [icon:YIELD_DIPLOMACY] Influence on displayed [icon:NAR_REW_GREATWORK] Great Works.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_PRIMOGENITURE_NAME">
 			<Text>Primogeniture</Text>
@@ -79,7 +79,7 @@
 			<Text>Fratricide</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_FRATRICIDE_DESCRIPTION">
-			<Text>+1 War Support on Wars you declare. -3 [icon:YIELD_DIPLOMACY] Influence in Cities.</Text>
+			<Text>+1 War Support on Wars you declare. -3 [icon:YIELD_DIPLOMACY] Influence in [icon:YIELD_CITIES] Cities.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_DEFENSIVE_PACT_NAME">
 			<Text>Defensive Pact</Text>
@@ -97,13 +97,13 @@
 			<Text>Border Tensions</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_BORDER_TENSIONS_DESCRIPTION">
-			<Text>-5 [icon:YIELD_DIPLOMACY] Influence for every leader you are Unfriendly or Hostile with.</Text>
+			<Text>-5 [icon:YIELD_DIPLOMACY] Influence for every leader you are [icon:PLAYER_RELATIONSHIP_UNFRIENDLY] Unfriendly or [icon:PLAYER_RELATIONSHIP_HOSTILE] Hostile with.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_BUMBLING_LEADERSHIP_NAME">
 			<Text>Bumbling Leadership</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_BUMBLING_LEADERSHIP_DESCRIPTION">
-			<Text>-5 [icon:YIELD_DIPLOMACY] Influence for every leader you are Friendly or Helpful with.</Text>
+			<Text>-5 [icon:YIELD_DIPLOMACY] Influence for every leader you are [icon:PLAYER_RELATIONSHIP_FRIENDLY] Friendly or [icon:PLAYER_RELATIONSHIP_HELPFUL] Helpful with.</Text>
 		</Row>
 	</EnglishText>
 </Database>
