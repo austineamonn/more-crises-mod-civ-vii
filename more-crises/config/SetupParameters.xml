@@ -5,7 +5,7 @@
 		<Row ParameterID="MoreCrisesAlt" Name="LOC_MORE_CRISES_NAME" Description="LOC_MORE_CRISES_DESCRIPTION" Domain="MoreCrises" Hash="0" ConfigurationGroup="Game" ConfigurationKey="MoreCrisesAlt" GroupId="DisasterOptions" ChangeableAfterGameStart="0" SortIndex="3020"/>
 	</Parameters>
 	<DomainValues>
-		<Row Domain="MoreCrises" Value="BASECRISES" Name="LOC_BASECRISES_NAME" Description="LOC_BASECRISES_DESCRIPTION" SortIndex="10"/>
-		<Row Domain="MoreCrises" Value="ALTCRISES" Name="LOC_ALTCRISES_NAME" Description="LOC_ALTCRISES_DESCRIPTION" SortIndex="20"/>
+		<Row Domain="MoreCrises" Value="ALTCRISES" Name="LOC_ALTCRISES_NAME" Description="LOC_ALTCRISES_DESCRIPTION" SortIndex="10"/>
+		<Row Domain="MoreCrises" Value="BASECRISES" Name="LOC_BASECRISES_NAME" Description="LOC_BASECRISES_DESCRIPTION" SortIndex="20"/>
 	</DomainValues>
 </Database>

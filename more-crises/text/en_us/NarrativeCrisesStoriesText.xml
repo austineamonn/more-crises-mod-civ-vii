@@ -6,19 +6,19 @@
 			<Text>More Crises</Text>
 		</Row>
 		<Row Tag="LOC_MORE_CRISES_DESCRIPTION">
-			<Text>Use alternate, harsher, Traditions for the Base Crises.</Text>
+			<Text>Use alternate and harsher Traditions for the Base Crises.</Text>
+		</Row>
+        <Row Tag="LOC_ALTCRISES_NAME">
+			<Text>Alternate Crises</Text>
+		</Row>
+		<Row Tag="LOC_ALTCRISES_DESCRIPTION">
+			<Text>Uses Alternate Traditions for the Base Crises.</Text>
 		</Row>
 		<Row Tag="LOC_BASECRISES_NAME">
 			<Text>Base Crises</Text>
 		</Row>
 		<Row Tag="LOC_BASECRISES_DESCRIPTION">
 			<Text>Unchanged Base Crises.</Text>
-		</Row>
-		<Row Tag="LOC_ALTCRISES_NAME">
-			<Text>Alternate Crises</Text>
-		</Row>
-		<Row Tag="LOC_ALTCRISES_DESCRIPTION">
-			<Text>Uses Alternate Traditions for the Base Crises.</Text>
 		</Row>
         <!-- Antiquity -->
         <!-- Famine Crisis -->

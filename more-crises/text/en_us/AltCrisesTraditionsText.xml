@@ -6,13 +6,35 @@
 			<Text>-6 [icon:YIELD_GOLD] Gold for each imported [icon:RADIAL_RESOURCES] Resource.</Text>
 		</Row>
 		<Row Tag="LOC_ALT_TRADITION_INFERIOR_TACTICS_DESCRIPTION">
-			<Text>+6 [icon:NAR_REW_COMBAT] Combat Strength for [icon:INDEPENDENT_POWER] Independent Powers, stacks if slotted by other Players.</Text>
+			<Text>+2 [icon:NAR_REW_COMBAT] Combat Strength for [icon:INDEPENDENT_POWER] Independent Powers, stacks if slotted by other Players. +100% [icon:YIELD_DIPLOMACY] Influence towards initiating Incite Raid Actions.</Text>
 		</Row>
-		<Row Tag="LOC_TRADITION_INFERIOR_TACTICS_PREVIEW">
+		<Row Tag="LOC_ALT_TRADITION_INFERIOR_TACTICS_PREVIEW">
 			<Text>+{1_Amount} Inferior Tactics</Text>
 		</Row>
 		<Row Tag="LOC_ALT_TRADITION_REBELLIOUS_COMMANDERS_DESCRIPTION">
 			<Text>-3[icon:YIELD_HAPPINESS] Happiness in all [icon:YIELD_CITIES] Cities for each [icon:NAR_REW_PROMOTION] Commander Level.</Text>
+		</Row>
+		<!-- Alternate Loyalty Crisis Policies -->
+		<Row Tag="LOC_ALT_TRADITION_REPUBLIC_UNHAPPINESS_DESCRIPTION">
+			<Text>-3 [icon:YIELD_HAPPINESS] Happiness and [icon:YIELD_CULTURE] Culture in Settlements more than 9 tiles away from your Palace.</Text>
+		</Row>
+		<Row Tag="LOC_ALT_TRADITION_DESPOTISM_UNHAPPINESS_DESCRIPTION">
+			<Text>-3 [icon:YIELD_HAPPINESS] Happiness and [icon:YIELD_SCIENCE] Science in Settlements without Walls.</Text>
+		</Row>
+		<Row Tag="LOC_ALT_TRADITION_OLIGARCHY_UNHAPPINESS_DESCRIPTION">
+			<Text>-5 [icon:YIELD_HAPPINESS] Happiness and [icon:YIELD_FOOD] Food in Settlements with unfilled [icon:RADIAL_RESOURCES] Resource Slots.</Text>
+		</Row>
+		<Row Tag="LOC_ALT_TRADITION_INCOMPETENT_MINISTERS_DESCRIPTION">
+			<Text>-2 [icon:YIELD_DIPLOMACY] Influence in Settlements you founded.</Text>
+		</Row>
+		<Row Tag="LOC_ALT_TRADITION_SUPPRESS_LOCAL_TRADITIONS_DESCRIPTION">
+			<Text>-6 [icon:YIELD_HAPPINESS] Happiness in Settlements you did not found.</Text>
+		</Row>
+		<Row Tag="LOC_ALT_TRADITION_AMBITIOUS_GOVERNORS_DESCRIPTION">
+			<Text>-10 [icon:YIELD_HAPPINESS] Happiness in [icon:YIELD_CITIES] Cities.</Text>
+		</Row>
+		<Row Tag="LOC_ALT_TRADITION_CAPITAL_UNHAPPINESS_DESCRIPTION">
+			<Text>-20 [icon:YIELD_HAPPINESS] Happiness in your [icon:NOTIFICATION_SELECT_CAPITAL] Capital.</Text>
 		</Row>
 	</EnglishText>
 </Database>

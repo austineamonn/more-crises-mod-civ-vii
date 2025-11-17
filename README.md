@@ -2,13 +2,13 @@
 
 Author: austineamonn
 
-Version 1.1.2
+Version 1.1.3
 
-Adds 4 new crises to the Antiquity and Exploration age. More Crises to come!
+Adds 4 new crises to the Antiquity and Exploration age. Optional changed Traditions for the Base Crises. More Crises to come!
 
 ## Current Mod:
 
-Adds the Famine and Succession Crises to Antiquity and the Inflation and Isolationism Crises to Exploration. Depending on your build these crises can be much more punishing than the Base Game ones, so beware. You can select which crises you want (or don't want) by clicking the Advanced Options button before launching your game. All crises (including Base Game crises) start enabled but you can toggle whichever ones you don't want to disable them.
+Adds the Famine and Succession Crises to Antiquity and the Inflation and Isolationism Crises to Exploration. Depending on your build these crises can be much more punishing than the Base Game ones, so beware. You can select which crises you want (or don't want) by clicking the Advanced Options button before launching your game. All crises (including Base Game crises) start enabled but you can toggle whichever ones you don't want to disable them. The More Crises Settings allows you to toggle whether the Base Game Crises use their original traditions or the alternate harsher ones.
 
 ### Famine Crisis - Antiquity
 
@@ -291,13 +291,13 @@ Just like the in game Crises, you can unlock extra cards at Age Transition if yo
 
 <ul>
     <li>For the Succession Crisis, grievances caused by the Crisis will say "From a Diplomatic Action".</li>
-    <li>For the Alternate Invasion Crisis, if a player dies with Inferior Tactics slotted, the extra strength for independent powers will remain.".</li>
+    <li>For the Alternate Invasion Crisis, if a player is eliminated with Inferior Tactics slotted, the extra strength for independent powers will remain.".</li>
 </ul>
 
 ## Latest Update:
 
-Added Alternative, more difficult, Traditions to the Invasion Crisis.
+Added Alternative, more difficult, Traditions to the Antiquity Revolts Crisis. Changed a tradition on the alt invasion crisis. Made alt crises the default.
 
 ## Notes:
 
-Since the AI always seem to slow Inferior Tactics, the Alternate Invasion Crisis is very painful on large and huge map sizes where independent powers could gain at least +20 strength.
+Since the AI always seem to slot Inferior Tactics, the Alternate Invasion Crisis is very painful on large and huge map sizes where independent powers could gain at least +20 strength.

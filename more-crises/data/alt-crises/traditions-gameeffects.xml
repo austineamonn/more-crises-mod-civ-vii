@@ -7,6 +7,10 @@
 		<Argument name="Amount">-6</Argument>
 		<String context="Description">LOC_ALT_TRADITION_BANDITRY_DESCRIPTION</String>
 	</Modifier>
+	<Modifier id="ALT_INFERIOR_TACTICS_MOD_ADJUST_INCITE_RAID" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TYPE_EFFICIENCY">
+		<Argument name="ActionType">DIPLOMACY_ACTION_INCITE_RAID</Argument>
+		<Argument name="Percent">100</Argument>
+	</Modifier>
 	<Modifier id="ALT_INFERIOR_TACTICS_MOD_INDEPENDENT_COMBAT" collection="COLLECTION_ALL_UNITS" effect="EFFECT_ATTACH_MODIFIERS">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_UNIT_IS_INDEPENDENT"/>
@@ -15,7 +19,7 @@
 	</Modifier>
 	<Modifier id="ALT_INFERIOR_TACTICS_MOD_ADJUST_UNIT_COMBAT_STRENGTH_MODIFIER" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
 		<Argument name="Amount">2</Argument>
-		<String context="Preview">LOC_TRADITION_INFERIOR_TACTICS_PREVIEW</String>
+		<String context="Preview">LOC_ALT_TRADITION_INFERIOR_TACTICS_PREVIEW</String>
 	</Modifier>
 	<Modifier id="ALT_REBELLIOUS_COMMANDERS_MOD_HAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_COMMANDER_LEVEL">
 		<SubjectRequirements>
@@ -24,5 +28,71 @@
 		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
 		<Argument name="Amount">-3</Argument>
 		<String context="Description">LOC_ALT_TRADITION_REBELLIOUS_COMMANDERS_DESCRIPTION</String>
+	</Modifier>
+	<!-- Alternate Loyalty Crisis Policies -->
+	<Modifier id="ALT_REPUBLIC_MOD_UNHAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_ADJACENT_CONSTRUCTIBLE_TYPE_MATCHES" inverse="true">
+				<Argument name="ConstructibleType">BUILDING_PALACE</Argument>
+				<Argument name="MaxRange">9</Argument>
+			</Requirement>
+			<Requirement type="REQUIREMENT_CITY_IS_CAPITAL" inverse="true"/>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_HAPPINESS, YIELD_CULTURE</Argument>
+		<Argument name="Amount">-3</Argument>
+		<String context="Description">LOC_ALT_TRADITION_REPUBLIC_UNHAPPINESS_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="ALT_DESPOTISM_MOD_UNHAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_BUILDING" inverse="true">
+				<Argument name="Tag">FORTIFICATION</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_HAPPINESS, YIELD_SCIENCE</Argument>
+		<Argument name="Amount">-3</Argument>
+		<String context="Description">LOC_ALT_TRADITION_DESPOTISM_UNHAPPINESS_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="ALT_OLIGARCHY_MOD_UNHAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_X_OPEN_RESOURCE_SLOTS">
+				<Argument name="Amount">1</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_HAPPINESS, YIELD_FOOD</Argument>
+		<Argument name="Amount">-5</Argument>
+		<String context="Description">LOC_ALT_TRADITION_OLIGARCHY_UNHAPPINESS_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="ALT_INCOMPETENT_MINISTERS_MOD_SETTLEMENT_CAP" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_ORIGINAL_OWNER">
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">-2</Argument>
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<String context="Description">LOC_ALT_TRADITION_INCOMPETENT_MINISTERS_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="ALT_SUPPRESS_LOCAL_TRADITIONS_MOD_UNHAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_ORIGINAL_OWNER" inverse="true"/>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">-6</Argument>
+		<String context="Description">LOC_ALT_TRADITION_SUPPRESS_LOCAL_TRADITIONS_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="ALT_AMBITIOUS_GOVERNORS_MOD_UNHAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">-10</Argument>
+		<String context="Description">LOC_ALT_TRADITION_AMBITIOUS_GOVERNORS_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="ALT_CAPITAL_MOD_UNHAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_CAPITAL"/>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">-20</Argument>
+		<String context="Description">LOC_ALT_TRADITION_CAPITAL_UNHAPPINESS_DESCRIPTION</String>
 	</Modifier>
 </GameEffects>

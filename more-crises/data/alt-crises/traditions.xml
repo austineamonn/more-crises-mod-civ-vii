@@ -14,6 +14,35 @@
 			<Where TraditionType="TRADITION_REBELLIOUS_COMMANDERS"/>
 			<Set Description="LOC_ALT_TRADITION_REBELLIOUS_COMMANDERS_DESCRIPTION"/>
 		</Update>
+		<!-- Alternate Loyalty Crisis Policies -->
+		<Update>
+			<Where TraditionType="TRADITION_REPUBLIC_UNHAPPINESS"/>
+			<Set Description="LOC_ALT_TRADITION_REPUBLIC_UNHAPPINESS_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where TraditionType="TRADITION_DESPOTISM_UNHAPPINESS"/>
+			<Set Description="LOC_ALT_TRADITION_DESPOTISM_UNHAPPINESS_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where TraditionType="TRADITION_OLIGARCHY_UNHAPPINESS"/>
+			<Set Description="LOC_ALT_TRADITION_OLIGARCHY_UNHAPPINESS_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where TraditionType="TRADITION_INCOMPETENT_MINISTERS"/>
+			<Set Description="LOC_ALT_TRADITION_INCOMPETENT_MINISTERS_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where TraditionType="TRADITION_SUPPRESS_LOCAL_TRADITIONS"/>
+			<Set Description="LOC_ALT_TRADITION_SUPPRESS_LOCAL_TRADITIONS_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where TraditionType="TRADITION_AMBITIOUS_GOVERNORS"/>
+			<Set Description="LOC_ALT_TRADITION_AMBITIOUS_GOVERNORS_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where TraditionType="TRADITION_CAPITAL_UNHAPPINESS"/>
+			<Set Description="LOC_ALT_TRADITION_CAPITAL_UNHAPPINESS_DESCRIPTION"/>
+		</Update>
 	</Traditions>
 	<TraditionModifiers>
 		<!-- Alternate Invasion Crisis Policies -->
@@ -23,11 +52,41 @@
 		</Update>
 		<Update>
 			<Where TraditionType="TRADITION_INFERIOR_TACTICS"/>
-			<Set ModifierId="ALT_INFERIOR_TACTICS_MOD_INDEPENDENT_COMBAT"/>
+			<Set ModifierId="ALT_INFERIOR_TACTICS_MOD_ADJUST_INCITE_RAID"/>
 		</Update>
+		<Row TraditionType="TRADITION_INFERIOR_TACTICS" ModifierId="ALT_INFERIOR_TACTICS_MOD_INDEPENDENT_COMBAT"/>
 		<Update>
 			<Where TraditionType="TRADITION_REBELLIOUS_COMMANDERS"/>
 			<Set ModifierId="ALT_REBELLIOUS_COMMANDERS_MOD_HAPPINESS"/>
+		</Update>
+		<!-- Alternate Loyalty Crisis Policies -->
+		<Update>
+			<Where TraditionType="TRADITION_REPUBLIC_UNHAPPINESS"/>
+			<Set ModifierId="ALT_REPUBLIC_MOD_UNHAPPINESS"/>
+		</Update>
+		<Update>
+			<Where TraditionType="TRADITION_DESPOTISM_UNHAPPINESS"/>
+			<Set ModifierId="ALT_DESPOTISM_MOD_UNHAPPINESS"/>
+		</Update>
+		<Update>
+			<Where TraditionType="TRADITION_OLIGARCHY_UNHAPPINESS"/>
+			<Set ModifierId="ALT_OLIGARCHY_MOD_UNHAPPINESS"/>
+		</Update>
+		<Update>
+			<Where TraditionType="TRADITION_INCOMPETENT_MINISTERS"/>
+			<Set ModifierId="ALT_INCOMPETENT_MINISTERS_MOD_SETTLEMENT_CAP"/>
+		</Update>
+		<Update>
+			<Where TraditionType="TRADITION_SUPPRESS_LOCAL_TRADITIONS"/>
+			<Set ModifierId="ALT_SUPPRESS_LOCAL_TRADITIONS_MOD_UNHAPPINESS"/>
+		</Update>
+		<Update>
+			<Where TraditionType="TRADITION_AMBITIOUS_GOVERNORS"/>
+			<Set ModifierId="ALT_AMBITIOUS_GOVERNORS_MOD_UNHAPPINESS"/>
+		</Update>
+		<Update>
+			<Where TraditionType="TRADITION_CAPITAL_UNHAPPINESS"/>
+			<Set ModifierId="ALT_CAPITAL_MOD_UNHAPPINESS"/>
 		</Update>
 	</TraditionModifiers>
 </Database>
