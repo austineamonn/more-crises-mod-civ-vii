@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_TRADITION"/>
+	</Kinds>
+	<Types>
+		<!-- Alternate Loyalty Crisis Policies -->
+		<Row Type="TRADITION_PAX_ROMANA" Kind="KIND_TRADITION"/>
+		<!-- Alternate Plague Crisis Policies -->
+		<Row Type="TRADITION_LABOR_SHORTAGE" Kind="KIND_TRADITION"/>
+	</Types>
 	<Traditions>
 		<!-- Alternate Invasion Crisis Policies -->
 		<Update>
@@ -42,6 +51,21 @@
 		<Update>
 			<Where TraditionType="TRADITION_CAPITAL_UNHAPPINESS"/>
 			<Set Description="LOC_ALT_TRADITION_CAPITAL_UNHAPPINESS_DESCRIPTION"/>
+		</Update>
+		<Row TraditionType="TRADITION_PAX_ROMANA" Name="LOC_TRADITION_PAX_ROMANA_NAME" Description="LOC_TRADITION_PAX_ROMANA_DESCRIPTION" IsCrisis="true"/>
+		<!-- Alternate Plague Crisis Policies -->
+		<Update>
+			<Where TraditionType="TRADITION_PROGNOSIS"/>
+			<Set Description="LOC_ALT_TRADITION_PROGNOSIS_DESCRIPTION"/>
+		</Update>
+		<Row TraditionType="TRADITION_LABOR_SHORTAGE" Name="LOC_TRADITION_LABOR_SHORTAGE_NAME" Description="LOC_TRADITION_LABOR_SHORTAGE_DESCRIPTION" IsCrisis="true"/>
+		<Update>
+			<Where TraditionType="TRADITION_MIASMA"/>
+			<Set Description="LOC_ALT_TRADITION_MIASMA_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where TraditionType="TRADITION_PROSECUTE_APOSTATES"/>
+			<Set Description="LOC_ALT_TRADITION_PROSECUTE_APOSTATES_DESCRIPTION"/>
 		</Update>
 	</Traditions>
 	<TraditionModifiers>
@@ -87,6 +111,35 @@
 		<Update>
 			<Where TraditionType="TRADITION_CAPITAL_UNHAPPINESS"/>
 			<Set ModifierId="ALT_CAPITAL_MOD_UNHAPPINESS"/>
+		</Update>
+		<Row TraditionType="TRADITION_PAX_ROMANA" ModifierId="PAX_ROMANA_MOD_UNHAPPINESS"/>
+		<Row TraditionType="TRADITION_PAX_ROMANA" ModifierId="PAX_ROMANA_MOD_WAR_SUPPORT"/>
+		<!-- Alternate Plague Crisis Policies -->
+		<Update>
+			<Where TraditionType="TRADITION_PROGNOSIS" ModifierId="PROGNOSIS_MOD_SCIENCE"/>
+			<Set ModifierId="ALT_PROGNOSIS_MOD_SCIENCE"/>
+		</Update>
+		<Update>
+			<Where TraditionType="TRADITION_PROGNOSIS" ModifierId="PROGNOSIS_MOD_GOLD"/>
+			<Set ModifierId="ALT_PROGNOSIS_MOD_GOLD"/>
+		</Update>
+		<Row TraditionType="TRADITION_LABOR_SHORTAGE" ModifierId="LABOR_SHORTAGE_MOD_HAPPINESS"/>
+		<Row TraditionType="TRADITION_LABOR_SHORTAGE" ModifierId="LABOR_SHORTAGE_MOD_PRODUCTION"/>
+		<Update>
+			<Where TraditionType="TRADITION_MIASMA" ModifierId="MIASMA_MOD_GRANT_MIGRANTS"/>
+			<Set ModifierId="ALT_MIASMA_MOD_GRANT_MIGRANTS"/>
+		</Update>
+		<Update>
+			<Where TraditionType="TRADITION_MIASMA" ModifierId="MIASMA_MOD_CITY_GROWTH"/>
+			<Set ModifierId="ALT_MIASMA_MOD_CITY_GROWTH"/>
+		</Update>
+		<Update>
+			<Where TraditionType="TRADITION_PROSECUTE_APOSTATES" ModifierId="PROSECUTE_APOSTATES_MOD_PLAGUE_HAPPINESS_ATTACH"/>
+			<Set ModifierId="ALT_PROSECUTE_APOSTATES_MOD_PLAGUE_HAPPINESS"/>
+		</Update>
+		<Update>
+			<Where TraditionType="TRADITION_PROSECUTE_APOSTATES" ModifierId="PROSECUTE_APOSTATES_MOD_NO_ALTAR_HAPPINESS"/>
+			<Set ModifierId="ALT_PROSECUTE_APOSTATES_MOD_NO_ALTAR_HAPPINESS"/>
 		</Update>
 	</TraditionModifiers>
 </Database>

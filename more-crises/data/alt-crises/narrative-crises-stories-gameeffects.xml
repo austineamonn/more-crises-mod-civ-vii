@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+    <!-- Modifiers -->
+    <!-- Antiquity -->
+    <!-- Alternate Loyalty Crisis -->
+    <!-- Crisis Stage 3 -->
+    <Modifier id="ALC003B_NARRATIVE_MODIFIER3" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <Argument name="Tradition">TRADITION_PAX_ROMANA</Argument>
+    </Modifier>
+    <!-- Alternate Plague Crisis -->
+    <!-- Crisis Stage 3 -->
+    <Modifier id="APC001B_NARRATIVE_MODIFIER7" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
+        <Argument name="Tradition">TRADITION_LABOR_SHORTAGE</Argument>
+    </Modifier>
+</GameEffects>

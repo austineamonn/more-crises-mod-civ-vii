@@ -36,5 +36,27 @@
 		<Row Tag="LOC_ALT_TRADITION_CAPITAL_UNHAPPINESS_DESCRIPTION">
 			<Text>-20 [icon:YIELD_HAPPINESS] Happiness in your [icon:NOTIFICATION_SELECT_CAPITAL] Capital.</Text>
 		</Row>
+		<Row Tag="LOC_TRADITION_PAX_ROMANA_NAME">
+			<Text>Pax Romana</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_PAX_ROMANA_DESCRIPTION">
+			<Text>10 [icon:YIELD_HAPPINESS] Happiness in all Settlements. -2 [icon:WAR_SUPPORT] War Support on all [icon:WAR] Wars declared against you.</Text>
+		</Row>
+		<!-- Alternate Plague Crisis Policies -->
+		<Row Tag="LOC_ALT_TRADITION_PROGNOSIS_DESCRIPTION">
+			<Text>+3 [icon:YIELD_SCIENCE] Science on [icon:YIELD_SCIENCE] Science Buildings in [icon:YIELD_PLAGUE] Infected Settlements but -10 [icon:YIELD_GOLD] Gold on [icon:YIELD_SCIENCE] Science Buildings.</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_LABOR_SHORTAGE_NAME">
+			<Text>Labor Shortage</Text>
+		</Row>
+		<Row Tag="LOC_TRADITION_LABOR_SHORTAGE_DESCRIPTION">
+			<Text>+2 [icon:YIELD_HAPPINESS] Happiness from [icon:SPECIALIST] Specialists in [icon:YIELD_PLAGUE] Infected Settlements but -3 [icon:YIELD_PRODUCTION] Production from [icon:SPECIALIST] Specialists.</Text>
+		</Row>
+		<Row Tag="LOC_ALT_TRADITION_MIASMA_DESCRIPTION">
+			<Text>Gain 3 [icon:UNIT_MIGRANT] Migrants when a [icon:YIELD_CITIES] City is [icon:YIELD_PLAGUE] Infected but -90% [icon:GROWTH_RATE] Growth Rate in [icon:YIELD_CITIES] Cities.</Text>
+		</Row>
+		<Row Tag="LOC_ALT_TRADITION_PROSECUTE_APOSTATES_DESCRIPTION">
+			<Text>+2 [icon:YIELD_HAPPINESS] Happiness and [icon:YIELD_DIPLOMACY] Influence in [icon:YIELD_PLAGUE] Infected Settlements with a Garrisoned Unit but -4[icon:YIELD_HAPPINESS] Happiness and [icon:YIELD_GOLD] Gold in Settlements with no Altar.</Text>
+		</Row>
 	</EnglishText>
 </Database>

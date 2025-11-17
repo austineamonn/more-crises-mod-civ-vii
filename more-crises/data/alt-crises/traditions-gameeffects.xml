@@ -95,4 +95,74 @@
 		<Argument name="Amount">-20</Argument>
 		<String context="Description">LOC_ALT_TRADITION_CAPITAL_UNHAPPINESS_DESCRIPTION</String>
 	</Modifier>
+	<Modifier id="PAX_ROMANA_MOD_UNHAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">10</Argument>
+		<String context="Description">LOC_TRADITION_PAX_ROMANA_DESCRIPTION</String>
+		<String context="Tooltip">LOC_TRADITION_PAX_ROMANA_NAME</String>
+	</Modifier>
+	<Modifier id="PAX_ROMANA_MOD_WAR_SUPPORT" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_ADJUST_DIPLOMATIC_ACTION_TOKEN_BONUS">
+		<Argument name="ActionType">DIPLOMACY_ACTION_DECLARE_WAR</Argument>
+		<Argument name="OnlyWhenTarget">true</Argument>
+		<Argument name="Amount">-2</Argument>
+	</Modifier>
+	<!-- Alternate Plague Crisis Policies -->
+	<Modifier id="ALT_PROGNOSIS_MOD_SCIENCE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_INFECTED"/>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_SCIENCE</Argument>
+		<Argument name="Amount">3</Argument>
+		<Argument name="Tag">SCIENCE</Argument>
+		<String context="Description">LOC_TRADITION_PROGNOSIS_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="ALT_PROGNOSIS_MOD_GOLD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">-10</Argument>
+		<Argument name="Tag">SCIENCE</Argument>
+	</Modifier>
+	<Modifier id="LABOR_SHORTAGE_MOD_HAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WORKER_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_INFECTED"/>
+		</SubjectRequirements>
+        <Argument name="YieldType">YIELD_HAPPINESS</Argument>
+        <Argument name="Amount">2</Argument>
+		<String context="Description">LOC_TRADITION_LABOR_SHORTAGE_DESCRIPTION</String>
+    </Modifier>
+	<Modifier id="LABOR_SHORTAGE_MOD_PRODUCTION" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WORKER_YIELD">
+        <Argument name="YieldType">YIELD_PRODUCTION</Argument>
+        <Argument name="Amount">-3</Argument>
+    </Modifier>
+	<Modifier id="ALT_MIASMA_MOD_GRANT_MIGRANTS" collection="COLLECTION_PLAYER_INFECTED_CITIES" effect="EFFECT_CITY_GRANT_UNIT">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+		</SubjectRequirements>
+		<Argument name="UnitType">UNIT_MIGRANT</Argument>
+		<Argument name="Amount">3</Argument>
+		<String context="Description">LOC_TRADITION_MIASMA_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="ALT_MIASMA_MOD_CITY_GROWTH" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_GROWTH">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+		</SubjectRequirements>
+		<Argument name="Percent">-90</Argument>
+	</Modifier>
+	<Modifier id="ALT_PROSECUTE_APOSTATES_MOD_PLAGUE_HAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_GARRISON_UNIT"/>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_HAPPINESS, YIELD_DIPLOMACY</Argument>
+		<Argument name="Amount">2</Argument>
+		<String context="Tooltip">LOC_TRADITION_PROSECUTE_APOSTATES_NAME</String>
+	</Modifier>
+	<Modifier id="ALT_PROSECUTE_APOSTATES_MOD_NO_ALTAR_HAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_BUILDING" inverse="true">
+				<Argument name="BuildingType">BUILDING_ALTAR</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_HAPPINESS, YIELD_GOLD</Argument>
+		<Argument name="Amount">-4</Argument>
+		<String context="Description">LOC_ALT_TRADITION_PROSECUTE_APOSTATES_DESCRIPTION</String>
+	</Modifier>
 </GameEffects>

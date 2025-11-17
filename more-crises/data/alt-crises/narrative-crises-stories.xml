@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <NarrativeRewards>
+        <!-- Antiquity -->
+        <!-- Alternate Loyalty Crisis -->
+        <Row NarrativeRewardType="ALC003B_REWARD3" ModifierID="ALC003B_NARRATIVE_MODIFIER3"/>
+        <!-- Alternate Plague Crisis -->
+        <Row NarrativeRewardType="APC001B_REWARD7" ModifierID="APC001B_NARRATIVE_MODIFIER7"/>
+    </NarrativeRewards>
+    <NarrativeStory_Rewards>
+        <!-- Antiquity -->
+        <!-- Alternate Loyalty Crisis -->
+        <Row NarrativeStoryType="ALC003B" NarrativeRewardType="ALC003B_REWARD3" Activation="START" BonusEligible="FALSE"/>
+        <!-- Alternate Plague Crisis -->
+        <Row NarrativeStoryType="APC001B" NarrativeRewardType="APC001B_REWARD7" Activation="START" BonusEligible="FALSE"/>
+    </NarrativeStory_Rewards>
+</Database>
