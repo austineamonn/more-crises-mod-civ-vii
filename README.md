@@ -2,7 +2,7 @@
 
 Author: austineamonn
 
-Version 1.1.4
+Version 1.1.5
 
 Adds 4 new crises to the Antiquity and Exploration age. Optional changed Traditions for the Base Crises. More Crises to come!
 
@@ -238,7 +238,7 @@ Policies:
 
 Second Crisis Level:
 
--1 Trade Route Limit (cannot reduce the limit below 0). Unlock one crisis policy slot.
+-1 Trade Route Limit. Unlock one crisis policy slot.
 
 Policies:
 
@@ -249,7 +249,7 @@ Policies:
 
 Third Crisis Level:
 
--1 Trade Route Limit (cannot reduce the limit below 0). Unlock two crisis policy slots.
+-1 Trade Route Limit. Unlock two crisis policy slots.
 
 Policies:
 
@@ -297,10 +297,8 @@ Just like the in game Crises, you can unlock extra cards at Age Transition if yo
 
 ## Latest Update:
 
-Added Alternative, more difficult, Traditions to the Antiquity Plague Crisis.
+Updated for 1.3.2.
 
 ## Notes:
 
 Since the AI always seem to slot Inferior Tactics, the Alternate Invasion Crisis is very painful on large and huge map sizes where independent powers could gain at least +20 strength.
-
-I learned that Plague frequency is based on your disaster settings, which surprised me.

@@ -50,10 +50,10 @@
 			<Text>Labor Shortage</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_LABOR_SHORTAGE_DESCRIPTION">
-			<Text>+2 [icon:YIELD_HAPPINESS] Happiness from [icon:SPECIALIST] Specialists in [icon:YIELD_PLAGUE] Infected Settlements but -3 [icon:YIELD_PRODUCTION] Production from [icon:SPECIALIST] Specialists.</Text>
+			<Text>Units are immune to damage from Major and Minor Outbreaks but -50%[icon:YIELD_PRODUCTION] Production towards Civilian and Support Units.</Text>
 		</Row>
 		<Row Tag="LOC_ALT_TRADITION_MIASMA_DESCRIPTION">
-			<Text>Gain 3 [icon:UNIT_MIGRANT] Migrants when a [icon:YIELD_CITIES] City is [icon:YIELD_PLAGUE] Infected but -90% [icon:GROWTH_RATE] Growth Rate in [icon:YIELD_CITIES] Cities.</Text>
+			<Text>Gain 3 [icon:UNIT_MIGRANT] Migrants when a [icon:YIELD_CITIES] City is [icon:YIELD_PLAGUE] Infected but -100% [icon:GROWTH_RATE] Growth Rate in [icon:YIELD_CITIES] Cities.</Text>
 		</Row>
 		<Row Tag="LOC_ALT_TRADITION_PROSECUTE_APOSTATES_DESCRIPTION">
 			<Text>+2 [icon:YIELD_HAPPINESS] Happiness and [icon:YIELD_DIPLOMACY] Influence in [icon:YIELD_PLAGUE] Infected Settlements with a Garrisoned Unit but -4[icon:YIELD_HAPPINESS] Happiness and [icon:YIELD_GOLD] Gold in Settlements with no Altar.</Text>
