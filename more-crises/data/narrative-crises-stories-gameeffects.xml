@@ -10,7 +10,7 @@
     </Modifier>
     <Modifier id="AFC001B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_TRADITION_SLOTS" run-once="false" permanent="true">
         <Argument name="Amount">1</Argument>
-        <Argument name="Negative">TRUE</Argument>
+        <Argument name="SlotType">CRISIS_CULTURE_SLOT</Argument>
     </Modifier>
     <Modifier id="AFC001B_NARRATIVE_MODIFIER2" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
         <Argument name="Tradition">TRADITION_EMPTY_STORAGE</Argument>
@@ -20,7 +20,7 @@
     </Modifier>
     <Modifier id="AFC001C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_TRADITION_SLOTS" run-once="false" permanent="true">
         <Argument name="Amount">1</Argument>
-        <Argument name="Negative">TRUE</Argument>
+        <Argument name="SlotType">CRISIS_CULTURE_SLOT</Argument>
     </Modifier>
     <Modifier id="AFC001C_NARRATIVE_MODIFIER2" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
         <Argument name="Tradition">TRADITION_CITY_MIGRATION</Argument>
@@ -40,12 +40,12 @@
     </Modifier>
     <Modifier id="AFC002B_NARRATIVE_MODIFIER4" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_TRADITION_SLOTS" run-once="false" permanent="true">
         <Argument name="Amount">1</Argument>
-        <Argument name="Negative">TRUE</Argument>
+        <Argument name="SlotType">CRISIS_CULTURE_SLOT</Argument>
     </Modifier>
     <!-- Crisis Stage 3 -->
     <Modifier id="AFC003B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_TRADITION_SLOTS" run-once="false" permanent="true">
         <Argument name="Amount">2</Argument>
-        <Argument name="Negative">TRUE</Argument>
+        <Argument name="SlotType">CRISIS_CULTURE_SLOT</Argument>
     </Modifier>
     <Modifier id="AFC003B_NARRATIVE_MODIFIER2" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
         <Argument name="Tradition">TRADITION_RESOURCE_SCARCITY</Argument>
@@ -85,7 +85,7 @@
     </Modifier>
     <Modifier id="ASC001B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_TRADITION_SLOTS" run-once="false" permanent="true">
         <Argument name="Amount">2</Argument>
-        <Argument name="Negative">TRUE</Argument>
+        <Argument name="SlotType">CRISIS_CULTURE_SLOT</Argument>
     </Modifier>
     <Modifier id="ASC001B_NARRATIVE_MODIFIER2" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
         <Argument name="Tradition">TRADITION_COVER_UP</Argument>
@@ -114,7 +114,7 @@
     </Modifier>
     <Modifier id="ASC002B_NARRATIVE_MODIFIER4" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_TRADITION_SLOTS" run-once="false" permanent="true">
         <Argument name="Amount">1</Argument>
-        <Argument name="Negative">TRUE</Argument>
+        <Argument name="SlotType">CRISIS_CULTURE_SLOT</Argument>
     </Modifier>
     <Modifier id="ASC002B_NARRATIVE_MODIFIER5" collection="COLLECTION_OWNER" effect="EFFECT_GRANT_ALL_PLAYERS_FAVORS_GRIEVANCES" run-once="true" permanent="true">
 		<Argument name="GrievancesAmount">10</Argument>
@@ -122,7 +122,7 @@
     <!-- Crisis Stage 3 -->
     <Modifier id="ASC003B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_TRADITION_SLOTS" run-once="false" permanent="true">
         <Argument name="Amount">1</Argument>
-        <Argument name="Negative">TRUE</Argument>
+        <Argument name="SlotType">CRISIS_CULTURE_SLOT</Argument>
     </Modifier>
     <Modifier id="ASC003B_NARRATIVE_MODIFIER2" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
         <Argument name="Tradition">TRADITION_BORDER_TENSIONS</Argument>
@@ -167,7 +167,7 @@
     </Modifier>
     <Modifier id="EINC001B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_TRADITION_SLOTS" run-once="false" permanent="true">
         <Argument name="Amount">1</Argument>
-        <Argument name="Negative">TRUE</Argument>
+        <Argument name="SlotType">CRISIS_CULTURE_SLOT</Argument>
     </Modifier>
     <Modifier id="EINC001B_NARRATIVE_MODIFIER2" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
         <Argument name="Tradition">TRADITION_LAND_TAX</Argument>
@@ -187,12 +187,12 @@
     </Modifier>
     <Modifier id="EINC002B_NARRATIVE_MODIFIER4" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_TRADITION_SLOTS" run-once="false" permanent="true">
         <Argument name="Amount">1</Argument>
-        <Argument name="Negative">TRUE</Argument>
+        <Argument name="SlotType">CRISIS_CULTURE_SLOT</Argument>
     </Modifier>
     <!-- Crisis Stage 3 -->
     <Modifier id="EINC003B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_TRADITION_SLOTS" run-once="false" permanent="true">
         <Argument name="Amount">2</Argument>
-        <Argument name="Negative">TRUE</Argument>
+        <Argument name="SlotType">CRISIS_CULTURE_SLOT</Argument>
     </Modifier>
     <Modifier id="EINC003B_NARRATIVE_MODIFIER2" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
         <Argument name="Tradition">TRADITION_PRICE_REVOLUTION</Argument>
@@ -236,7 +236,7 @@
     </Modifier>
     <Modifier id="EISC001B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_TRADITION_SLOTS" run-once="false" permanent="true">
         <Argument name="Amount">1</Argument>
-        <Argument name="Negative">TRUE</Argument>
+        <Argument name="SlotType">CRISIS_CULTURE_SLOT</Argument>
     </Modifier>
     <Modifier id="EISC001B_NARRATIVE_MODIFIER2" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
         <Argument name="Tradition">TRADITION_TRADE_PROTECTIONISM</Argument>
@@ -263,7 +263,7 @@
     </Modifier>
     <Modifier id="EISC002B_NARRATIVE_MODIFIER3" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_TRADITION_SLOTS" run-once="false" permanent="true">
         <Argument name="Amount">1</Argument>
-        <Argument name="Negative">TRUE</Argument>
+        <Argument name="SlotType">CRISIS_CULTURE_SLOT</Argument>
     </Modifier>
     <Modifier id="EISC002B_NARRATIVE_MODIFIER4" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_TRADE_CAPACITY">
 		<Argument name="Amount">-1</Argument>
@@ -272,7 +272,7 @@
     <!-- Crisis Stage 3 -->
     <Modifier id="EISC003B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_TRADITION_SLOTS" run-once="false" permanent="true">
         <Argument name="Amount">2</Argument>
-        <Argument name="Negative">TRUE</Argument>
+        <Argument name="SlotType">CRISIS_CULTURE_SLOT</Argument>
     </Modifier>
     <Modifier id="EISC003B_NARRATIVE_MODIFIER2" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_UNLOCK_TRADITION" run-once="false" permanent="true">
         <Argument name="Tradition">TRADITION_BOOK_BAN</Argument>
