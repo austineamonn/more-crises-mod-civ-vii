@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- ==================================================	-->
+	<!--				Legacy Modifiers					-->
+	<!-- ==================================================	-->
+	<!--CRISIS-->
+	<!-- Famine Crisis -->
+	<Modifier id="MOD_LEGACY_AQ_FAMINE_CRISIS_1" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_UNLOCK" permanent="true">
+		<Argument name="Unlock">UNLOCK_FAMINE_FISHERIES</Argument>
+	</Modifier>
+	<Modifier id="MOD_LEGACY_AQ_FAMINE_CRISIS_2" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_UNLOCK" permanent="true">
+		<Argument name="Unlock">UNLOCK_FAMINE_STARVING_WORKERS</Argument>
+	</Modifier>
+	<!-- Succession Crisis -->
+	<Modifier id="MOD_LEGACY_AQ_SUCCESSION_CRISIS_1" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_UNLOCK" permanent="true">
+		<Argument name="Unlock">UNLOCK_SUCCESSION_ENTENTE</Argument>
+	</Modifier>
+	<Modifier id="MOD_LEGACY_AQ_SUCCESSION_CRISIS_2" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_UNLOCK" permanent="true">
+		<Argument name="Unlock">UNLOCK_SUCCESSION_BELLIGERENT</Argument>
+	</Modifier>
+	<!-- ==================================================	-->
+	<!--Requirements					-->
+	<!-- ==================================================	-->
+	<!-- CRISIS -->
+	<!-- Famine Crisis -->
+	<RequirementSet id="REQSET_LEGACY_AQ_FAMINE_CRISIS_1">
+		<Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_BUILDINGS">
+			<Argument name="Amount">5</Argument>
+			<Argument name="BuildingType">BUILDING_FISHING_QUAY</Argument>
+		</Requirement>
+	</RequirementSet>
+	<RequirementSet id="REQSET_LEGACY_AQ_FAMINE_CRISIS_2">
+		<Requirement type="REQUIREMENT_PLAYER_HAS_X_WORKERS">
+			<Argument name="Amount">6</Argument>
+		</Requirement>
+	</RequirementSet>
+	<!-- Succession Crisis -->
+	<RequirementSet id="REQSET_LEGACY_AQ_SUCCESSION_CRISIS_1">
+		<Requirement type="REQUIREMENT_PLAYER_HAS_X_ALLIANCES">
+			<Argument name="Amount">2</Argument>
+		</Requirement>
+	</RequirementSet>
+	<RequirementSet id="REQSET_LEGACY_AQ_SUCCESSION_CRISIS_2">
+		<Requirement type="REQUIREMENT_PLAYER_DECLARED_WAR">
+			<Argument name="DeclaredByOwner">true</Argument>
+		</Requirement>
+	</RequirementSet>
+	<!-- ==================================================	-->
+	<!--Modifiers to Activate Crisis Legacies			-->
+	<!-- ==================================================	-->
+	<!-- Famine Crisis -->
+	<Modifier id="MOD_AQ_FAMINE_CRISIS_1_ADD_TRIUMPH" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<Argument name="ModifierId">ATTACH_AQ_FAMINE_CRISIS_1</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_AQ_FAMINE_CRISIS_1" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADD_LEGACY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+				<Argument name="NarrativeTagType">NARRATIVE_TAG_CRISIS_FAMINE</Argument>
+				<Argument name="Amount">1</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="LegacyType">LEGACY_AQ_FAMINE_CRISIS_1</Argument>
+	</Modifier>
+	<Modifier id="MOD_AQ_FAMINE_CRISIS_2_ADD_TRIUMPH" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<Argument name="ModifierId">ATTACH_AQ_FAMINE_CRISIS_2</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_AQ_FAMINE_CRISIS_2" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADD_LEGACY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+				<Argument name="NarrativeTagType">NARRATIVE_TAG_CRISIS_FAMINE</Argument>
+				<Argument name="Amount">1</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="LegacyType">LEGACY_AQ_FAMINE_CRISIS_2</Argument>
+	</Modifier>
+	<!-- Succession Crisis -->
+	<Modifier id="MOD_AQ_SUCCESSION_CRISIS_1_ADD_TRIUMPH" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<Argument name="ModifierId">ATTACH_AQ_SUCCESSION_CRISIS_1</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_AQ_SUCCESSION_CRISIS_1" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADD_LEGACY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+				<Argument name="NarrativeTagType">NARRATIVE_TAG_CRISIS_SUCCESSION</Argument>
+				<Argument name="Amount">1</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="LegacyType">LEGACY_AQ_SUCCESSION_CRISIS_1</Argument>
+	</Modifier>
+	<Modifier id="MOD_AQ_SUCCESSION_CRISIS_2_ADD_TRIUMPH" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<Argument name="ModifierId">ATTACH_AQ_SUCCESSION_CRISIS_2</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_AQ_SUCCESSION_CRISIS_2" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADD_LEGACY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+				<Argument name="NarrativeTagType">NARRATIVE_TAG_CRISIS_SUCCESSION</Argument>
+				<Argument name="Amount">1</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="LegacyType">LEGACY_AQ_SUCCESSION_CRISIS_2</Argument>
+	</Modifier>
+</GameEffects>

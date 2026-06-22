@@ -2,7 +2,7 @@
 
 Author: austineamonn
 
-Version 1.1.6
+Version 1.2
 
 Adds 4 new crises to the Antiquity and Exploration age. Optional changed Traditions for the Base Crises. More Crises to come!
 
@@ -77,7 +77,7 @@ Just like the in game Crises, you can unlock extra cards at Age Transition if yo
         </tr>
         <tr>
             <td>Starving Workers</td>
-            <td>+50% Food and Happiness towards maintaining Specialists.</td>
+            <td>+25% Food and Happiness towards maintaining Specialists.</td>
             <td>Have 6 Specialists.</td>
             <td>2 Scientific Points</td>
         </tr>
@@ -297,7 +297,7 @@ Just like the in game Crises, you can unlock extra cards at Age Transition if yo
 
 ## Latest Update:
 
-Updated for 1.4.0. More testing needed to be sure all policies still work.
+Added crises legacies to the triumph system. Added tooltips and updated text.
 
 ## Notes:
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="more-crises" version="1.1.6"
+<Mod id="more-crises" version="1.2"
 	xmlns="ModInfo">
 	<Properties>
 		<Name>LOC_MODULE_MORE_CRISES_NAME</Name>
@@ -7,7 +7,7 @@
 		<Authors>austineamonn</Authors>
 		<Package>DLC</Package>
 		<AffectsSavedGames>1</AffectsSavedGames>
-		<Version>1.1.6</Version>
+		<Version>1.2</Version>
 	</Properties>
 	<Dependencies>
 		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
@@ -44,6 +44,9 @@
 					<Item>data/narrative-tags.xml</Item>
 					<Item>data/unlocks.xml</Item>
                 </UpdateDatabase>
+				<UpdateIcons>
+					<Item>data/icons/card-icons.xml</Item>
+				</UpdateIcons>
                 <UpdateText>
 					<Item>text/en_us/NarrativeCrisesStoriesText.xml</Item>
 					<Item>text/en_us/UnlockText.xml</Item>
@@ -54,6 +57,8 @@
 			<Actions>
 				<UpdateDatabase>
 					<Item>data/antiquity/crisis-stages.xml</Item>
+					<Item>data/antiquity/legacies-gameeffects.xml</Item>
+					<Item>data/antiquity/legacies.xml</Item>
 					<Item>data/antiquity/projects.xml</Item>
 					<Item>data/antiquity/traditions-gameeffects.xml</Item>
 					<Item>data/antiquity/traditions.xml</Item>
@@ -76,6 +81,8 @@
 					<Item>data/exploration/age-transition.xml</Item>
 					<Item>data/exploration/age-transition-gameeffects.xml</Item>
 					<Item>data/exploration/crisis-stages.xml</Item>
+					<Item>data/exploration/legacies-gameeffects.xml</Item>
+					<Item>data/exploration/legacies.xml</Item>
 					<Item>data/exploration/projects-gameeffects.xml</Item>
 					<Item>data/exploration/projects.xml</Item>
 					<Item>data/exploration/traditions-gameeffects.xml</Item>
@@ -85,7 +92,6 @@
 					<Item>data/icons/project-icons.xml</Item>
 				</UpdateIcons>
 				<UpdateText>
-					<Item>text/en_us/AntiquityTransitionText.xml</Item>
 					<Item>text/en_us/ExplorationTraditionsText.xml</Item>
 					<Item>text/en_us/ProjectsText.xml</Item>
                 </UpdateText>
@@ -97,9 +103,6 @@
 					<Item>data/modern/age-transition.xml</Item>
 					<Item>data/modern/age-transition-gameeffects.xml</Item>
 				</UpdateDatabase>
-				<UpdateText>
-					<Item>text/en_us/ExplorationTransitionText.xml</Item>
-                </UpdateText>
 			</Actions>
 		</ActionGroup>
 		<!-- Alternative Base Crises -->

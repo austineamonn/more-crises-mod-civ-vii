@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Database>
+	<IconDefinitions>
+		<!-- Antiquity Crisis -->
+		<Row>
+			<ID>CARD_AT_EXP_FAMINE_FISHERIES</ID>
+			<Path>blp:agecard_invasion_walls</Path>
+		</Row>
+		<Row>
+			<ID>CARD_AT_EXP_FAMINE_STARVING_WORKERS</ID>
+			<Path>blp:agecard_invasion_walls</Path>
+		</Row>
+		<Row>
+			<ID>CARD_AT_EXP_SUCCESSION_ENTENTE</ID>
+			<Path>blp:agecard_invasion_walls</Path>
+		</Row>
+		<Row>
+			<ID>CARD_AT_EXP_SUCCESSION_BELLIGERENT</ID>
+			<Path>blp:agecard_invasion_walls</Path>
+		</Row>
+		<!-- Exploration Crisis -->
+		<Row>
+			<ID>CARD_AT_MOD_INFLATION_INVESTOR_WEALTH</ID>
+			<Path>blp:agecard_invasion_walls</Path>
+		</Row>
+		<Row>
+			<ID>CARD_AT_MOD_INFLATION_ENDLESS_TRADE</ID>
+			<Path>blp:agecard_invasion_walls</Path>
+		</Row>
+		<Row>
+			<ID>CARD_AT_MOD_ISOLATIONISM_SELF_RELIANCE</ID>
+			<Path>blp:agecard_invasion_walls</Path>
+		</Row>
+		<Row>
+			<ID>CARD_AT_MOD_ISOLATIONISM_RUINOPHILIA</ID>
+			<Path>blp:agecard_invasion_walls</Path>
+		</Row>
+	</IconDefinitions>
+</Database>

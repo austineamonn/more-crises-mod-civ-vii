@@ -6,92 +6,92 @@
 			<Text>Land Tax</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_LAND_TAX_DESCRIPTION">
-			<Text>-100% [icon:YIELD_GOLD] Gold in Distant Land [icon:YIELD_TOWNS] Towns. Distant Land [icon:YIELD_TOWNS] Towns generate [icon:UNIT_TREASURE_FLEET] Treasure Convoys worth 1 Treasure Fleet point each.</Text>
+			<Text>-100% [icon:YIELD_GOLD] in [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Land[/TIP] [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP]. [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Land[/TIP] [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] generate [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]Treasure Convoys[/TIP] worth 1 Cargo each.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_CITY_TRIBUTE_NAME">
 			<Text>City Tribute</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_CITY_TRIBUTE_DESCRIPTION">
-			<Text>-100% [icon:YIELD_GOLD] Gold in Distant Land [icon:YIELD_CITIES] Cities. Distant Land [icon:YIELD_CITIES] Cities generate [icon:UNIT_TREASURE_FLEET] Treasure Convoys worth 1 Treasure Fleet point each.</Text>
+			<Text>-100% [icon:YIELD_GOLD] in [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Land[/TIP] [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP]. [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Land[/TIP] [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP] generate [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]Treasure Convoys[/TIP] worth 1 Cargo each.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_RENT_HIKE_NAME">
 			<Text>Rent Hike</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_RENT_HIKE_DESCRIPTION">
-			<Text>-5 [icon:YIELD_GOLD] Gold on Urban Districts in Homeland Settlements. Distant Land Settlements generate [icon:UNIT_TREASURE_FLEET] Treasure Convoys worth 1 Treasure Fleet point each.</Text>
+			<Text>-5 [icon:YIELD_GOLD] on [icon:CITY_URBAN] [TIP:LOC_PEDIA_CONCEPTS_DISTRICT_TOOLTIP]Districts[/TIP] in [TIP:LOC_PEDIA_CONCEPTS_HOMELANDS_TOOLTIP]Homeland[/TIP] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP]. [TIP:LOC_PEDIA_CONCEPTS_DISTANT_LANDS_TOOLTIP]Distant Land[/TIP] [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlements[/TIP] generate [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]Treasure Convoys[/TIP] worth 1 Cargo each.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_WORTHLESS_TREASURE_NAME">
 			<Text>Worthless Treasure</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_WORTHLESS_TREASURE_DESCRIPTION">
-			<Text>-3 [icon:YIELD_GOLD] Gold on Treasure Resources.</Text>
+			<Text>-3 [icon:YIELD_GOLD] on [TIP:LOC_PEDIA_CONCEPTS_TREASURE_RESOURCES_TOOLTIP]Treasure Resources[/TIP].</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_DEBASEMENT_NAME">
 			<Text>Debasement</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_DEBASEMENT_DESCRIPTION">
-			<Text>+100% [icon:CITY_BUILDING_LIST] Building Purchase Cost.</Text>
+			<Text>+100% [icon:CITY_BUILDING_LIST] [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Building[/TIP] Purchase Cost.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_PRICE_REVOLUTION_NAME">
 			<Text>Price Revolution</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_PRICE_REVOLUTION_DESCRIPTION">
-			<Text>-10 [icon:YIELD_GOLD] Gold on Gold Buildings in [icon:YIELD_CITIES] Cities.</Text>
+			<Text>-10 [icon:YIELD_GOLD] on Gold [TIP:LOC_PEDIA_CONCEPTS_BUILDINGS_TOOLTIP]Buildings[/TIP] in [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP].</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_HEFTY_TRIBUTE_NAME">
 			<Text>Hefty Tribute</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_HEFTY_TRIBUTE_DESCRIPTION">
-			<Text>-15 [icon:YIELD_GOLD] Gold in Towns. +1 Movement on Embarked [icon:UNIT_TREASURE_FLEET] Treasure Convoys.</Text>
+			<Text>-15 [icon:YIELD_GOLD] in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP]. +1 Movement on Embarked [icon:UNIT_TREASURE_FLEET] [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]Treasure Convoys[/TIP].</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_EMBARGO_NAME">
 			<Text>Embargo</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_EMBARGO_DESCRIPTION">
-			<Text>-6 [icon:YIELD_GOLD] Gold per imported [icon:RADIAL_RESOURCES] Resource.</Text>
+			<Text>-6 [icon:YIELD_GOLD] per imported [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resource[/TIP].</Text>
 		</Row>
 		<!-- Isolationism Crisis -->
 		<Row Tag="LOC_TRADITION_TRADE_PROTECTIONISM_NAME">
 			<Text>Trade Protectionism</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_TRADE_PROTECTIONISM_DESCRIPTION">
-			<Text>-3 [icon:YIELD_GOLD] Gold and [icon:YIELD_DIPLOMACY] Influence for each imported [icon:RADIAL_RESOURCES] Resource.</Text>
+			<Text>-3 [icon:YIELD_GOLD] and [icon:YIELD_DIPLOMACY] for each imported [icon:RADIAL_RESOURCES] [TIP:LOC_PEDIA_CONCEPTS_RESOURCES_TOOLTIP]Resource[/TIP].</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_SHIPPING_BAN_NAME">
 			<Text>Shipping Ban</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_SHIPPING_BAN_DESCRIPTION">
-			<Text>-20 [icon:YIELD_GOLD] Gold per Trade Route.</Text>
+			<Text>-20 [icon:YIELD_GOLD] per [icon:TRADE_ROUTE] [TIP:LOC_PEDIA_CONCEPTS_TRADE_ROUTE_TOOLTIP]Trade Route[/TIP].</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_HERMIT_KINGDOM_NAME">
 			<Text>Hermit Kingdom</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_HERMIT_KINGDOM_DESCRIPTION">
-			<Text>-20 [icon:YIELD_GOLD] Gold on Towns without the Internal Trade Town Specialization.</Text>
+			<Text>-20 [icon:YIELD_GOLD] on [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP] without the [icon:PROJECT_TOWN_INTERNAL_TRADE] Internal Trade Town Specialization.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_CULTURAL_SECLUSION_NAME">
 			<Text>Cultural Seclusion</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_CULTURAL_SECLUSION_DESCRIPTION">
-			<Text>-5 [icon:YIELD_SCIENCE] Science and [icon:YIELD_CULTURE] Culture for each Social Policy, but not Tradition, slotted.</Text>
+			<Text>-5 [icon:YIELD_SCIENCE] and [icon:YIELD_CULTURE] for each [icon:NAR_REW_TRADITION_SLOT] [TIP:LOC_PEDIA_CONCEPTS_SOCIAL_POLICY_TOOLTIP]Social Policy[/TIP] , but not [icon:TRADITION] [TIP:LOC_PEDIA_CONCEPTS_TRADITION_TOOLTIP]Tradition[/TIP], slotted.</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_RESETTLEMENT_NAME">
 			<Text>Resettlement</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_RESETTLEMENT_DESCRIPTION">
-			<Text>-1 Specialist Cap. +50% Growth Rate in Towns.</Text>
+			<Text>-1 [icon:SPECIALIST] [TIP:LOC_PEDIA_CONCEPTS_SPECIALIST_LIMIT_TOOLTIP]Specialist Limit[/TIP]. +50% [icon:GROWTH_RATE] [TIP:LOC_PEDIA_CONCEPTS_GROWTH_RATE_TOOLTIP]Growth Rate[/TIP] in [icon:YIELD_TOWNS] [TIP:LOC_PEDIA_CONCEPTS_TOWN_TOOLTIP]Towns[/TIP].</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_BOOK_BAN_NAME">
 			<Text>Book Ban</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_BOOK_BAN_DESCRIPTION">
-			<Text>-2 [icon:YIELD_SCIENCE] Science and [icon:YIELD_CULTURE] Culture on displayed [icon:NAR_REW_GREATWORK] Great Works.</Text>
+			<Text>-2 [icon:YIELD_SCIENCE] and [icon:YIELD_CULTURE] on displayed [icon:GREATWORK] [TIP:LOC_PEDIA_CONCEPTS_GREAT_WORKS_TOOLTIP]Great Works[/TIP].</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_RELIGIOUS_INTOLERANCE_NAME">
 			<Text>Religious Intolerance</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_RELIGIOUS_INTOLERANCE_DESCRIPTION">
-			<Text>-10 Happiness [icon:YIELD_HAPPINESS] on Temples.</Text>
+			<Text>-10 [icon:YIELD_HAPPINESS] on Temples.</Text>
 		</Row>
 	</EnglishText>
 </Database>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- ==================================================	-->
+	<!--				Legacy Modifiers					-->
+	<!-- ==================================================	-->
+	<!--CRISIS-->
+	<!-- Inflation Crisis -->
+	<Modifier id="MOD_LEGACY_EX_INFLATION_CRISIS_1" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_UNLOCK" permanent="true">
+		<Argument name="Unlock">UNLOCK_INFLATION_INVESTOR_WEALTH</Argument>
+	</Modifier>
+	<Modifier id="MOD_LEGACY_EX_INFLATION_CRISIS_2" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_UNLOCK" permanent="true">
+		<Argument name="Unlock">UNLOCK_INFLATION_ENDLESS_TRADE</Argument>
+	</Modifier>
+	<!-- Isolationism Crisis -->
+	<Modifier id="MOD_LEGACY_EX_ISOLATIONISM_CRISIS_1" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_UNLOCK" permanent="true">
+		<Argument name="Unlock">UNLOCK_ISOLATIONISM_SELF_RELIANCE</Argument>
+	</Modifier>
+	<Modifier id="MOD_LEGACY_EX_ISOLATIONISM_CRISIS_2" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_UNLOCK" permanent="true">
+		<Argument name="Unlock">UNLOCK_ISOLATIONISM_RUINOPHILIA</Argument>
+	</Modifier>
+	<!-- ==================================================	-->
+	<!--Requirements					-->
+	<!-- ==================================================	-->
+	<!-- CRISIS -->
+	<!-- Inflation Crisis -->
+	<RequirementSet id="REQSET_LEGACY_EX_INFLATION_CRISIS_1" type="REQUIREMENTSET_TEST_ALL">
+		<Requirement type="REQUIREMENT_PLAYER_HAS_NEGATIVE_YIELD_PER_TURN" inverse="true">
+			<Argument name="YieldType">YIELD_GOLD</Argument>
+		</Requirement>
+		<Requirement type="REQUIREMENT_AGE_PROGRESSION_TOTAL_IS_X">
+			<Argument name="Percent">100</Argument>
+			<Argument name="AgeProgressionType">AGE_PROGRESSION_EXPLORATION_AGE_TIMER</Argument>
+		</Requirement>
+	</RequirementSet>
+	<RequirementSet id="REQSET_LEGACY_EX_INFLATION_CRISIS_2">
+		<Requirement type="REQUIREMENT_PLAYER_HAS_X_TRADE_ROUTES_WITH_PLAYER">
+			<Argument name="Amount">10</Argument>
+			<Argument name="AllPlayers">true</Argument>
+		</Requirement>
+	</RequirementSet>
+	<!-- Isolationism Crisis -->
+	<RequirementSet id="REQSET_LEGACY_EX_ISOLATIONISM_CRISIS_1">
+		<Requirement type="REQUIREMENT_PLAYER_HAS_X_TOWNS_PRODUCING_PROJECT">
+			<Argument name="ProjectType">PROJECT_TOWN_INTERNAL_TRADE</Argument>
+			<Argument name="Count">3</Argument>
+		</Requirement>
+	</RequirementSet>
+	<!--TODO: maybe change so that not the same requirement as the generic culture one-->
+	<RequirementSet id="REQSET_LEGACY_EX_ISOLATIONISM_CRISIS_2">
+		<Requirement type="REQUIREMENT_PLAYER_HAS_X_GREAT_WORKS">
+			<Argument name="ObjectType">GREATWORKOBJECT_RELIC</Argument>
+			<Argument name="IncludeArchived">False</Argument>
+			<Argument name="Count">20</Argument>
+		</Requirement>
+	</RequirementSet>
+	<!-- ==================================================	-->
+	<!--Modifiers to Activate Crisis Legacies			-->
+	<!-- ==================================================	-->
+	<!-- Inflation Crisis -->
+	<Modifier id="MOD_EX_INFLATION_CRISIS_1_ADD_TRIUMPH" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<Argument name="ModifierId">ATTACH_EX_INFLATION_CRISIS_1</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_EX_INFLATION_CRISIS_1" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADD_LEGACY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+				<Argument name="NarrativeTagType">NARRATIVE_TAG_CRISIS_INFLATION</Argument>
+				<Argument name="Amount">1</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="LegacyType">LEGACY_EX_INFLATION_CRISIS_1</Argument>
+	</Modifier>
+	<Modifier id="MOD_EX_INFLATION_CRISIS_2_ADD_TRIUMPH" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<Argument name="ModifierId">ATTACH_EX_INFLATION_CRISIS_2</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_EX_INFLATION_CRISIS_2" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADD_LEGACY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+				<Argument name="NarrativeTagType">NARRATIVE_TAG_CRISIS_INFLATION</Argument>
+				<Argument name="Amount">1</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="LegacyType">LEGACY_EX_INFLATION_CRISIS_2</Argument>
+	</Modifier>
+	<!-- Isolationism Crisis -->
+	<Modifier id="MOD_EX_ISOLATIONISM_CRISIS_1_ADD_TRIUMPH" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<Argument name="ModifierId">ATTACH_EX_ISOLATIONISM_CRISIS_1</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_EX_ISOLATIONISM_CRISIS_1" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADD_LEGACY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+				<Argument name="NarrativeTagType">NARRATIVE_TAG_CRISIS_ISOLATIONISM</Argument>
+				<Argument name="Amount">1</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="LegacyType">LEGACY_EX_ISOLATIONISM_CRISIS_1</Argument>
+	</Modifier>
+	<Modifier id="MOD_EX_ISOLATIONISM_CRISIS_2_ADD_TRIUMPH" collection="COLLECTION_MAJOR_PLAYERS" effect="EFFECT_ATTACH_MODIFIERS">
+		<Argument name="ModifierId">ATTACH_EX_ISOLATIONISM_CRISIS_2</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_EX_ISOLATIONISM_CRISIS_2" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADD_LEGACY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+				<Argument name="NarrativeTagType">NARRATIVE_TAG_CRISIS_ISOLATIONISM</Argument>
+				<Argument name="Amount">1</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="LegacyType">LEGACY_EX_ISOLATIONISM_CRISIS_2</Argument>
+	</Modifier>
+</GameEffects>
